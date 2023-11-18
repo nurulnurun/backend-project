@@ -2,6 +2,7 @@
 
 @section('Main Content')
 
+
 <div class="section">
     <!-- container -->
     <div class="container">
@@ -13,12 +14,12 @@
           <div class="section-title">
             <h3 class="title">User List</h3>
             <div class="section-nav">
-                <a href="{{ route('New.Users.Create') }}" class="btn btn-success btn-lg">Create new User</a>
+                <a href="{{ route('user.create.form') }}" class="btn btn-success btn-lg">Create new User</a>
             </div>
           </div>
         </div>
         <!-- /section title -->
-
+<br><br>
         <!-- Products tab & slick -->
         <div class="col-md-12">
           <div class="row">
@@ -30,23 +31,24 @@
                         <th scope="col">SL. No.</th>
                         <th scope="col">User ID</th>
                         <th scope="col">User Name</th>
+                        <th scope="col">Role</th>
                         <th scope="col">User Image</th>
                         <th scope="col">User Email</th>
-                        <th scope="col">Role</th>
                         <th scope="col">Action</th>
                       </tr>
                     </thead>
                     <tbody>
 
-
+                       @foreach($users as $key=>$singleUser)
 
                       <tr>
-                        <th scope="row"></th>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <th scope="row">{{ $key+ 1 }}</th>
+                        <th scope="row">{{ $singleUser->user_id }}</th>
+                        <td>{{ $singleUser->user_name }}</td>
+                        <td>{{ $singleUser->role }}</td>
+                        <td>
+                            <img src="{{url('/uploads/'.$singleUser->user_image)}}" alt=""></td>
+                        <td>{{ $singleUser->email }}</td>
                         <td>
                             <a class = "btn btn-success btn-sm" href="#">Edit</a>
                             <a class = "btn btn-danger btn-sm" href="#">Delete</a>
@@ -54,10 +56,12 @@
                         </td>
                       </tr>
 
+                      @endforeach
 
                     </tbody>
                   </table>
 
+                  {{ $users->links() }}
 
             </div>
           </div>
@@ -69,7 +73,7 @@
     <!-- /container -->
   </div>
 
-@endsection
+  @endsection
 
 
 

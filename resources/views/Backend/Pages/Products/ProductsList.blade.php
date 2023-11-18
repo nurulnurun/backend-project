@@ -48,7 +48,9 @@
                         <td>{{ $Product_Item ->product_id }}</td>
                         <td>{{ $Product_Item->product_name }}</td>
                         <td>{{ $Product_Item->brand->brand_name}}</td>
-                        <td>{{ $Product_Item->product_gallery }}</td>
+                        <td>
+                            <img src="{{url('/uploads/'.$Product_Item->product_gallery)}}" alt="">
+                        </td>
                         <td>{{ $Product_Item->product_price }}</td>
                         <td>{{ $Product_Item->product_stock }}</td>
                         <td>{{ $Product_Item->product_status }}</td>

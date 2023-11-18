@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Brand;
+use Illuminate\Support\Facades\Validator;
 
 class ProductsController extends Controller
 {
@@ -25,11 +26,25 @@ class ProductsController extends Controller
     {
         // dd($productsPost->all());
 
+        $val=Validator::make($productsPost->all(),
+        [
+            ''
+        ]);
+
+        $fileName = null;
+        if($productsPost->hasFile('product_gallery'))
+        {
+            $file =$productsPost->file('product_gallery');
+            $fileName = date('Ymdhis').'.'.$file->getClientOriginalExtension();
+
+            $file->storeAs('/uploads', $fileName);
+        }
+
         Product::create([
             'product_id'=>$productsPost->product_id,
             'product_name'=>$productsPost->product_name,
             'brand_id'=>$productsPost->brand_id,
-            'product_gallery'=>$productsPost->product_gallery,
+            'product_gallery'=>$fileName,
             'product_price'=>$productsPost->product_price,
             'product_stock'=>$productsPost->product_stock,
             'product_status'=>$productsPost->product_status

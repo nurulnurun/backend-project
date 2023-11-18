@@ -30,27 +30,46 @@
 										<div class="category">
                                             <br>
 
-											<form action = "{{ route('Brand.Post') }}" method ="post">
+											<form action = "{{ route('Brand.Post') }}" method ="post" enctype="multipart/form-data">
                                                 @csrf
                                                 <div class="mb-3">
                                                   <label for="brandID" class="form-label">Brand ID</label>
-                                                  <input type="text"  name="brand_id" class="form-control">
+                                                  <input type="text"  name="brand_id" class="form-control" aria-required="">
+
+                                                  @error('brand_id')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                  @enderror
+
                                                 </div>
                                                 <div class="mb-3">
                                                     <label for="brandName" class="form-label">Brand Name</label>
-                                                    <input type="text"  name="brand_name" class="form-control">
+                                                    <input type="text"  name="brand_name" class="form-control" required>
+
+                                                    @error('brand_name')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                    @enderror
+
                                                   </div>
                                                   <div class="mb-3">
                                                     <label for="brandStatus" class="form-label">Brand Status</label>
-                                                    <textarea name="brand_status" id="" cols="50" rows="10"></textarea>
+                                                    <textarea name="brand_status" id="" cols="50" rows="10" required></textarea>
+
+                                                    @error('brand_status')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                    @enderror
+
                                                   </div>
                                                   <div class="mb-3">
-                                                    <label for="productStock" class="form-label">Upload Logo</label>
-                                                    <input type="file" name="upload_image" class="form-control">
+                                                    <label for="uploadLogo" class="form-label">Upload Logo</label>
+                                                    <input type="file" name="brand_image" class="form-control">
                                                   </div>
                                                   <div class="mb-3">
                                                     <label for="brandDescription" class="form-label">Brand Description</label>
-                                                    <textarea name="brand_description" id="" cols="50" rows="10"></textarea>
+                                                    <textarea name="brand_description" id="" cols="50" rows="10" required></textarea>
+
+                                                    @error('brand_description')
+                                                    <div class="alert alert-danger">{{ $message }}</div>
+                                                    @enderror
                                                   </div>
 
                                                 <button type="submit" class="btn btn-primary">Submit</button>

@@ -258,7 +258,7 @@
 
                             <div class="inputBox">
 
-                                <input type="email" name="email" required> <i>Username</i>
+                                <input type="email" name="email" required> <i>Email</i>
 
                             </div>
 

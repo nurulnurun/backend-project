@@ -70,8 +70,8 @@
                         <span class="micon dw dw-right-arrow1"></span><span class="mtext">User</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="video-player.html">Add New User</a></li>
-                        <li><a href="{{ route('Users.List') }}">Users List</a></li>
+                        <li><a href="{{ route('user.create.form') }}">Add New User</a></li>
+                        <li><a href="{{ route('users.list') }}">Users List</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

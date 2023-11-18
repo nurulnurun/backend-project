@@ -38,14 +38,16 @@
                     </thead>
                     <tbody>
 
-                        @foreach($brands as $Brand_Item)
+                        @foreach($brands as $brand_Item)
                       <tr>
-                        <th scope="row">{{ $Brand_Item->id }}</th>
-                        <td>{{ $Brand_Item->brand_id }}</td>
-                        <td>{{ $Brand_Item->brand_name }}</td>
-                        <td>{{ $Brand_Item->brand_status }}</td>
-                        <td>{{ $Brand_Item->upload_image }}</td>
-                        <td>{{ $Brand_Item->brand_description }}</td>
+                        <th scope="row">{{ $brand_Item->id }}</th>
+                        <td>{{ $brand_Item->brand_id }}</td>
+                        <td>{{ $brand_Item->brand_name }}</td>
+                        <td>{{ $brand_Item->brand_status }}</td>
+                        <td>
+                            <img src="{{url('/uploads/'.$brand_Item->brand_image)}}" alt="">
+                        </td>
+                        <td>{{ $brand_Item->brand_description }}</td>
                         <td>
                             <a class = "btn btn-success btn-sm" href="#">Edit</a>
                             <a class = "btn btn-danger btn-sm" href="#">Delete</a>

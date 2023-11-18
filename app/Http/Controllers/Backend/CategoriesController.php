@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Category;
+use Illuminate\Support\Facades\Validator;
 
 class CategoriesController extends Controller
 {
@@ -22,6 +23,18 @@ class CategoriesController extends Controller
     public function category_post(Request $categoryPost)
     {
         //dd($categoryPost->all());
+
+        $val=Validator::make($categoryPost->all(),
+        [
+            'category_id'=>'required|min:7',
+            'category_name'=>'required',
+            'category_description'=>'required|max:100',
+        ]);
+
+        if($val->fails())
+        {
+            return redirect()->route('Create.New.Category')->withErrors($val);
+        }
 
         Category::create([
             'category_id'=>$categoryPost->category_id,
