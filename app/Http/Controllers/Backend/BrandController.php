@@ -20,6 +20,17 @@ class BrandController extends Controller
         return view('Backend.Pages.Brands.CreateBrand');
     }
 
+    public function brands_delete($id)
+    {
+        $brands_delete = Brand::find($id);
+        if($brands_delete)
+        {
+            $brands_delete->delete();
+        }
+
+        return redirect()->route('Brand.List');
+    }
+
     public function brand_post(Request $brandPost)
     {
         // dd($brandPost->all());

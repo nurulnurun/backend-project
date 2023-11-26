@@ -55,9 +55,9 @@
                         <td>{{ $Product_Item->product_stock }}</td>
                         <td>{{ $Product_Item->product_status }}</td>
                         <td>
-                            <a class = "btn btn-success btn-sm" href="#">Edit</a>
-                            <a class = "btn btn-danger btn-sm" href="#">Delete</a>
                             <a class = "btn btn-primary btn-sm" href="#">View</a>
+                            <a class = "btn btn-success btn-sm" href="{{ route('products.edit', $Product_Item->id) }}">Edit</a>
+                            <a class = "btn btn-danger btn-sm" href="{{ route('products.delete', $Product_Item->id) }}">Delete</a>
                         </td>
                       </tr>
 

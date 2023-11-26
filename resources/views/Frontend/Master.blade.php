@@ -1,6838 +1,9404 @@
 
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-    <head>
-        <title>Beautica Light</title>
-        <link rel="dns-prefetch preconnect" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com/" crossorigin><link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <meta name="keywords" content="Beautica "><meta name="description" content="Beautica "><link rel='canonical' href='https://beautica-light.mybigcommerce.com/' /><meta name='platform' content='bigcommerce.stencil' />
+		<title>Mafoil - Multipurpose Shopify Theme OS 2.0</title>
+
+		<meta property="og:site_name" content="Mafoil - Multipurpose Shopify Theme OS 2.0">
+<meta property="og:url" content="https://mafoil-organic.myshopify.com/">
+<meta property="og:title" content="Mafoil - Multipurpose Shopify Theme OS 2.0">
+<meta property="og:type" content="website">
+<meta property="og:description" content="Mafoil - Multipurpose Shopify Theme OS 2.0">
+
+<meta name="twitter:site" content="@#"><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mafoil - Multipurpose Shopify Theme OS 2.0">
+<meta name="twitter:description" content="Mafoil - Multipurpose Shopify Theme OS 2.0">
 
 
+			<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 
-        <link href="https://cdn11.bigcommerce.com/r-d9c89842b316cd52d17f28fcaf9d3c2493dd585b/img/bc_favicon.ico" rel="shortcut icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script>
-            document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
-        </script>
+			<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-        <script>
-    function browserSupportsAllFeatures() {
-        return window.Promise
-            && window.fetch
-            && window.URL
-            && window.URLSearchParams
-            && window.WeakMap
-            // object-fit support
-            && ('objectFit' in document.documentElement.style);
+		<link rel="canonical" href="https://mafoil-organic.myshopify.com/">
+		<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no, user-scalable=no">
+		<meta name="theme-color" content="">
+		<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/photoswipe.css?v=39429184012953060561681283510" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/icomoon.css?v=67169999626147928431684917541" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/feather.css?v=102398783625551263341681283510" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/bwpfont.css?v=162170757943203470491681283510" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/fonts.css?v=99591275550807197101681283510" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/site.scss.css?v=148152504645759861111682044975" rel="stylesheet" type="text/css" media="all" />
+<link href="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/section.scss.css?v=73588934676434463471684917566" rel="stylesheet" type="text/css" media="all" />
+		<script>
+  window.wpbingo = window.wpbingo || {};wpbingo.strings = {
+    moneyFormat: "",
+    zoomClose: "Close (Esc)",
+    zoomPrev: "Previous (Left arrow key)",
+    zoomNext: "Next (Right arrow key)",
+    productSlideLabel: "Slide [slide_number] of [slide_max].",
+    countdownDays: "Days",
+    countdownHours: "Hours",
+    countdownMinutes: "Mins",
+    countdownSeconds: "Secs",
+    countdownFinish: "This offer has expired!",
+    external: "Buy product",
+	add_to_cart: "Add to Cart",
+	view_group: "View group product",
+    soldOut: "Out of stock",
+    unavailable: "Unavailable",
+    inStock: "In stock",
+    outStock: "Out of stock",
+    cartEmpty: "Your cart is currently empty.",
+    cartCookies: "Enable cookies to use the shopping cart",
+	come_back: "📢 Come back!",
+	forget: "⚡ Don't forget this...",
+    newsletterSuccess: "Thanks for subscribing"
+  };
+  wpbingo.settings = {
+    cartType: "drawer",
+    enableReview: true,
+    enablePreLoading: true,
+    sidebarMultiChoise: true,
+    enableQuickView: true,
+	enableGiftCard: true,
+    quickViewVariantType: "radio",
+	filter_name_1	: "Size",
+	select_filter_1	: "label",
+	filter_name_2	: "Color",
+	select_filter_2	: "color",
+	filter_name_3	: "Style",
+	select_filter_3	: "image",
+	size_option		: 30,
+	style_option	: "circle",
+    fileURL: "//mafoil-organic.myshopify.com/cdn/shop/files/"
+  };
+  wpbingo.loading = '<div class="wpbingo-loading"><div class="wpbingo-loading__icon"><span></span><span></span><span></span><span></span></div></div>';
+</script><script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+		<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script><meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/73861923101/digital_wallets/dialog">
+<link rel="alternate" hreflang="x-default" href="https://mafoil-organic.myshopify.com/">
+<link rel="alternate" hreflang="en-US" href="https://mafoil-organic.myshopify.com/">
+<link rel="alternate" hreflang="ar-US" href="https://mafoil-organic.myshopify.com/ar">
+<script async="async" src="/checkouts/internal/preloads.js?locale=en-US"></script><script id="shopify-features" type="application/json">{"accessToken":"441629f43d5cfc8d536871c290a8f85c","betas":["rich-media-storefront-analytics"],"domain":"mafoil-organic.myshopify.com","predictiveSearch":true,"shopId":73861923101,"smart_payment_buttons_url":"https:\/\/mafoil-organic.myshopify.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/spb.en.js","dynamic_checkout_cart_url":"https:\/\/mafoil-organic.myshopify.com\/cdn\/shopifycloud\/payment-sheet\/assets\/latest\/dynamic-checkout-cart.en.js","locale":"en","optimusEnabled":true,"optimusHidden":false,"betterDynamicCheckoutRecommendationVariant":"control","shopPromisePDPV3Enabled":false}</script>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "mafoil-organic.myshopify.com";
+Shopify.locale = "en";
+Shopify.currency = {"active":"USD","rate":"1.0"};
+Shopify.country = "US";
+Shopify.theme = {"name":"Home 2","id":147219841309,"theme_store_id":null,"role":"unpublished"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+Shopify.cdnHost = "mafoil-organic.myshopify.com/cdn";
+Shopify.routes = Shopify.routes || {};
+Shopify.routes.root = "/";</script>
+<script type="module">!function(o){(o.Shopify=o.Shopify||{}).modules=!0}(window);</script>
+<script>!function(o){function n(){var o=[];function n(){o.push(Array.prototype.slice.apply(arguments))}return n.q=o,n}var t=o.Shopify=o.Shopify||{};t.loadFeatures=n(),t.autoloadFeatures=n()}(window);</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["\/\/productreviews.shopifycdn.com\/embed\/loader.js?shop=mafoil-organic.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();</script>
+<script id="__st">var __st={"a":73861923101,"offset":-18000,"reqid":"c330cbd4-7656-405b-9276-4e2c37326d96","pageurl":"mafoil-organic.myshopify.com\/","t":"prospect","u":"de02f65e4142","p":"home"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>document.addEventListener('DOMContentLoaded', function() {
+  const previewBarInjector = new Shopify.PreviewBarInjector({
+    targetNode: document.body,
+    iframeRoot: 'https://mafoil-organic.myshopify.com',
+    iframeSrc: 'https://mafoil-organic.myshopify.com/preview_bar',
+    previewToken: '6goz0gto2ukcz8sf',
+    themeStoreId: '',
+    permanentDomain: 'mafoil-organic.myshopify.com',
+  });
+  previewBarInjector.init();
+});</script>
+<script integrity="sha256-h4dvokWvGcvRSqiG7VnGqoonxF0k3NeoHPLSMjUGIz4=" data-source-attribution="shopify.loadfeatures" defer="defer" src="//mafoil-organic.myshopify.com/cdn/shopifycloud/shopify/assets/storefront/load_feature-87876fa245af19cbd14aa886ed59c6aa8a27c45d24dcd7a81cf2d2323506233e.js" crossorigin="anonymous"></script>
+<script integrity="sha256-HAs5a9TQVLlKuuHrahvWuke+s1UlxXohfHeoYv8G2D8=" data-source-attribution="shopify.dynamic-checkout" defer="defer" src="//mafoil-organic.myshopify.com/cdn/shopifycloud/shopify/assets/storefront/features-1c0b396bd4d054b94abae1eb6a1bd6ba47beb35525c57a217c77a862ff06d83f.js" crossorigin="anonymous"></script>
+<script integrity="sha256-o0rXHoHYF8JV/pI5sd/RPjI3ywH41Ezq5yxQ3ds5iuM=" defer="defer" src="//mafoil-organic.myshopify.com/cdn/shopifycloud/shopify/assets/storefront/bars/preview_bar_injector-a34ad71e81d817c255fe9239b1dfd13e3237cb01f8d44ceae72c50dddb398ae3.js" crossorigin="anonymous"></script>
+
+
+<script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.end');</script>
+	<link href="https://monorail-edge.shopifysvc.com" rel="dns-prefetch">
+<script>(function(){if ("sendBeacon" in navigator && "performance" in window) {var session_token = document.cookie.match(/_shopify_s=([^;]*)/);function handle_abandonment_event(e) {var entries = performance.getEntries().filter(function(entry) {return /monorail-edge.shopifysvc.com/.test(entry.name);});if (!window.abandonment_tracked && entries.length === 0) {window.abandonment_tracked = true;var currentMs = Date.now();var navigation_start = performance.timing.navigationStart;var payload = {shop_id: 73861923101,url: window.location.href,navigation_start,duration: currentMs - navigation_start,session_token: session_token && session_token.length === 2 ? session_token[1] : "",page_type: "index"};window.navigator.sendBeacon("https://monorail-edge.shopifysvc.com/v1/produce", JSON.stringify({schema_id: "online_store_buyer_site_abandonment/1.1",payload: payload,metadata: {event_created_at_ms: currentMs,event_sent_at_ms: currentMs}}));}}window.addEventListener('pagehide', handle_abandonment_event);}}());</script>
+<script id="web-pixels-manager-setup">(function e(e,n,a,t,o,r,i){var s=null!==e,l=("function"==typeof BigInt&&BigInt.toString().indexOf("[native code]")?"modern":"legacy").substring(0,1),c=t.substring(0,1);if(s){window.Shopify=window.Shopify||{};var d=window.Shopify;d.analytics=d.analytics||{};var u=d.analytics;u.replayQueue=[],u.publish=function(e,n,a){u.replayQueue.push([e,n,a])};try{self.performance.mark("wpm:start")}catch(e){}}var p,f,y,h,v,m,w,g,b,_=[a,"/wpm","/",c,r,l,".js"].join("");f=(p={src:_,async:!0,onload:function(){if(e){var a=window.webPixelsManager.init(e);null==n||n(a);var t=window.Shopify.analytics;t.replayQueue.forEach((function(e){var n=e[0],t=e[1],o=e[2];a.publishCustomEvent(n,t,o)})),t.replayQueue=[],t.publish=a.publishCustomEvent,t.visitor=a.visitor}},onerror:function(){var n=(null==e?void 0:e.storefrontBaseUrl)?e.storefrontBaseUrl.replace(/\/$/,""):self.location.origin,a="".concat(n,"/.well-known/shopify/monorail/unstable/produce_batch"),t=JSON.stringify({metadata:{event_sent_at_ms:(new Date).getTime()},events:[{schema_id:"web_pixels_manager_load/2.0",payload:{version:o||"latest",page_url:self.location.href,status:"failed",error_msg:"".concat(_," has failed to load")},metadata:{event_created_at_ms:(new Date).getTime()}}]});try{if(self.navigator.sendBeacon.bind(self.navigator)(a,t))return!0}catch(e){}var r=new XMLHttpRequest;try{return r.open("POST",a,!0),r.setRequestHeader("Content-Type","text/plain"),r.send(t),!0}catch(e){console&&console.warn&&console.warn("[Web Pixels Manager] Got an unhandled error while logging a load error.")}return!1}}).src,y=p.async,h=void 0===y||y,v=p.onload,m=p.onerror,w=document.createElement("script"),g=document.head,b=document.body,w.async=h,w.src=f,v&&w.addEventListener("load",v),m&&w.addEventListener("error",m),g?g.appendChild(w):b?b.appendChild(w):console.error("Did not find a head or body element to append the script")})({shopId: 73861923101,storefrontBaseUrl: "https://mafoil-organic.myshopify.com",cdnBaseUrl: "https://mafoil-organic.myshopify.com/cdn",surface: "storefront-renderer",enabledBetaFlags: ["web_pixels_async_pixel_refactor","web_pixels_visitor_api","web_pixels_manager_performance_improvement"],webPixelsConfigList: [{"id":"shopify-app-pixel","configuration":"{}","eventPayloadVersion":"v1","runtimeContext":"STRICT","scriptVersion":"0570","apiClientId":"shopify-pixel","type":"APP"},{"id":"shopify-custom-pixel","eventPayloadVersion":"v1","runtimeContext":"LAX","scriptVersion":"0570","apiClientId":"shopify-pixel","type":"CUSTOM"}],initData: {"cart":{"cost":{"totalAmount":{"amount":19.0,"currencyCode":"USD"}},"id":"c1-4086201c9afc0985a431eb1e3d3098a5","lines":[{"cost":{"totalAmount":{"amount":19.0,"currencyCode":"USD"}},"merchandise":{"id":"44722693996829","image":{"src":"\/\/mafoil-organic.myshopify.com\/cdn\/shop\/products\/15.jpg?v=1680835399"},"price":{"amount":19.0,"currencyCode":"USD"},"product":{"id":"8243136692509","title":"Cherry Juice","untranslatedTitle":"Cherry Juice","url":"\/products\/cherry-juice","vendor":"Fresh","type":""},"sku":"","title":"Default Title","untranslatedTitle":"Default Title"},"quantity":1}],"totalQuantity":1},"checkout":null,"customer":null,"productVariants":[]},},function pageEvents(webPixelsManagerAPI) {webPixelsManagerAPI.publish("page_viewed");},"https://mafoil-organic.myshopify.com/cdn","browser","0.0.404","a9733732w152bc0c4p2b177b68md647b1e6",["web_pixels_async_pixel_refactor","web_pixels_visitor_api","web_pixels_manager_performance_improvement"]);</script>  <script>window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+window.ShopifyAnalytics.meta.currency = 'USD';
+var meta = {"page":{"pageType":"home"}};
+for (var attr in meta) {
+  window.ShopifyAnalytics.meta[attr] = meta[attr];
+}</script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+
+};
+</script>
+<script class="analytics">(function () {
+    var customDocumentWrite = function(content) {
+      var jquery = null;
+
+      if (window.jQuery) {
+        jquery = window.jQuery;
+      } else if (window.Checkout && window.Checkout.$) {
+        jquery = window.Checkout.$;
+      }
+
+      if (jquery) {
+        jquery('body').append(content);
+      }
+    };
+
+    var hasLoggedConversion = function(token) {
+      if (token) {
+        return document.cookie.indexOf('loggedConversion=' + token) !== -1;
+      }
+      return false;
     }
 
-    function loadScript(src) {
-        var js = document.createElement('script');
-        js.src = src;
-        js.onerror = function () {
-            console.error('Failed to load polyfill script ' + src);
+    var setCookieIfConversion = function(token) {
+      if (token) {
+        var twoMonthsFromNow = new Date(Date.now());
+        twoMonthsFromNow.setMonth(twoMonthsFromNow.getMonth() + 2);
+
+        document.cookie = 'loggedConversion=' + token + '; expires=' + twoMonthsFromNow;
+      }
+    }
+
+    var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+    if (trekkie.integrations) {
+      return;
+    }
+    trekkie.methods = [
+      'identify',
+      'page',
+      'ready',
+      'track',
+      'trackForm',
+      'trackLink'
+    ];
+    trekkie.factory = function(method) {
+      return function() {
+        var args = Array.prototype.slice.call(arguments);
+        args.unshift(method);
+        trekkie.push(args);
+        return trekkie;
+      };
+    };
+    for (var i = 0; i < trekkie.methods.length; i++) {
+      var key = trekkie.methods[i];
+      trekkie[key] = trekkie.factory(key);
+    }
+    trekkie.load = function(config) {
+      trekkie.config = config || {};
+      trekkie.config.initialDocumentCookie = document.cookie;
+      var first = document.getElementsByTagName('script')[0];
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.onerror = function(e) {
+        var scriptFallback = document.createElement('script');
+        scriptFallback.type = 'text/javascript';
+        scriptFallback.onerror = function(error) {
+                var Monorail = {
+      produce: function produce(monorailDomain, schemaId, payload) {
+        var currentMs = new Date().getTime();
+        var event = {
+          schema_id: schemaId,
+          payload: payload,
+          metadata: {
+            event_created_at_ms: currentMs,
+            event_sent_at_ms: currentMs
+          }
         };
-        document.head.appendChild(js);
+        return Monorail.sendRequest("https://" + monorailDomain + "/v1/produce", JSON.stringify(event));
+      },
+      sendRequest: function sendRequest(endpointUrl, payload) {
+        // Try the sendBeacon API
+        if (window && window.navigator && typeof window.navigator.sendBeacon === 'function' && typeof window.Blob === 'function' && !Monorail.isIos12()) {
+          var blobData = new window.Blob([payload], {
+            type: 'text/plain'
+          });
+
+          if (window.navigator.sendBeacon(endpointUrl, blobData)) {
+            return true;
+          } // sendBeacon was not successful
+
+        } // XHR beacon
+
+        var xhr = new XMLHttpRequest();
+
+        try {
+          xhr.open('POST', endpointUrl);
+          xhr.setRequestHeader('Content-Type', 'text/plain');
+          xhr.send(payload);
+        } catch (e) {
+          console.log(e);
+        }
+
+        return false;
+      },
+      isIos12: function isIos12() {
+        return window.navigator.userAgent.lastIndexOf('iPhone; CPU iPhone OS 12_') !== -1 || window.navigator.userAgent.lastIndexOf('iPad; CPU OS 12_') !== -1;
+      }
+    };
+    Monorail.produce('monorail-edge.shopifysvc.com',
+      'trekkie_storefront_load_errors/1.1',
+      {shop_id: 73861923101,
+      theme_id: 147219841309,
+      app_name: "storefront",
+      context_url: window.location.href,
+      source_url: "//mafoil-organic.myshopify.com/cdn/s/trekkie.storefront.f33399a7b9d8c1007209860fbdd63bb24633ae9f.min.js"});
+
+        };
+        scriptFallback.async = true;
+        scriptFallback.src = '//mafoil-organic.myshopify.com/cdn/s/trekkie.storefront.f33399a7b9d8c1007209860fbdd63bb24633ae9f.min.js';
+        first.parentNode.insertBefore(scriptFallback, first);
+      };
+      script.async = true;
+      script.src = '//mafoil-organic.myshopify.com/cdn/s/trekkie.storefront.f33399a7b9d8c1007209860fbdd63bb24633ae9f.min.js';
+      first.parentNode.insertBefore(script, first);
+    };
+    trekkie.load(
+      {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":73861923101,"isMerchantRequest":null,"themeId":147219841309,"themeCityHash":"13508724382957684854","contentLanguage":"en","currency":"USD"},"isServerSideCookieWritingEnabled":true,"monorailRegion":"shop_domain"},"Session Attribution":{},"S2S":{"facebookCapiEnabled":false,"source":"trekkie-storefront-renderer"}}
+    );
+
+    var loaded = false;
+    trekkie.ready(function() {
+      if (loaded) return;
+      loaded = true;
+
+      window.ShopifyAnalytics.lib = window.trekkie;
+
+
+      var originalDocumentWrite = document.write;
+      document.write = customDocumentWrite;
+      try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+      document.write = originalDocumentWrite;
+
+      window.ShopifyAnalytics.lib.page(null,{"pageType":"home"});
+
+      var match = window.location.pathname.match(/checkouts\/(.+)\/(thank_you|post_purchase)/)
+      var token = match? match[1]: undefined;
+      if (!hasLoggedConversion(token)) {
+        setCookieIfConversion(token);
+
+      }
+    });
+
+
+        var eventsListenerScript = document.createElement('script');
+        eventsListenerScript.async = true;
+        eventsListenerScript.src = "//mafoil-organic.myshopify.com/cdn/shopifycloud/shopify/assets/shop_events_listener-a7c63dba65ccddc484f77541dc8ca437e60e1e9e297fe1c3faebf6523a0ede9b.js";
+        document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+
+})();</script>
+<script class="boomerang">
+(function () {
+  if (window.BOOMR && (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    return;
+  }
+  window.BOOMR = window.BOOMR || {};
+  window.BOOMR.snippetStart = new Date().getTime();
+  window.BOOMR.snippetExecuted = true;
+  window.BOOMR.snippetVersion = 12;
+  window.BOOMR.application = "storefront-renderer";
+  window.BOOMR.themeName = "Wpbingo";
+  window.BOOMR.themeVersion = "1.0.0";
+  window.BOOMR.shopId = 73861923101;
+  window.BOOMR.themeId = 147219841309;
+  window.BOOMR.renderRegion = "gcp-us-central1";
+  window.BOOMR.url =
+    "https://mafoil-organic.myshopify.com/cdn/shopifycloud/boomerang/shopify-boomerang-1.0.0.min.js";
+  var where = document.currentScript || document.getElementsByTagName("script")[0];
+  var parentNode = where.parentNode;
+  var promoted = false;
+  var LOADER_TIMEOUT = 3000;
+  function promote() {
+    if (promoted) {
+      return;
     }
-
-    if (!browserSupportsAllFeatures()) {
-        loadScript('https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/dist/theme-bundle.polyfills.js');
+    var script = document.createElement("script");
+    script.id = "boomr-scr-as";
+    script.src = window.BOOMR.url;
+    script.async = true;
+    parentNode.appendChild(script);
+    promoted = true;
+  }
+  function iframeLoader(wasFallback) {
+    promoted = true;
+    var dom, bootstrap, iframe, iframeStyle;
+    var doc = document;
+    var win = window;
+    window.BOOMR.snippetMethod = wasFallback ? "if" : "i";
+    bootstrap = function(parent, scriptId) {
+      var script = doc.createElement("script");
+      script.id = scriptId || "boomr-if-as";
+      script.src = window.BOOMR.url;
+      BOOMR_lstart = new Date().getTime();
+      parent = parent || doc.body;
+      parent.appendChild(script);
+    };
+    if (!window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) {
+      window.BOOMR.snippetMethod = "s";
+      bootstrap(parentNode, "boomr-async");
+      return;
     }
-</script>
-        <script>window.consentManagerTranslations = `{"locale":"en","locales":{"consent_manager.data_collection_warning":"en","consent_manager.accept_all_cookies":"en","consent_manager.gdpr_settings":"en","consent_manager.data_collection_preferences":"en","consent_manager.use_data_by_cookies":"en","consent_manager.data_categories_table":"en","consent_manager.allow":"en","consent_manager.accept":"en","consent_manager.deny":"en","consent_manager.dismiss":"en","consent_manager.reject_all":"en","consent_manager.category":"en","consent_manager.purpose":"en","consent_manager.functional_category":"en","consent_manager.functional_purpose":"en","consent_manager.analytics_category":"en","consent_manager.analytics_purpose":"en","consent_manager.targeting_category":"en","consent_manager.advertising_category":"en","consent_manager.advertising_purpose":"en","consent_manager.essential_category":"en","consent_manager.esential_purpose":"en","consent_manager.yes":"en","consent_manager.no":"en","consent_manager.not_available":"en","consent_manager.cancel":"en","consent_manager.save":"en","consent_manager.back_to_preferences":"en","consent_manager.close_without_changes":"en","consent_manager.unsaved_changes":"en","consent_manager.by_using":"en","consent_manager.agree_on_data_collection":"en","consent_manager.change_preferences":"en","consent_manager.cancel_dialog_title":"en","consent_manager.privacy_policy":"en","consent_manager.allow_category_tracking":"en","consent_manager.disallow_category_tracking":"en"},"translations":{"consent_manager.data_collection_warning":"We use cookies (and other similar technologies) to collect data to improve your shopping experience. By using our website, you're agreeing to the collection of data as described in our Privacy Policy.","consent_manager.accept_all_cookies":"Accept All Cookies","consent_manager.gdpr_settings":"Settings","consent_manager.data_collection_preferences":"Website Data Collection Preferences","consent_manager.use_data_by_cookies":" uses data collected by cookies and JavaScript libraries to improve your shopping experience.","consent_manager.data_categories_table":"The table below outlines how we use this data by category. To opt out of a category of data collection, select 'No' and save your preferences.","consent_manager.allow":"Allow","consent_manager.accept":"Accept","consent_manager.deny":"Deny","consent_manager.dismiss":"Dismiss","consent_manager.reject_all":"Reject all","consent_manager.category":"Category","consent_manager.purpose":"Purpose","consent_manager.functional_category":"Functional","consent_manager.functional_purpose":"Enables enhanced functionality, such as videos and live chat. If you do not allow these, then some or all of these functions may not work properly.","consent_manager.analytics_category":"Analytics","consent_manager.analytics_purpose":"Provide statistical information on site usage, e.g., web analytics so we can improve this website over time.","consent_manager.targeting_category":"Targeting","consent_manager.advertising_category":"Advertising","consent_manager.advertising_purpose":"Used to create profiles or personalize content to enhance your shopping experience.","consent_manager.essential_category":"Essential","consent_manager.esential_purpose":"Essential for the site and any requested services to work, but do not perform any additional or secondary function.","consent_manager.yes":"Yes","consent_manager.no":"No","consent_manager.not_available":"N/A","consent_manager.cancel":"Cancel","consent_manager.save":"Save","consent_manager.back_to_preferences":"Back to Preferences","consent_manager.close_without_changes":"You have unsaved changes to your data collection preferences. Are you sure you want to close without saving?","consent_manager.unsaved_changes":"You have unsaved changes","consent_manager.by_using":"By using our website, you're agreeing to our","consent_manager.agree_on_data_collection":"By using our website, you're agreeing to the collection of data as described in our ","consent_manager.change_preferences":"You can change your preferences at any time","consent_manager.cancel_dialog_title":"Are you sure you want to cancel?","consent_manager.privacy_policy":"Privacy Policy","consent_manager.allow_category_tracking":"Allow [CATEGORY_NAME] tracking","consent_manager.disallow_category_tracking":"Disallow [CATEGORY_NAME] tracking"}}`;</script>
+    iframe = document.createElement("IFRAME");
+    iframe.src = "about:blank";
+    iframe.title = "";
+    iframe.role = "presentation";
+    iframe.loading = "eager";
+    iframeStyle = (iframe.frameElement || iframe).style;
+    iframeStyle.width = 0;
+    iframeStyle.height = 0;
+    iframeStyle.border = 0;
+    iframeStyle.display = "none";
+    parentNode.appendChild(iframe);
+    try {
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    } catch (e) {
+      dom = document.domain;
+      iframe.src = "javascript:var d=document.open();d.domain='" + dom + "';void(0);";
+      win = iframe.contentWindow;
+      doc = win.document.open();
+    }
+    if (dom) {
+      doc._boomrl = function() {
+        this.domain = dom;
+        bootstrap();
+      };
+      doc.write("<body onload='document._boomrl();'>");
+    } else {
+      win._boomrl = function() {
+        bootstrap();
+      };
+      if (win.addEventListener) {
+        win.addEventListener("load", win._boomrl, false);
+      } else if (win.attachEvent) {
+        win.attachEvent("onload", win._boomrl);
+      }
+    }
+    doc.close();
+  }
+  var link = document.createElement("link");
+  if (link.relList &&
+    typeof link.relList.supports === "function" &&
+    link.relList.supports("preload") &&
+    ("as" in link)) {
+    window.BOOMR.snippetMethod = "p";
+    link.href = window.BOOMR.url;
+    link.rel = "preload";
+    link.as = "script";
+    link.addEventListener("load", promote);
+    link.addEventListener("error", function() {
+      iframeLoader(true);
+    });
+    setTimeout(function() {
+      if (!promoted) {
+        iframeLoader(true);
+      }
+    }, LOADER_TIMEOUT);
+    BOOMR_lstart = new Date().getTime();
+    parentNode.appendChild(link);
+  } else {
+    iframeLoader(false);
+  }
+  function boomerangSaveLoadTime(e) {
+    window.BOOMR_onload = (e && e.timeStamp) || new Date().getTime();
+  }
+  if (window.addEventListener) {
+    window.addEventListener("load", boomerangSaveLoadTime, false);
+  } else if (window.attachEvent) {
+    window.attachEvent("onload", boomerangSaveLoadTime);
+  }
+  if (document.addEventListener) {
+    document.addEventListener("onBoomerangLoaded", function(e) {
+      e.detail.BOOMR.init({
+        ResourceTiming: {
+          enabled: true,
+          trackedResourceTypes: ["script", "img", "css"]
+        },
+      });
+      e.detail.BOOMR.t_end = new Date().getTime();
+    });
+  } else if (document.attachEvent) {
+    document.attachEvent("onpropertychange", function(e) {
+      if (!e) e=event;
+      if (e.propertyName === "onBoomerangLoaded") {
+        e.detail.BOOMR.init({
+          ResourceTiming: {
+            enabled: true,
+            trackedResourceTypes: ["script", "img", "css"]
+          },
+        });
+        e.detail.BOOMR.t_end = new Date().getTime();
+      }
+    });
+  }
+})();</script>
+</head>
+	<body id="mafoil-multipurpose-shopify-theme-os-2-0" class=" template-index"><div id="pre-loading" class="pre-loading loading-page">
+				<div class="pre-loading__bar"></div>
+			</div><div id="shopify-section-customer-variant" class="shopify-section"><style data-shopify>.wpb-variants-swatch .Black{
+				background-color: #000000 !important;
+			}.wpb-variants-swatch .Red{
+				background-color: #ff0000 !important;
+			}.wpb-variants-swatch .Green{
+				background-color: #20b2aa !important;
+			}.wpb-variants-swatch .Yellow{
+				background-color: #c69a02 !important;
+			}.wpb-variants-swatch .Beige{
+				background-color: #e6d4b4 !important;
+			}.wpb-variants-swatch .Brick{
+				background-color: #6b302c !important;
+			}.wpb-variants-swatch .Blue{
+				background-color: #5173a6 !important;
+			}.wpb-variants-swatch .Pink{
+				background-color: #ffc0cb !important;
+			}.wpb-variants-swatch .White{
+				background-color: #ffffff !important;
+			}.wpb-variants-swatch .Organic{
+				background:url('//mafoil-organic.myshopify.com/cdn/shop/files/1_0b76ab90-f84d-483f-837f-960759e08400.jpg?v=1680838790') !important;
+				background-size:cover !important;
+				background-position: center center !important;
+			}.wpb-variants-swatch .Vegan{
+				background:url('//mafoil-organic.myshopify.com/cdn/shop/files/3_6385d9a0-7749-4aa3-8a90-acf26276f4a1.jpg?v=1680838814') !important;
+				background-size:cover !important;
+				background-position: center center !important;
+			}</style>
+</div>
+		<div id="shopify-section-header-campar" class="shopify-section">
 
-        <script>
-            window.lazySizesConfig = window.lazySizesConfig || {};
-            window.lazySizesConfig.loadMode = 1;
-        </script>
-        <script async src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/dist/theme-bundle.head_async.js"></script>
+
+</div>
+		<div id="shopify-section-header-topbar" class="shopify-section">
 
 
-        <link href="https://fonts.googleapis.com/css?family=Poppins:700,500%7CArimo:700,400&display=block" rel="stylesheet">
-        <link data-stencil-stylesheet href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/css/theme-cc54fa90-4bd1-013c-5769-6e8721744a82.css" rel="stylesheet">
+</div>
+		<header class="header"><div id="shopify-section-header_2" class="shopify-section"><style data-shopify>.bwp-header .header-center {background: #003d1f;}
+	.bwp-header .header-desktop .header-center {padding: 20px 0;}
+	.bwp-header .header-bottom {padding: 0;}
+	.header-logo img {max-width: 120px;}
 
+</style>
+<div data-section-id="header_2" data-section-type="header-section" class="bwp-header header_2" data-sticky_header="true">
+    @include('Frontend.Partial.Top-Header-Navigation-Bar')
+</div>
+		<div class="header-bottom">
+			<div class="container">
+				<div class="header-bottom-content">
+					<div class="header-bottom-left">
+						<div class="select_category categories-vertical-menu" data-max_number_1600="12"
+                          data-max_number_1400="11" data-max_number_1100="11" data-textmore="Other"
+                          data-textclose="Close">
+							<span class="select_category__title"><i class="icon-menu-valltical"></i>
+                                All Departments
+                            </span>
+                            @include('Frontend.Partial.Left-Main-Navigation-Bar')
+                        </div>
+						<div class="header-main">
+							<div class="main-menu">
+  <nav class="main-menu__wrap">
+                @include('Frontend.TopHomeNavigationBar')
 
-<script type="text/javascript">
-var BCData = {"csrf_token":"67d1aec00b7e275b30f80de37764f7edf1e94a83ef4b715e5a36db6e0045984d"};
-</script>
-
-    </head>
-    <body class="page-type-default" data-page-type="default" canonical-shop-url="https://beautica-light.mybigcommerce.com">
-        <svg data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/icon-sprite.svg" class="icons-svg-sprite"></svg>
-
-        <a href="#main-content" class="skip-to-main-link">Skip to main content</a>
-<header class="header header-sticky header-layout-1" role="banner">
-    <div class="halo-topHeader">
-        <div class="container">
-            <nav class="navUser">
-        <div class="navUser-section navUser-section--alt navUser-text-1">
-                    <div class="navUser-item__item">
-                        <span class="navUser-action">
-                            3 Free Samples with any Purchase
-                        </span>
                     </div>
-        </div>
-        <ul class="navUser-section navUser-section--alt navUser-Icon-Right">
-                    <li class="navUser-item navUser-item--text">
-                        <div class="navUser-item__item">
-                            <span class="navUser-action navUser-Phone">
-                                Order Online <a href='tel:(1800) 000' title='Phone' aria-label='Phone'>(1800) 000 BEAUTICA</a>
-                            </span>
-                            <span class="navUser-action">
-                                <a href="/giftcertificates.php" aria-label="Gift Certificates">Gift Certificates</a>
-                            </span>
-                            <span class="navUser-action">
-                                    <a href="/login.php" aria-label="Sign in" data-login-form>
-                                        <span class="login-text">Sign In</span>
-                                    </a>
-                            </span>
-                        </div>
-                    </li>
-                    <li class="navUser-item navUser-item--currency">
-                        <a class="navUser-action navUser-action--currencySelector has-dropdown"
-                           href="#"
-                           data-dropdown="currencySelection"
-                           aria-controls="currencySelection"
-                           aria-expanded="false"
-                           aria-label="USD"
-                        >
-                            <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/us.gif" border="0" alt="" role="presentation" />
-
-                                <span class="text">US Dollar</span>
-
-
-                            <i class="icon navUser-action-moreIcon" aria-hidden="true">
-                                <svg>
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-chevron-down"></use>
-                                </svg>
-                            </i>
-                        </a>
-                        <ul class="dropdown-menu" id="currencySelection" data-dropdown-content aria-hidden="true" tabindex="-1">
-                            <li class="dropdown-menu-title">
-                                <span class="text">Select currency</span>
-                            </li>
-                                <li class="dropdown-menu-item">
-                                    <a href="https://beautica-light.mybigcommerce.com/?setCurrencyId=2"
-                                       data-currency-code="USD"
-                                       data-cart-currency-switch-url="/cart/change-currency"
-                                       data-warning="Promotions and gift certificates that don&#x27;t apply to the new currency will be removed from your cart. Are you sure you want to continue?"
-                                        class="is-active"
-                                    >
-                                        <span class="flag"><img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/us.gif" border="0" alt="" role="presentation" /></span>
-                                        <span class="text">US Dollar</span>
-                                    </a>
-                                </li>
-                                <li class="dropdown-menu-item">
-                                    <a href="https://beautica-light.mybigcommerce.com/?setCurrencyId=3"
-                                       data-currency-code="AUD"
-                                       data-cart-currency-switch-url="/cart/change-currency"
-                                       data-warning="Promotions and gift certificates that don&#x27;t apply to the new currency will be removed from your cart. Are you sure you want to continue?"
-
-                                    >
-                                        <span class="flag"><img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/au.gif" border="0" alt="" role="presentation" /></span>
-                                        <span class="text">Australian Dollar</span>
-                                    </a>
-                                </li>
-                        </ul>
-                    </li>
-        </ul>
-</nav>
-        </div>
-    </div>
-
-    <div class="halo-middleHeader">
-        <div class="container">
-            <div class="middleHeader-item text-left">
-                <div class="middleHeader-item__item item--hamburger">
-                    <a class="mobileMenu-toggle" href="#" data-mobile-menu-toggle="menu">
-                        <span class="mobileMenu-toggleIcon">Toggle menu</span>
-                    </a>
-                </div>
-                <div class="middleHeader-item__item item--searchMobile">
-                    <a class="navUser-action" href="#" data-search="quickSearch" aria-controls="quickSearch" aria-expanded="false">
-                        <div class="navUser-icon">
-                            <svg class="icon" role="img" aria-label="Search">
-                                <title>Search</title>
-                                <desc>Search for a product</desc>
-                                <use xlink:href="#icon-search"></use>
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="middleHeader-item text-center">
-                <div class="middleHeader-item__item item--logo">
-                        <h1 class="header-logo">
-                            <a href="https://beautica-light.mybigcommerce.com/" class="header-logo__link" data-header-logo-link>
-            <div class="header-logo-image-container">
-                <img class="header-logo-image" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/244x75/beautica_1677482532__14841.original.png" alt="beautica-light" title="beautica-light">
-            </div>
+														</div>
+                                                    </div>
+								</div>
+							</li>
+                            <li class="main-menu__nav-item menu-dropdown menu-dropdown--mega">
+								<a href="/collections/all">Shop</a>
+								<div class="menu-dropdown__content menu-dropdown__content--megamenu">
+									<div class="menu-row">
+                                        <div class="menu-row__col" style="width:25%;flex:0 0 25%">
+										<div class="megamenu-banner">
+						<a href=""><img class="lazyload  img-fluid fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?v=1681208142 329w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?v=1681208142 329w"
+	data-sizes="auto"
+	width="329"
+	height="384"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?crop=center&height=384&v=1681208142&width=329"  width="329" height="384" /></noscript>
 </a>
-                        </h1>
-                </div>
-            </div>
-            <div class="middleHeader-item text-right">
-                <div class="middleHeader-item__item item--account">
-                    <a class="navUser-action" href="/login.php" aria-label="Sign in" data-login-form>
-                        <div class="navUser-icon">
-                            <svg class="icon" role="img" aria-label="Account">
-                                <title>Account</title>
-                                <desc>Account</desc>
-                                <use xlink:href="#icon-user"></use>
-                            </svg>
-                        </div>
-                    </a>
-                </div>
-                <div class="middleHeader-item__item item--cart halo-cart">
-                    <a class="navUser-action" data-cart-preview data-options="align:right" href="/cart.php" aria-label="Cart with 0 items">
-                        <div class="navUser-icon navUser-item-cartIcon">
-                            <svg class="icon" role="img" aria-label="your cart">
-                                <title>your cart</title>
-                                <desc>your cart</desc>
-                                <use xlink:href="#icon-cart"></use>
-                            </svg>
-                            <span class="countPill cart-quantity">0</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="halo-bottomHeader header_logo--center" data-prevent-quick-search-close>
-        <div class="container bottomHeader-container">
-                <div class="bottomHeader-item text-left">
-                    <nav class="navUser">
-    <div class="item--quicksearch halo-search halo-search-main">
-        <div id="quickSearch" class="quickSearch">
-                <form class="form" onsubmit="return false" data-url="/search.php" data-quick-search-form>
-        <fieldset class="form-fieldset">
-            <div class="form-field">
-                <label class="is-srOnly" for="quick_search_header">Search</label>
-                <button type="submit" class="button button--primary" aria-label="Search"><svg class="icon"><use xlink:href="#icon-search-2"></use></svg></button>
-                <input class="form-input"
-                       data-search-quick
-                       name="quick_search_header"
-                       id="quick_search_header"
-                       data-error-message="Search field cannot be empty."
-                       placeholder="Search for a product"
-                       autocomplete="off">
-            </div>
-        </fieldset>
-    </form>
-
-        </div>
-    </div>
-</nav>
-                </div>
-
-                <div class="bottomHeader-item text-center">
-                    <div class="bottomHeader-item__item item--sticky-logo">
-                            <h1 class="header-logo">
-                                <a href="https://beautica-light.mybigcommerce.com/" class="header-logo__link" data-header-logo-link>
-            <div class="header-logo-image-container">
-                <img class="header-logo-image" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/244x75/beautica_1677482532__14841.original.png" alt="beautica-light" title="beautica-light">
-            </div>
+						<div class="content"><a class="button" href="">New arrivals</a></div></div>
+														</div><div class="menu-row__col" style="width:25%;flex:0 0 25%">
+																<div class="megamenu-banner">
+						<a href=""><img class="lazyload  img-fluid fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?v=1681208142 329w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?v=1681208142 329w"
+	data-sizes="auto"
+	width="329"
+	height="384"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?crop=center&height=384&v=1681208142&width=329"  width="329" height="384" /></noscript>
 </a>
-                            </h1>
-                    </div>
-                </div>
+						<div class="content"><a class="button" href="">Best Sellers</a></div></div>
+														</div><div class="menu-row__col" style="width:16.66%;flex:0 0 16.66%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Layout</span></div><ul class="menu-list">
 
-                <div class="bottomHeader-item text-right">
-                    <ul class="navUser-section navUser-section--alt">
-                        <li class="navUser-item navUser-item--account">
-                            <div class="navUser-item__item navUser-item__login">
-                                    <div class="say-hi" bis_skin_checked="1"><h4>Hi, Customer</h4></div>
-                                    <a class="navUser-action" href="/login.php" aria-label="Sign in" data-login-form>
-                                        <span class="login-text">Login</span>
-                                    </a>
-                                    <span class="login-text">or</span>
-                                    <a class="navUser-action" href="/login.php?action&#x3D;create_account" aria-label="Create Account">Register</a>
-                            </div>
-                        </li>
-                            <li class="navUser-item navUser-item--wishlist">
-                                <div class="navUser-item__item">
-                                    <a class="navUser-action" href="/wishlist.php">
-                                        <div class="navUser-icon">
-                                            <svg class="icon" role="img" aria-label="Wish Lists">
-                                                <title>Wish Lists</title>
-                                                <desc>Wish Lists</desc>
-                                                <use xlink:href="#icon-heart-2"></use>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                        <li class="navUser-item navUser-item--cart">
-                            <a class="navUser-action" data-cart-preview data-options="align:right" href="/cart.php" aria-label="Cart with 0 items">
-                                <span class="navUser-item-cartLabel">
-                                    <svg class="icon" role="img" aria-label="your cart">
-                                        <title>your cart</title>
-                                        <desc>your cart</desc>
-                                        <use xlink:href="#icon-cart"></use>
-                                    </svg>
-                                </span>
-                                <span class="countPill cart-quantity"></span>
-                            </a>
-                            <div class="dropdown-cart" id="cart-preview-dropdown" aria-hidden="true"></div>
-                        </li>
-                    </ul>
-                </div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Standard</a>
+								</li>
 
-                <div class="haloQuickSearchResults quickSearchResults haloCustomScrollbar" data-bind="html: results"></div>
-                    <div class="haloQuickSearchResults quickSearchResultsCustom haloCustomScrollbar">
-                        <div class="quickResults-wrapper container">
-        <div class="quickResults-item quickResults-text">
-                <h3 class="quickResults-title">Top Searches</h3>
-            <ul class="productGrid-search">
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=best+stencil+themes&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>best stencil themes
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=bigcommerce+store&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>bigcommerce store
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=cornerstone+theme&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>cornerstone theme
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=page+builder&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>page builder
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=bigcommerce+template&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>bigcommerce template
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=themevale&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>themevale
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=add+on&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>add on
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=best+seller&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>best seller
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=featured+product&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>featured product
-                        </a>
-                    </li>
-                    <li class="search-item">
-                        <a class="link" href="/search.php?search_query=new+product&section=product">
-                            <svg class="icon"><use xlink:href="#icon-search"></use></svg>new product
-                        </a>
-                    </li>
-            </ul>
-                <button class="quickResults-close" type="button" title="Close">
-                    <span class="aria-description--hidden">Close</span>
-                    <span aria-hidden="true">×</span>
-                </button>
-        </div>
-</div>
-                    </div>
-        </div>
-    </div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Standard With Banner</a>
+								</li>
 
-    <div class="halo-bottomHeader header_menu--center">
-        <div class="container bottomHeader-container">
-            <div class="navPages-container bottomHeader-item__item" id="menu" data-menu>
-                <nav class="navPages">
-    <ul class="navPages-list navPages-list-megamenu navPages-list-depth-max">
-                <li class="navPages-item has-dropdown">
-                            <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/trend-now/" data-index="0">
-        <a class="text #Trend Now" href="https://beautica-light.mybigcommerce.com/trend-now/" aria-label="#Trend Now">
-          <span>#Trend Now</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-23" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/"><span>#Trend Now</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/">
-                    <span class="text">All #Trend Now</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-26">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/">
-                                        <span class="text">All Lorem De Dorus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lorem-de-dorus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-28">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/"><span>Comos De Milano</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/"><span>Comos De Milano</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/">
-                                        <span class="text">All Comos De Milano</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/comos-de-milano/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-30">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/"><span>Lynn Cosmopolis</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/"><span>Lynn Cosmopolis</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/">
-                                        <span class="text">All Lynn Cosmopolis</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/lynn-cosmopolis/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-27">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/milancelos-a-lanos/">
-                                        <span class="text">All Milancelos A Lanos</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/milancelos-a-lanos/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-32">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/"><span>Nor Loremirus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/"><span>Nor Loremirus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/">
-                                        <span class="text">All Nor Loremirus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/fermetum-loremous/"><span class="text">Fermetum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/nor-loremirus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-33">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/"><span>Accéssorius</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/"><span>Accéssorius</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/">
-                                        <span class="text">All Accéssorius</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/trend-now/accessorius/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-        </ul>
-    </div>
-</div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Categories Image 1</a>
+								</li>
 
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143914565938">Categories Image 2</a>
+								</li>
 
-                </li>
-                <li class="navPages-item has-dropdown">
-                            <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/fragrance/" data-index="1">
-        <a class="text Fragrance" href="https://beautica-light.mybigcommerce.com/fragrance/" aria-label="Fragrance">
-          <span>Fragrance</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-24" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/"><span>Fragrance</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/">
-                    <span class="text">All Fragrance</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-104">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/"><span>Comos De Milano</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/"><span>Comos De Milano</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/">
-                                        <span class="text">All Comos De Milano</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/comos-de-milano/naminos/"><span class="text">Naminos</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-99">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/">
-                                        <span class="text">All Milancelos A Lanos</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/milancelos-a-lanos/naminos-compolis/"><span class="text">Naminos Compolis</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-109">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/"><span>Nor Loremirus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/"><span>Nor Loremirus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/">
-                                        <span class="text">All Nor Loremirus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/naminos-compolis/"><span class="text">Naminos Compolis</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/compolis-naminos-/"><span class="text">Compolis Naminos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/nor-loremirus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-94">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/shop/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/shop/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/shop/lorem-de-dorus/">
-                                        <span class="text">All Lorem De Dorus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/fermengum-loremous/"><span class="text">Fermengum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/lorem-de-dorus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-89">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/shop/"><span>Shop</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/fragrance/shop/"><span>Shop</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/fragrance/shop/">
-                                        <span class="text">All Shop</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/shop/editors-picks/"><span class="text">Editor’s Picks</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/shop/just-added/"><span class="text">Just Added</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/shop/most-populars/"><span class="text">Most Populars</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/shop/most-rated/"><span class="text">Most Rated</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/fragrance/shop/naminos-compolis/"><span class="text">Naminos Compolis</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-        </ul>
-    </div>
-</div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144043671858">Fullwidth</a>
+								</li>
 
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144724394290">List view</a>
+								</li>
 
-                </li>
-                <li class="navPages-item has-dropdown">
-                            <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/makeup/" data-index="2">
-        <a class="text Makeup" href="https://beautica-light.mybigcommerce.com/makeup/" aria-label="Makeup">
-          <span>Makeup</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-18" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/"><span>Makeup</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/">
-                    <span class="text">All Makeup</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-137">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/"><span>Comos De Milano</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/"><span>Comos De Milano</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/">
-                                        <span class="text">All Comos De Milano</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/comos-de-milano/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-124">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/">
-                                        <span class="text">All Lorem De Dorus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/lorem-de-dorus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-129">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/">
-                                        <span class="text">All Milancelos A Lanos</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/best-selling/"><span class="text">Best Selling</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/milancelos-a-lanos/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-142">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/"><span>Nor Loremirus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/"><span>Nor Loremirus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/">
-                                        <span class="text">All Nor Loremirus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/best-selling/"><span class="text">Best Selling</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/nor-loremirus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-133">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com"><span>Sale &amp; Offers</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com"><span>Sale &amp; Offers</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com">
-                                        <span class="text">All Sale &amp; Offers</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Best Selling</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-119">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/shop/"><span>Shop</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/makeup/shop/"><span>Shop</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/makeup/shop/">
-                                        <span class="text">All Shop</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/shop/editors-picks/"><span class="text">Editor’s Picks</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/shop/just-added/"><span class="text">Just Added</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/shop/most-populars/"><span class="text">Most Populars</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/makeup/shop/most-rated/"><span class="text">Most Rated</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-        </ul>
-    </div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412508466">Simple</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412311858">Mansonry<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Overlay Header</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=139013783858">Collection List 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=144218718514">Collection List 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=144588964146">Collection Slider<span class="new">New</span></a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:16.66%;flex:0 0 16.66%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Filter</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">On top</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412311858">Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Side out</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143914565938">Drawer</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Sidebar Style 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144778494258">Sidebar Style 2<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Sidebar Style 3</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144588964146">Sidebar Style 4<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144218718514">Filter Scroll</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:16.66%;flex:0 0 16.66%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Loader & Cart</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Shop Paggination</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Shop Load more button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Shop Infinite scrolling </a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Cart Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143708684594">Cart Side out</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143793586482">Cart Page</a>
+								</li>
+
+						</ul></div>
+														</div></div>
+								</div>
+							</li><li class="main-menu__nav-item menu-dropdown menu-dropdown--mega">
+								<a href="/products/berry-smoothie-concor">Product</a>
+								<div class="menu-dropdown__content menu-dropdown__content--megamenu">
+									<div class="menu-row"><div class="menu-row__col" style="width:25%;flex:0 0 25%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Product Layout</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=143708684594">Grid 1 columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=143793586482">Grid 2 columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=143914565938">Grid modern</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144043671858">Grid sticky</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=144159605042">Slider full-width</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144218718514">Bottom Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=139013783858">Left Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144412311858">Right Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=144588964146">Without Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144724394290">Left Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144778494258">Right Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/colorful-uv-protection-glasses?preview_theme_id=139013783858">Group Product</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Tab information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/sleeveless-shirt-2023?preview_theme_id=144412311858">Collapsible tabs information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=144778494258">Full Content information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=144724394290">Vertical information</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:25%;flex:0 0 25%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=139013783858">Pre-order product<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/red-high-heels/long-shoulder-bag?preview_theme_id=139013783858">Sticky add to cart</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-khaki-pants?preview_theme_id=139013783858">Video</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=139013783858">3D, AR models</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/znike-air-force-one?preview_theme_id=139013783858">Product 360</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-khaki-pants?preview_theme_id=139013783858">Countdown Timer</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Frequently Bought Together v1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=144588964146">Frequently Bought Together v2<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Buy more save more</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/colorful-uv-protection-glasses?preview_theme_id=139013783858">Real-time visitors</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-flare-skirt?preview_theme_id=139013783858">Stock countdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-sleeved-shirt?preview_theme_id=139013783858">Back in stock notification<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-black?preview_theme_id=139013783858">Dynamic checkout button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=139013783858">Trust badge</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Delivery information</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:25%;flex:0 0 25%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product Upsell Features</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product pickup<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-long-dress?preview_theme_id=139013783858">Variant Images Grouped<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=139013783858">Size Guide HTML</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-skirt-pants?preview_theme_id=139013783858">Delivery & Return</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-skirt-pants?preview_theme_id=139013783858">Ask a Question</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=139013783858">Product Variable Image </a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Product Variable Color</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=144588964146">Product Variable Color and Check Box<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/3-hole-sweater?preview_theme_id=144218718514">Product Variable Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=144724394290">Product Variable Color and Dropdown<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product Variable Box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=144412311858">Product Variable Check Box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-sleeved-shirt?preview_theme_id=139013783858">Product Out of stock</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:25%;flex:0 0 25%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Product Card</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144043671858">Scale hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Slider hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Fadein hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Zoom hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144218718514">Icons on hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143708684594">Icon & add to cart</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143793586482">Quick view button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143914565938">Add to cart button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144043671858">Icons on the bottom</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144159605042">Shadow box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144412508466">Standard button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144412311858">Info on hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=139013783858">Quick shop button <span class="hot">Hot</span></a>
+								</li>
+
+						</ul></div>
+														</div></div>
+								</div>
+							</li><li class="main-menu__nav-item menu-dropdown menu-dropdown--mega width_custom_pos">
+								<a href="/blogs/news">Blog</a>
+								<div class="menu-dropdown__content menu-dropdown__content--megamenu" style="width:650px">
+									<div class="menu-row"><div class="menu-row__col" style="width:50%;flex:0 0 50%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Layout & Post</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=139013783858">Blog Standard</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143708684594">Blog Grid</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143793586482">Blog Grid mix</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143914565938">List</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/trends-from-spring-summer?preview_theme_id=139013783858">Post Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/best-collection-2023?preview_theme_id=143708684594">Post One Column</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/hot-trend-2023?preview_theme_id=143914565938">Post Prallax Image</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/what-the-colours-you-wear?preview_theme_id=144043671858">Post Sticky</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/trends-from-spring-summer?preview_theme_id=144159605042">Post Simple Title</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:50%;flex:0 0 50%">
+																<div class="megamenu-blog">
+
+							<div class="featured-blog__post">
+								<div class="article__image">
+									<a class="article__featured-image-link" href="/blogs/life-style/nam-scelerisque-sit-amet-diam-id-blandit">
+										<img class="img-fluid" src="//mafoil-organic.myshopify.com/cdn/shop/articles/8_600x260.jpg?v=1680860368" >
+									</a>
+								</div>
+								<div class="article__content">
+									<div class="blog-category">
+										<a href="/blogs/life-style">Life Style</a>
+									</div>
+									<h2 class="article__heading">
+										<a class="article__heading-link" href="/blogs/life-style/nam-scelerisque-sit-amet-diam-id-blandit">Nam scelerisque sit amet diam id blandit</a>
+									</h2>
+								</div>
+							</div>
+
+							<div class="featured-blog__post">
+								<div class="article__image">
+									<a class="article__featured-image-link" href="/blogs/life-style/nullam-ultrices-ligula-at-ligula-tincidunt">
+										<img class="img-fluid" src="//mafoil-organic.myshopify.com/cdn/shop/articles/7_600x260.jpg?v=1680860346" >
+									</a>
+								</div>
+								<div class="article__content">
+									<div class="blog-category">
+										<a href="/blogs/life-style">Life Style</a>
+									</div>
+									<h2 class="article__heading">
+										<a class="article__heading-link" href="/blogs/life-style/nullam-ultrices-ligula-at-ligula-tincidunt">Nullam ultrices ligula at ligula tincidunt</a>
+									</h2>
+								</div>
+							</div>
+
+					</div>
+														</div></div>
+								</div>
+							</li><li class="main-menu__nav-item menu-dropdown menu-dropdown--mega">
+								<a href="#">Featured</a>
+								<div class="menu-dropdown__content menu-dropdown__content--megamenu">
+									<div class="menu-row"><div class="menu-row__col" style="width:20%;flex:0 0 20%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Page</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/about-us">About US</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/contact">Contact</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/faqs">Faqs</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/faqs-2">Faqs 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/size-guid">Size Guid</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/wishlist">Wishlist</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:20%;flex:0 0 20%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Portfolio</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=139013783858">2 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143708684594">3 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143793586482">4 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143708684594">Masonry Layout<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=139013783858">Products in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/creative-interior-freedom?preview_theme_id=143793586482">Lookbook in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143708684594">Lookbook Slider in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143914565938">Instagram Shop in portfolio</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:20%;flex:0 0 20%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143793586482">Christmas effect <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143914565938">Announcement bar 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412508466">Announcement bar 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144043671858">Age verification</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144159605042">Popup Newsletter</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Popup Compare<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144588964146">Cookies law info</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143533277490">RTL Layout</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:20%;flex:0 0 20%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Lookbook</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143708684594">Lookbook Slider</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143914565938">Lookbook Single</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/creative-interior-freedom?preview_theme_id=143793586482">Loobook In Portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143708684594">Lookbook In Page</a>
+								</li>
+
+						</ul></div>
+														</div><div class="menu-row__col" style="width:20%;flex:0 0 20%">
+																<div class="megamenu-products"><div class="megamenu-heading"><span>Instagram Shop</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Instagram Shop Slider</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Instagram Shop Grid Modern</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Instagram Shop Grid (No padding)</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143914565938">Instagram Shop in Portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Instagram Shop in Page</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/sleeveless-shirt-2023?preview_theme_id=144588964146">Instagram Shop in Single Product</a>
+								</li>
+
+						</ul></div>
+														</div></div>
+								</div>
+							</li></ul>
+  </nav>
 </div>
 
-
-                </li>
-                <li class="navPages-item">
-                            <a class="navPages-action navPages-action-lv1 no-subMenu navPages-action-end" data-label="https://beautica-light.mybigcommerce.com/nail/" href="https://beautica-light.mybigcommerce.com/nail/" aria-label="Nail" data-index="3">
-      <span class="text">Nail</span>
-    </a>
-
-
-                </li>
-                <li class="navPages-item has-dropdown">
-                            <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/beauty-accessories/" data-index="4">
-        <a class="text Beauty Accessories" href="https://beautica-light.mybigcommerce.com/beauty-accessories/" aria-label="Beauty Accessories">
-          <span>Beauty Accessories</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-21" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/"><span>Beauty Accessories</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/">
-                    <span class="text">All Beauty Accessories</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-69">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/"><span>Lynn Cosmopolis</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/"><span>Lynn Cosmopolis</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/">
-                                        <span class="text">All Lynn Cosmopolis</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/cosmopolis/"><span class="text">Cosmopolis</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/destibulum-mauris/"><span class="text">Destibulum Mauris</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lynn-cosmopolis/milancelos/"><span class="text">Milancelos</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-54">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/"><span>Lorem De Dorus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/">
-                                        <span class="text">All Lorem De Dorus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/cosmopolis/"><span class="text">Cosmopolis</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/destibulum-mauris/"><span class="text">Destibulum Mauris</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/lorem-de-dorus/milancelos/"><span class="text">Milancelos</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-62">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/"><span>Milancelos A Lanos</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/">
-                                        <span class="text">All Milancelos A Lanos</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/cosmopolis/"><span class="text">Cosmopolis</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/malesuada-sarcusa/"><span class="text">Malesuada Sarcusa</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/milancelos-a-lanos/milancelos/"><span class="text">Milancelos</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-77">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/"><span>Nor Loremirus</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/"><span>Nor Loremirus</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/">
-                                        <span class="text">All Nor Loremirus</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/cosmopolis/"><span class="text">Cosmopolis</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/fermentum-loremous/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/habitasse-molateas/"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/maecenas-commodos/"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/malesuada-sarcus/"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/nor-loremirus/milancelos/"><span class="text">Milancelos</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-84">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/accessorius/"><span>Accéssorius</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/beauty-accessories/accessorius/"><span>Accéssorius</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/beauty-accessories/accessorius/">
-                                        <span class="text">All Accéssorius</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/beauty-accessories/accessorius/malesuada-sarcus/"><span class="text">Fermentum Loremous</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Habitasse Molateas</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Maecenas Commodos</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com"><span class="text">Malesuada Sarcus</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-        </ul>
-    </div>
-</div>
-
-
-                </li>
-                <li class="navPages-item navPages-item-page has-dropdown">
-                        <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/" data-index="0">
-        <a class="text Demo" href="https://beautica-light.mybigcommerce.com/" aria-label="Demo">
-          <span>Demo</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/"><span>Demo</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/">
-                    <span class="text">All Demo</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child has-dropdown">
-                        <p class="navPage-subMenu-action navPages-action navPages-action-lv2 navPages-action-depth-max has-subMenu" data-navId="navPages-">
-                            <a class="text" href="https://beautica-light.mybigcommerce.com/"><span>Home Page</span></a>
-                            <span class="navPages-action-moreIcon" aria-hidden="true">
-                                <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                            </span>
-                        </p>
-                        <div class="navPage-subMenu navPage-subMenu-horizontal level-3" aria-hidden="true" tabindex="-1">
-                            <ul class="navPage-subMenu-list">
-                                <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                                    <p class="navPage-subMenu-action navPages-action navPages-action-lv2">
-                                        <span class="navPages-action-moreIcon" aria-hidden="true">
-                                            <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                        </span>
-                                        <a class="text" href="https://beautica-light.mybigcommerce.com/"><span>Home Page</span></a>
-                                    </p>
-                                </li>
-                                <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                                    <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/">
-                                        <span class="text">All Home Page</span>
-                                    </a>
-                                </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-light.mybigcommerce.com/"><span class="text">Light Layout</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-bold.mybigcommerce.com/"><span class="text">Bold Layout</span></a>
-                                    </li>
-                                    <li class="navPage-subMenu-item-child navPages-action-end">
-                                        <a class="navPage-subMenu-action navPages-action navPages-action-lv3 no-subMenu level-3" href="https://beautica-lingerie.mybigcommerce.com/"><span class="text">Lingerie Layout</span></a>
-                                    </li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/"><span class="text">Product Page</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/trend-now/"><span class="text">Category Page</span></a>
-                    </li>
-        </ul>
-    </div>
-</div>
-
-
-                </li>
-                <li class="navPages-item navPages-item-page has-dropdown">
-                        <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/pages/" data-index="1">
-        <a class="text Pages" href="https://beautica-light.mybigcommerce.com/pages/" aria-label="Pages">
-          <span>Pages</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/pages/"><span>Pages</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/pages/">
-                    <span class="text">All Pages</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/about-us/"><span class="text">About Us</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/contact-us/"><span class="text">Contact Us</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/blog/"><span class="text">Blog</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/blog/naminos-elementum-disumos-annec-congue-elito/"><span class="text">Blog Details</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/brands"><span class="text">Brands</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/find-a-store/"><span class="text">Find A Store</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/faqs/"><span class="text">FAQs</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/lookbook/"><span class="text">Lookbook</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://beautica-light.mybigcommerce.com/shipping-returns/"><span class="text">Shipping &amp; Returns</span></a>
-                    </li>
-        </ul>
-    </div>
-</div>
-
-
-                </li>
-                <li class="navPages-item navPages-item-page has-dropdown">
-                        <p class="navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu is-root" data-label="https://beautica-light.mybigcommerce.com/" data-index="2">
-        <a class="text Try Theme" href="https://beautica-light.mybigcommerce.com/" aria-label="Try Theme">
-          <span>Try Theme</span>
-          <span class="triangle-with-shadow"></span>
-        </a>
-        <span class="navPages-action-moreIcon" aria-hidden="true">
-            <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-        </span>
-    </p>
-    <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-" aria-hidden="true" tabindex="-1">
-    <div class="container">
-        <ul class="navPage-subMenu-list">
-            <li class="navPage-subMenu-item-parent navPage-subMenu-item-child navPage-subMenu-title">
-                <p class="navPage-subMenu-action navPages-action navPages-action-lv1 navPages-action-depth-max has-subMenu">
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                    </span>
-                    <a class="text" href="https://beautica-light.mybigcommerce.com/"><span>Try Theme</span></a>
-                </p>
-            </li>
-            <li class="navPage-subMenu-item-child navPages-action-end navPage-subMenu-all">
-                <a class="navPage-subMenu-action navPages-action navPages-action-lv1 no-subMenu" href="https://beautica-light.mybigcommerce.com/">
-                    <span class="text">All Try Theme</span>
-                </a>
-            </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://halosoft.gitbook.io/bc-beautica-documentation"><span class="text">Documentation</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://halosoft.ticksy.com/"><span class="text">Get Support</span></a>
-                    </li>
-                    <li class="navPage-subMenu-item-child navPages-action-end">
-                        <a class="navPage-subMenu-action navPages-action navPages-action-lv2 no-subMenu" href="https://bigcommerce.zfrcsk.net/c/3093631/1593870/2941"><span class="text">Open A Store For FREE</span></a>
-                    </li>
-        </ul>
-    </div>
-</div>
-
-
-                </li>
-    </ul>
-</nav>
-            </div>
-
-
-        </div>
-    </div>
-</header>
-<div data-content-region="header_bottom--global"></div>
-<div data-content-region="header_bottom"></div>
-        <main class="body" id='main-content' role='main' data-currency-code="USD">
-        <div data-content-region="home_below_menu"></div>
-
-        <div data-content-region="home_promotion"><div data-layout-id="82142d33-197a-4c59-a0e7-e828ef5c82c9"><div data-sub-layout-container="3cbbea61-c5a2-4849-9525-7c0f26d01efb" data-layout-name="Layout">
-  <style data-container-styling="3cbbea61-c5a2-4849-9525-7c0f26d01efb">
-    [data-sub-layout-container="3cbbea61-c5a2-4849-9525-7c0f26d01efb"] {
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 0;
-      position: relative;
-    }
-    [data-sub-layout-container="3cbbea61-c5a2-4849-9525-7c0f26d01efb"]:after {
-      background-position: center center;
-      background-size: cover;
-      z-index: auto content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <div data-sub-layout="635d4e8d-6587-4420-aa18-43282dc6e1ea">
-    <style data-column-styling="635d4e8d-6587-4420-aa18-43282dc6e1ea">
-      [data-sub-layout="635d4e8d-6587-4420-aa18-43282dc6e1ea"] {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        flex-basis: 100%;
-        max-width: 100%;
-        z-index: 0;
-        justify-content: center;
-        position: relative;
-      }
-      [data-sub-layout="635d4e8d-6587-4420-aa18-43282dc6e1ea"]:after {
-        background-position: center center;
-        background-size: cover;
-        z-index: auto content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      @media only screen and (max-width: 700px) {
-        [data-sub-layout="635d4e8d-6587-4420-aa18-43282dc6e1ea"] {
-          flex-basis: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-    <div data-widget-id="1f8a3266-096a-4dc8-b711-9d79757893e7" data-placement-id="d1143d57-29c7-4cac-8340-b8880c21b729" data-placement-status="ACTIVE"><div class="halo-block halo-home-section" id="homePromotion">
-    <div class="homePromotion__container">
-        <div class="homePromotion__item">
-            <a href="https://beautica-light.mybigcommerce.com/trend-now/" title="SALE UP TO 70% OFF ON SELECTED ITEMS*" aria-label="SALE UP TO 70% OFF ON SELECTED ITEMS*">
-                <span class="homePromotion__text">
-                    Limited-Time Offers: Mid-Season Sale Up to 70% OFF On Selected Items. Shop Now
-                </span>
-            </a>
-        </div>
-    </div>
-</div>
-
-</div>
-  </div>
-</div></div></div>
-
-        <div class="container heroCarousel-wrapper">
-    <div class="heroCarousel"
-        data-slick='{
-        "fade": true,
-        "dots": true,
-        "arrows": true,
-        "mobileFirst": true,
-        "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "autoplay": false,
-        "autoplaySpeed": 5000,
-        "slide": "[data-hero-slide]"
-    }'>
-            <div class="heroCarousel-slide  heroCarousel-slide--first" data-hero-slide="0">
-
-
-
-
-
-                <div class="heroCarousel-image-wrapper">
-                    <a class="heroCarousel-image" href="https://beautica-light.mybigcommerce.com/trend-now/" aria-label="common.carousel_slide_number">
-                            <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/12/home-slider-1-new.jpg?c=1" alt="" title="" data-sizes="auto"
-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/carousel/12/home-slider-1-new.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/carousel/12/home-slider-1-new.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/carousel/12/home-slider-1-new.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/carousel/12/home-slider-1-new.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/carousel/12/home-slider-1-new.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/12/home-slider-1-new.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1440w/carousel/12/home-slider-1-new.jpg?c=1 1440w"
-
-class=" heroCarousel-image" width="1440" height="558"
-
- />
-                            <img class="lazyload image-mobile" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/slider-01-mb-cb.jpg" alt="" title="" width="590" height="770">
-                    </a>
-                </div>
-                <div class="heroCarousel-content-wrapper center">
-                        <div class="heroCarousel-content  heroCarousel-content--center">
-        <h2 class="heroCarousel-title animated">Beautifully Bare Collection</h2>
-        <p class="heroCarousel-description animated">It&rsquo;s the Lightweight, Natural-Looking Collection You Love</p>
-        <div class="heroCarousel-action animated">
-                <a href="https://beautica-light.mybigcommerce.com/trend-now/" aria-label="Slide number 1, Shop Now" class="button button--primary">Shop Now</a>
-        </div>
-</div>
-
-                </div>
-            </div>
-            <div class="heroCarousel-slide  " data-hero-slide="1">
-
-
-
-
-
-                <div class="heroCarousel-image-wrapper">
-                    <a class="heroCarousel-image" href="" aria-label="common.carousel_slide_number">
-                            <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/13/home-slider-2-new.jpg?c=1" alt="" title="" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/carousel/13/home-slider-2-new.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/carousel/13/home-slider-2-new.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/carousel/13/home-slider-2-new.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/carousel/13/home-slider-2-new.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/carousel/13/home-slider-2-new.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/13/home-slider-2-new.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1440w/carousel/13/home-slider-2-new.jpg?c=1 1440w"
-
-class="lazyload heroCarousel-image" width="1440" height="558"
-loading="lazy"
- />
-                            <img class="lazyload image-mobile" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/slider-02-mb-cb.jpg" alt="" title="" width="590" height="770">
-                    </a>
-                </div>
-                <div class="heroCarousel-content-wrapper center">
-                </div>
-            </div>
-            <div class="heroCarousel-slide  " data-hero-slide="2">
-
-
-
-
-
-                <div class="heroCarousel-image-wrapper">
-                    <a class="heroCarousel-image" href="https://beautica-light.mybigcommerce.com/makeup/" aria-label="common.carousel_slide_number">
-                            <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/14/home-slider-3-new.jpg?c=1" alt="" title="" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/carousel/14/home-slider-3-new.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/carousel/14/home-slider-3-new.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/carousel/14/home-slider-3-new.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/carousel/14/home-slider-3-new.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/carousel/14/home-slider-3-new.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/carousel/14/home-slider-3-new.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1440w/carousel/14/home-slider-3-new.jpg?c=1 1440w"
-
-class="lazyload heroCarousel-image" width="1440" height="558"
-loading="lazy"
- />
-                            <img class="lazyload image-mobile" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/slider-03-mb-cb.jpg" alt="" title="" width="590" height="770">
-                    </a>
-                </div>
-                <div class="heroCarousel-content-wrapper right">
-                        <div class="heroCarousel-content  heroCarousel-content--right">
-        <h2 class="heroCarousel-title animated">Le Fragrances</h2>
-        <p class="heroCarousel-description animated">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia andos tincidunt risus delous an consequat lorem quisquemos sodales.</p>
-        <div class="heroCarousel-action animated">
-                <a href="https://beautica-light.mybigcommerce.com/makeup/" aria-label="Slide number 3, Shop Now" class="button button--primary">Shop Now</a>
-        </div>
-</div>
-
-                </div>
-            </div>
-    </div>
-</div>
-
-    <div data-content-region="home_below_carousel"></div>
-
-
-        <div class="main full">
-            <div data-content-region="home_banner_1"><div data-layout-id="f0925832-7d93-409d-9f56-80028aee9c2e"><div data-sub-layout-container="edf3df7b-57d7-4003-841a-9a045e3d82e0" data-layout-name="Layout">
-  <style data-container-styling="edf3df7b-57d7-4003-841a-9a045e3d82e0">
-    [data-sub-layout-container="edf3df7b-57d7-4003-841a-9a045e3d82e0"] {
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 0;
-      position: relative;
-    }
-    [data-sub-layout-container="edf3df7b-57d7-4003-841a-9a045e3d82e0"]:after {
-      background-position: center center;
-      background-size: cover;
-      z-index: auto content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <div data-sub-layout="3c236e99-f2ca-4633-a98e-039d508c6ef4">
-    <style data-column-styling="3c236e99-f2ca-4633-a98e-039d508c6ef4">
-      [data-sub-layout="3c236e99-f2ca-4633-a98e-039d508c6ef4"] {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        flex-basis: 100%;
-        max-width: 100%;
-        z-index: 0;
-        justify-content: center;
-        position: relative;
-      }
-      [data-sub-layout="3c236e99-f2ca-4633-a98e-039d508c6ef4"]:after {
-        background-position: center center;
-        background-size: cover;
-        z-index: auto content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      @media only screen and (max-width: 700px) {
-        [data-sub-layout="3c236e99-f2ca-4633-a98e-039d508c6ef4"] {
-          flex-basis: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-    <div data-widget-id="5c233b46-53c1-44ae-ab03-af3ec6fa1466" data-placement-id="bfcc65ba-2712-40e4-8fb2-77b5449e218c" data-placement-status="ACTIVE"><div class="halo-block halo-home-section" id="homeBanner1">
-    <div class="container">
-        <div class="homeBanner1__block">
-            <div class="homeBanner1__slider disable-srollbar">
-                <div class="homeBanner1__item home-banner-image">
-                    <a href="#" class="homeBanner1__img image-with-overlay" title="Lips" aria-label="Lips">
-                        <img class="ls-is-cached lazyloaded" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-1-cp.jpg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-1-cp.jpg" title="Lips" alt="Lips" width="380" height="225">
-                    </a>
-                    <span class="text">Lips</span>
-                </div>
-                <div class="homeBanner1__item home-banner-image">
-                    <a href="#" class="homeBanner1__img image-with-overlay" title="Tools" aria-label="Tools">
-                        <img class="ls-is-cached lazyloaded" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-2-cp.jpg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-2-cp.jpg" title="Tools" alt="Tools" width="380" height="225">
-                    </a>
-                    <span class="text">Tools</span>
-                </div>
-                <div class="homeBanner1__item home-banner-image">
-                    <a href="#" class="homeBanner1__img image-with-overlay" title="Face" aria-label="Face">
-                        <img class="ls-is-cached lazyloaded" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-3-cp.jpg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-top-banner-3-cp.jpg" title="Face" alt="Face" width="380" height="225">
-                    </a>
-                    <span class="text">Face</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-</div>
-  </div>
-</div></div></div>
-
-                <div class="halo-block halo-block-product halo-product-block-1">
-    <div class="container">
-            <div class="halo-block-header">
-                <h3 class="title">Just Arrived</h3>
-                <p class="description">Magnis de darturien eros laciniados de cosmopolis dinterdum</p>
-            </div>
-                <section class="productCarousel"
-    id="halo-product-block-1"
-    data-dots-bar=""
-    data-list-name="New Products"
-    data-slick='{
-        "dots": false,
-        "arrows": true,
-        "infinite": false,
-        "mobileFirst": true,
-        "adaptiveHeight": true,
-        "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "slide": ".js-product-slide",
-        "responsive": [
-            {
-                "breakpoint": 1399,
-                "settings": {
-                    "slidesToShow": 5,
-                    "slidesToScroll": 5
-                }
-            },
-            {
-                "breakpoint": 1024,
-                "settings": {
-                    "slidesToShow": 4,
-                    "slidesToScroll": 4
-                }
-            },
-            {
-                "breakpoint": 767,
-                "settings": {
-                    "slidesToShow": 3,
-                    "slidesToScroll": 3
-                }
-            },
-            {
-                "breakpoint": 320,
-                "settings": {
-                    "slidesToShow": 2,
-                    "slidesToScroll": 2
-                }
-            }
-        ]
-    }'>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-131"
-    data-product-id="131"
-    data-event-type="list"
-    data-entity-id="131"
-    data-position="1"
-    data-name="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        96
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale,$96.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1" alt="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/477/url-4__56577.1685672335.jpg?c=1" alt="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/477/url-4__56577.1685672335.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/477/url-4__56577.1685672335.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/131/477/url-4__56577.1685672335.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/131/477/url-4__56577.1685672335.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/131/477/url-4__56577.1685672335.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/131/477/url-4__56577.1685672335.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/131/477/url-4__56577.1685672335.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/131/477/url-4__56577.1685672335.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=131" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="131" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale,$96.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 20) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$96.00">$96.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$96.00">$96.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="131">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=131" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-130"
-    data-product-id="130"
-    data-event-type="list"
-    data-entity-id="130"
-    data-position="2"
-    data-name="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        76
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-19-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale,$76.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1" alt="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/130/471/HSC-LO2__70131.1675916057.1280.1280__95625.1675916127.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1" alt="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/130/469/hd-primer_P00004__33120.1675916057.1280.1280__52650.1675916127.png?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=130" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="130" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 19) Sample - Makeup, Skincare And Perfumes For Sale,$76.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-19-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 19) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$76.00">$76.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$76.00">$76.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;130" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="130" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=130" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-129"
-    data-product-id="129"
-    data-event-type="list"
-    data-entity-id="129"
-    data-position="3"
-    data-name="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        66
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-18-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale,$66.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1" alt="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1" alt="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=129" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="129" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale,$66.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-18-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 18) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$66.00">$66.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$66.00">$66.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;129" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="129" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=129" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-128"
-    data-product-id="128"
-    data-event-type="list"
-    data-entity-id="128"
-    data-position="4"
-    data-name="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        46
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-17-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale,$46.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1" alt="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/128/457/1675915907.1280.1280__75174.1675916000.png?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1" alt="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/128/460/1675915907.1280.1280__77873.1675916000.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=128" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="128" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 17) Sample - Makeup, Skincare And Perfumes For Sale,$46.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-17-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 17) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$46.00">$46.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$46.00">$46.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;128" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="128" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=128" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-127"
-    data-product-id="127"
-    data-event-type="list"
-    data-entity-id="127"
-    data-position="5"
-    data-name="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        76
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-16-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale,$76.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1" alt="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/127/452/f64112ec47a53b69_Maybelline-Eye-Studio-Gel-Eyeliner__75282.1675915729.1280.1280__81877.1675915806.1280.1280__32551.1675915907.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1" alt="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/127/453/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.1280.1280__97279.1675915907.png?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=127" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="127" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 16) Sample - Makeup, Skincare And Perfumes For Sale,$76.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-16-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 16) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$76.00">$76.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$76.00">$76.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;127" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="127" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=127" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-126"
-    data-product-id="126"
-    data-event-type="list"
-    data-entity-id="126"
-    data-position="6"
-    data-name="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        98
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-15-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale,$98.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1" alt="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/126/451/eye-prime_p00168__15030.1675915728.1280.1280__73859.1675915807.png?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1" alt="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/126/447/Dior-Lipsticks__03432.1675915728.1280.1280__14619.1675915806.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=126" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="126" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 15) Sample - Makeup, Skincare And Perfumes For Sale,$98.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-15-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 15) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$98.00">$98.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$98.00">$98.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;126" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="126" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=126" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-</section>
-
-    </div>
-</div>
-    <div data-content-region="home_below_new_products"></div>
-
-            <div data-content-region="home_banner_2"><div data-layout-id="068337b3-d391-4f5e-a74e-733041c05eaf"><div data-sub-layout-container="8bc0084c-7be9-4e27-a405-afa70a6c14c8" data-layout-name="Layout">
-  <style data-container-styling="8bc0084c-7be9-4e27-a405-afa70a6c14c8">
-    [data-sub-layout-container="8bc0084c-7be9-4e27-a405-afa70a6c14c8"] {
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 0;
-      position: relative;
-    }
-    [data-sub-layout-container="8bc0084c-7be9-4e27-a405-afa70a6c14c8"]:after {
-      background-position: center center;
-      background-size: cover;
-      z-index: auto content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <div data-sub-layout="3b74cda5-516a-4161-80ec-ac20b82a681f">
-    <style data-column-styling="3b74cda5-516a-4161-80ec-ac20b82a681f">
-      [data-sub-layout="3b74cda5-516a-4161-80ec-ac20b82a681f"] {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        flex-basis: 100%;
-        max-width: 100%;
-        z-index: 0;
-        justify-content: center;
-        position: relative;
-      }
-      [data-sub-layout="3b74cda5-516a-4161-80ec-ac20b82a681f"]:after {
-        background-position: center center;
-        background-size: cover;
-        z-index: auto content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      @media only screen and (max-width: 700px) {
-        [data-sub-layout="3b74cda5-516a-4161-80ec-ac20b82a681f"] {
-          flex-basis: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-    <div data-widget-id="e67e6fde-825a-4a00-bb22-442438a37f0f" data-placement-id="2e6da42b-2dde-4dcc-9ada-fb48cfc8d171" data-placement-status="ACTIVE"><div class="halo-block halo-home-section" id="homeBanner2">
-    <div class="container">
-        <div class="homeBanner2__block">
-            <div class="homeBanner2__slider disable-srollbar">
-                <div class="homeBanner2__item home-banner-image">
-                    <a href="#" class="homeBanner1__img image-with-overlay" title="Milancelos" aria-label="Milancelos">
-                        <img class=" ls-is-cached lazyloaded" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-bottom-banner-1-cp.jpg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-bottom-banner-1-cp.jpg" width="585" height="240" title="Milancelos" alt="Milancelos">
-                    </a>
-                    <div class="content">
-                        <h3><span>#Trend:</span> Milancelos</h3>
-                        <p class="text">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia andos tincidunt risus de consequat velit. Quisquemos sodales suscipit tortors...</p>
-                        <a class="button button--primary" href="#">Shop Now</a>
-                    </div>
-                </div>
-                <div class="homeBanner2__item home-banner-image">
-                    <a href="#" class="homeBanner2__img image-with-overlay" title="Cosmopolis" aria-label="Cosmopolis">
-                        <img class=" ls-is-cached lazyloaded" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-bottom-banner-2-cp.jpg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/home-bottom-banner-2-cp.jpg" width="585" height="240" title="Cosmopolis" alt="Cosmopolis">
-                    </a>
-                    <div class="content">
-                        <h3>#Cosmopolis</h3>
-                        <p class="text">Pellentesque posuere orci lobortis scelerisque blandit. Donec id tellus lacinia andos tincidunt risus de consequat velit. Quisquemos sodales suscipit tortors...</p>
-                        <a class="button button--primary" href="#">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-  </div>
-</div></div></div>
-
-                <div class="halo-block halo-block-product halo-product-block-2">
-    <div class="container">
-            <div class="halo-block-header halo-header-border">
-                <h3 class="title">Featured Products</h3>
-                <p class="description">Magnis de darturien eros laciniados de cosmopolis dinterdum</p>
-            </div>
-                <section class="productCarousel"
-    id="halo-product-block-2"
-    data-dots-bar=""
-    data-list-name="Featured Products"
-    data-slick='{
-        "dots": false,
-        "arrows": true,
-        "infinite": false,
-        "mobileFirst": true,
-        "adaptiveHeight": true,
-        "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "slide": ".js-product-slide",
-        "responsive": [
-            {
-                "breakpoint": 1399,
-                "settings": {
-                    "slidesToShow": 5,
-                    "slidesToScroll": 5
-                }
-            },
-            {
-                "breakpoint": 1024,
-                "settings": {
-                    "slidesToShow": 4,
-                    "slidesToScroll": 4
-                }
-            },
-            {
-                "breakpoint": 767,
-                "settings": {
-                    "slidesToShow": 3,
-                    "slidesToScroll": 3
-                }
-            },
-            {
-                "breakpoint": 320,
-                "settings": {
-                    "slidesToShow": 2,
-                    "slidesToScroll": 2
-                }
-            }
-        ]
-    }'>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-117"
-    data-product-id="117"
-    data-event-type="list"
-    data-entity-id="117"
-    data-position="1"
-    data-name="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="French Connection"
-    data-product-price="
-        69
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-6-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale,$69.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/117/402/10__34819.1675067621.jpg?c=1" alt="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/117/402/10__34819.1675067621.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/117/402/10__34819.1675067621.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/117/402/10__34819.1675067621.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/117/402/10__34819.1675067621.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/117/402/10__34819.1675067621.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/117/402/10__34819.1675067621.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/117/402/10__34819.1675067621.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/117/402/10__34819.1675067621.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/117/402/10__34819.1675067621.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1" alt="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/117/406/7pb1k4jd0o7nb9d__20431.1675067622.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=117" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="117" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">French Connection</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 6) Sample - Makeup, Skincare And Perfumes For Sale,$69.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-6-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 6) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$69.00">$69.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$69.00">$69.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-6-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="117">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=117" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-116"
-    data-product-id="116"
-    data-event-type="list"
-    data-entity-id="116"
-    data-position="2"
-    data-name="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Coco Lee"
-    data-product-price="
-        59
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                    <div class="sale-badge halo-badge">
-                            <span class="text">sale</span>
-                    </div>
-                        <div class="custom-badge halo-badge">
-                            <span class="text">bundle</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale,$69.00,
-$59.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/116/399/07__87370.1675067428.jpg?c=1" alt="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/399/07__87370.1675067428.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/399/07__87370.1675067428.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/399/07__87370.1675067428.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/116/399/07__87370.1675067428.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/116/399/07__87370.1675067428.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/116/399/07__87370.1675067428.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/116/399/07__87370.1675067428.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/116/399/07__87370.1675067428.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/116/399/07__87370.1675067428.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/398/06__62164.1675067428.jpg?c=1" alt="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/398/06__62164.1675067428.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/398/06__62164.1675067428.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/116/398/06__62164.1675067428.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/116/398/06__62164.1675067428.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/116/398/06__62164.1675067428.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/116/398/06__62164.1675067428.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/116/398/06__62164.1675067428.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/116/398/06__62164.1675067428.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=116" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="116" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Coco Lee</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale,$69.00,
-$59.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 5) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $69.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$59.00">$59.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $69.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$59.00">$59.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 5 of 5"
->
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                        <span class="number-review">(1)</span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="116">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=116" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-115"
-    data-product-id="115"
-    data-event-type="list"
-    data-entity-id="115"
-    data-position="3"
-    data-name="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Jimmy Choo"
-    data-product-price="
-        49
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                    <div class="sale-badge halo-badge">
-                            <span class="text">sale</span>
-                    </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale,$89.00,
-$49.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/115/393/02__20762.1675154647.jpg?c=1" alt="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/393/02__20762.1675154647.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/393/02__20762.1675154647.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/393/02__20762.1675154647.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/115/393/02__20762.1675154647.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/115/393/02__20762.1675154647.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/115/393/02__20762.1675154647.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/115/393/02__20762.1675154647.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/115/393/02__20762.1675154647.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/115/393/02__20762.1675154647.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/396/03__11431.1675154647.jpg?c=1" alt="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/396/03__11431.1675154647.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/396/03__11431.1675154647.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/115/396/03__11431.1675154647.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/115/396/03__11431.1675154647.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/115/396/03__11431.1675154647.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/115/396/03__11431.1675154647.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/115/396/03__11431.1675154647.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/115/396/03__11431.1675154647.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=115" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="115" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Jimmy Choo</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale,$89.00,
-$49.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 4) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $89.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $89.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="115">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=115" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-114"
-    data-product-id="114"
-    data-event-type="list"
-    data-entity-id="114"
-    data-position="4"
-    data-name="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        99
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale,$99.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/114/390/05__08170.1675066194.jpg?c=1" alt="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/390/05__08170.1675066194.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/390/05__08170.1675066194.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/390/05__08170.1675066194.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/114/390/05__08170.1675066194.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/114/390/05__08170.1675066194.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/114/390/05__08170.1675066194.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/114/390/05__08170.1675066194.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/114/390/05__08170.1675066194.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/114/390/05__08170.1675066194.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1" alt="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=114" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="114" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale,$99.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 3) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$99.00">$99.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$99.00">$99.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="114">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=114" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-113"
-    data-product-id="113"
-    data-event-type="list"
-    data-entity-id="113"
-    data-position="5"
-    data-name="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        69
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-2-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale,$69.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/113/384/06__80686.1673855625.jpg?c=1" alt="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/113/384/06__80686.1673855625.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/113/384/06__80686.1673855625.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/113/384/06__80686.1673855625.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/113/384/06__80686.1673855625.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/113/384/06__80686.1673855625.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/113/384/06__80686.1673855625.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/113/384/06__80686.1673855625.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/113/384/06__80686.1673855625.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/113/384/06__80686.1673855625.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/113/386/03__61446.1673855625.jpg?c=1" alt="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/113/386/03__61446.1673855625.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/113/386/03__61446.1673855625.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/113/386/03__61446.1673855625.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/113/386/03__61446.1673855625.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/113/386/03__61446.1673855625.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/113/386/03__61446.1673855625.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/113/386/03__61446.1673855625.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/113/386/03__61446.1673855625.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=113" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="113" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 2) Sample - Makeup, Skincare And Perfumes For Sale,$69.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-2-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 2) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$69.00">$69.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$69.00">$69.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-2-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="113">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=113" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-112"
-    data-product-id="112"
-    data-event-type="list"
-    data-entity-id="112"
-    data-position="6"
-    data-name="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="French Connection"
-    data-product-price="
-        49
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale,$49.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/112/378/03__01593.1673854878.jpg?c=1" alt="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/378/03__01593.1673854878.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/378/03__01593.1673854878.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/378/03__01593.1673854878.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/112/378/03__01593.1673854878.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/112/378/03__01593.1673854878.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/112/378/03__01593.1673854878.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/112/378/03__01593.1673854878.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/112/378/03__01593.1673854878.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/112/378/03__01593.1673854878.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1" alt="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=112" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="112" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">French Connection</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale,$49.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 1) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="112">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=112" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-</section>
-
-    </div>
-</div>
-    <div data-content-region="home_below_featured_products"></div>
-
-                <div class="halo-block halo-block-product halo-product-block-3">
-    <div class="container">
-            <div class="halo-block-header halo-header-border">
-                <h3 class="title">Editors&#x27; Picks</h3>
-                <p class="description">Magnis de darturien eros laciniados de cosmopolis dinterdum</p>
-            </div>
-                <section class="productCarousel"
-    id="halo-product-block-3"
-    data-dots-bar=""
-    data-list-name="Most Popular Products"
-    data-slick='{
-        "dots": false,
-        "arrows": true,
-        "infinite": false,
-        "mobileFirst": true,
-        "adaptiveHeight": true,
-        "slidesToShow": 1,
-        "slidesToScroll": 1,
-        "slide": ".js-product-slide",
-        "responsive": [
-            {
-                "breakpoint": 1399,
-                "settings": {
-                    "slidesToShow": 5,
-                    "slidesToScroll": 5
-                }
-            },
-            {
-                "breakpoint": 1024,
-                "settings": {
-                    "slidesToShow": 4,
-                    "slidesToScroll": 4
-                }
-            },
-            {
-                "breakpoint": 767,
-                "settings": {
-                    "slidesToShow": 3,
-                    "slidesToScroll": 3
-                }
-            },
-            {
-                "breakpoint": 320,
-                "settings": {
-                    "slidesToShow": 2,
-                    "slidesToScroll": 2
-                }
-            }
-        ]
-    }'>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-131"
-    data-product-id="131"
-    data-event-type="list"
-    data-entity-id="131"
-    data-position="1"
-    data-name="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        96
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale,$96.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1" alt="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/131/479/loreal-youth-code-serum-intense__74760.1685672335.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/477/url-4__56577.1685672335.jpg?c=1" alt="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/131/477/url-4__56577.1685672335.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/131/477/url-4__56577.1685672335.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/131/477/url-4__56577.1685672335.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/131/477/url-4__56577.1685672335.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/131/477/url-4__56577.1685672335.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/131/477/url-4__56577.1685672335.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/131/477/url-4__56577.1685672335.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/131/477/url-4__56577.1685672335.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=131" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="131" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 20) Sample - Makeup, Skincare And Perfumes For Sale,$96.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 20) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$96.00">$96.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$96.00">$96.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/product-20-sample-makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="131">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=131" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-129"
-    data-product-id="129"
-    data-event-type="list"
-    data-entity-id="129"
-    data-position="2"
-    data-name="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now,
-                Fragrance
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        66
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                        <div class="new-badge halo-badge">
-                            <span class="text">New</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/product-18-sample-makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale,$66.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1" alt="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/129/466/hd-primer_P00004__33120.1675916057.png?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1" alt="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/129/463/kabuki-brush_41900__32730.1675916057.png?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=129" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="129" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 18) Sample - Makeup, Skincare And Perfumes For Sale,$66.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/product-18-sample-makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 18) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$66.00">$66.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$66.00">$66.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                            <a href="https://beautica-light.mybigcommerce.com/cart.php?action&#x3D;add&amp;product_id&#x3D;129" data-event-type="product-click" data-button-type="add-cart" class="button button--primary card-figcaption-button halo-add-to-cart" data-product-id="129" data-wait-message="Adding to Cart…">Add to Cart</a>
-                            <span class="product-status-message aria-description--hidden">The item has been added</span>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=129" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-112"
-    data-product-id="112"
-    data-event-type="list"
-    data-entity-id="112"
-    data-position="3"
-    data-name="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="French Connection"
-    data-product-price="
-        49
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale,$49.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/112/378/03__01593.1673854878.jpg?c=1" alt="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/378/03__01593.1673854878.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/378/03__01593.1673854878.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/378/03__01593.1673854878.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/112/378/03__01593.1673854878.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/112/378/03__01593.1673854878.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/112/378/03__01593.1673854878.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/112/378/03__01593.1673854878.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/112/378/03__01593.1673854878.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/112/378/03__01593.1673854878.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1" alt="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/112/379/01-loreal-shampoo__77534.1673854878.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=112" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="112" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">French Connection</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 1) Sample - Makeup, Skincare And Perfumes For Sale,$49.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 1) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-1-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="112">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=112" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-115"
-    data-product-id="115"
-    data-event-type="list"
-    data-entity-id="115"
-    data-position="4"
-    data-name="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Jimmy Choo"
-    data-product-price="
-        49
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                    <div class="sale-badge halo-badge">
-                            <span class="text">sale</span>
-                    </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale,$89.00,
-$49.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/115/393/02__20762.1675154647.jpg?c=1" alt="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/393/02__20762.1675154647.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/393/02__20762.1675154647.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/393/02__20762.1675154647.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/115/393/02__20762.1675154647.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/115/393/02__20762.1675154647.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/115/393/02__20762.1675154647.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/115/393/02__20762.1675154647.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/115/393/02__20762.1675154647.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/115/393/02__20762.1675154647.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/396/03__11431.1675154647.jpg?c=1" alt="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/115/396/03__11431.1675154647.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/115/396/03__11431.1675154647.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/115/396/03__11431.1675154647.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/115/396/03__11431.1675154647.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/115/396/03__11431.1675154647.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/115/396/03__11431.1675154647.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/115/396/03__11431.1675154647.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/115/396/03__11431.1675154647.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=115" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="115" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Jimmy Choo</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 4) Sample - Makeup, Skincare And Perfumes For Sale,$89.00,
-$49.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 4) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $89.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $89.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$49.00">$49.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-4-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="115">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=115" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-116"
-    data-product-id="116"
-    data-event-type="list"
-    data-entity-id="116"
-    data-position="5"
-    data-name="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Coco Lee"
-    data-product-price="
-        59
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-                    <div class="sale-badge halo-badge">
-                            <span class="text">sale</span>
-                    </div>
-                        <div class="custom-badge halo-badge">
-                            <span class="text">bundle</span>
-                        </div>
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale,$69.00,
-$59.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/116/399/07__87370.1675067428.jpg?c=1" alt="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/399/07__87370.1675067428.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/399/07__87370.1675067428.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/399/07__87370.1675067428.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/116/399/07__87370.1675067428.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/116/399/07__87370.1675067428.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/116/399/07__87370.1675067428.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/116/399/07__87370.1675067428.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/116/399/07__87370.1675067428.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/116/399/07__87370.1675067428.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/398/06__62164.1675067428.jpg?c=1" alt="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/116/398/06__62164.1675067428.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/116/398/06__62164.1675067428.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/116/398/06__62164.1675067428.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/116/398/06__62164.1675067428.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/116/398/06__62164.1675067428.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/116/398/06__62164.1675067428.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/116/398/06__62164.1675067428.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/116/398/06__62164.1675067428.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=116" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="116" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Coco Lee</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 5) Sample - Makeup, Skincare And Perfumes For Sale,$69.00,
-$59.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 5) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $69.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$59.00">$59.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax" >
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-                $69.00
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" style="display: none;">
-
-            </span>
-            <span class="price-now-label"
-
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$59.00">$59.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 5 of 5"
->
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingFull">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                        <span class="number-review">(1)</span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-5-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="116">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=116" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-        <div class="productCarousel-slide js-product-slide">
-
-
-<article
-    class="card
-    card-text
-     card-hover"
-    data-test="card-114"
-    data-product-id="114"
-    data-event-type="list"
-    data-entity-id="114"
-    data-position="6"
-    data-name="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale"
-    data-product-category="
-            #Trend Now
-    "
-    data-product-brand="Tomorrow"
-    data-product-price="
-        99
-    "
-    >
-    <figure class="card-figure">
-            <div class="halo-badges halo-badges-left">
-            </div>
-        <a href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/"
-           class="card-figure__link card-link"
-           aria-label="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale,$99.00
-"
-           data-event-type="product-click"
-        >
-            <div class="card-img-container">
-                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/448x448/products/114/390/05__08170.1675066194.jpg?c=1" alt="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/390/05__08170.1675066194.jpg?c=1"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/390/05__08170.1675066194.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/390/05__08170.1675066194.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/114/390/05__08170.1675066194.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/114/390/05__08170.1675066194.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/114/390/05__08170.1675066194.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/114/390/05__08170.1675066194.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/114/390/05__08170.1675066194.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/114/390/05__08170.1675066194.jpg?c=1 2560w"
-
-class="lazyload card-image" width="1440" height="558"
-
- />
-                                <span class="card-image-2">
-                                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1" alt="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" title="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale" data-sizes="auto"
-    srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/products/114/391/01-loreal-shampoo__94949.1675066194.jpg?c=1 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-                                </span>
-            </div>
-        </a>
-
-        <figcaption class="card-figcaption">
-            <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=114" class="wishlist button" aria-label="Wishlist">
-                            <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                    </button>
-            </div>
-
-            <div class="card-quickview">
-                        <button class="button quickview" data-event-type="product-click" data-product-id="114" aria-label="Quick View">
-                            <span class="text">Quick view</span>
-                        </button>
-            </div>
-
-
-        </figcaption>
-    </figure>
-    <div class="card-body">
-
-                <p class="card-text" data-test-info-type="brandName">Tomorrow</p>
-
-        <h3 class="card-title">
-                <a aria-label="(Product 3) Sample - Makeup, Skincare And Perfumes For Sale,$99.00
-"
-                    class="card-ellipsis"
-                    href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/"
-                    data-event-type="product-click"
-                    style="-webkit-box-orient: vertical;">
-                    <span>(Product 3) Sample - Makeup, Skincare And Perfumes For Sale<span class="card-name"></span></span>
-                </a>
-        </h3>
-
-        <div class="card-wrapper EnableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$99.00">$99.00</span>
-        </div>
-            </div>
-        </div>
-
-            <div class="card-desc">Nam tempus turpis at metus scelerisque placerat nulla deumantos solicitud felis. Pellentesque diam dolor, elementum etos lobortis des mollis ut risus. Sedcus faucibus an sullamcorper mattis drostique...</div>
-
-        <div class="card-wrapper DisableProductList">
-            <div class="card-price" data-test-info-type="price">
-
-        <div class="price-section price-section--withoutTax rrp-price--withoutTax" style="display: none;">
-            <span data-page-builder-key="pdp-retail-price-label" data-default-translation="MSRP:">
-                MSRP:
-            </span>
-            <span data-product-rrp-price-without-tax class="price price--rrp">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax non-sale-price--withoutTax price-none" style="display: none;">
-            <span data-page-builder-key="pdp-non-sale-price-label" data-default-translation="Was:">
-
-            </span>
-            <span data-product-non-sale-price-without-tax class="price price--non-sale">
-
-            </span>
-        </div>
-        <div class="price-section price-section--withoutTax">
-            <span class="price-label" >
-
-            </span>
-            <span class="price-now-label"
-                  style="display: none;"
-                  data-page-builder-key="pdp-sale-price-label"
-                  data-default-translation="Now:"
-            >
-
-            </span>
-            <span data-product-price-without-tax class="price price--withoutTax" data-value-price="$99.00">$99.00</span>
-        </div>
-            </div>
-        </div>
-
-                <p class="card-text card-rating" data-test-info-type="productRating">
-                    <span class="rating--small">
-                        <span role="img"
-      aria-label="Product rating is 0 of 5"
->
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-            <span class="icon icon--ratingEmpty">
-                <svg>
-                    <use xlink:href="#icon-star" />
-                </svg>
-            </span>
-</span>
-                    </span>
-                </p>
-
-
-
-        <div class="button-wrapper">
-                    <div class="card-figcaption-bottom">
-                                 <a href="https://beautica-light.mybigcommerce.com/-product-3-sample---makeup-skincare-and-perfumes-for-sale/" data-event-type="product-click" class="button button--primary card-figcaption-button" data-quickadd data-product-id="114">Quick Add</a>
-                    </div>
-                <div class="card-figcaption-top">
-                    <button href="/wishlist.php?action=add&product_id=114" class="wishlist button" aria-label="Wishlist">
-                        <span class="icon-wrapper"><svg class="icon"><use xlink:href="#icon-wishlist"/></svg></span>
-                        <span class="text-wrapper">Add to Wish list</span>
-                    </button>
-                </div>
-        </div>
-    </div>
-</article>
-        </div>
-</section>
-
-    </div>
-</div>
-    <div data-content-region="home_below_top_products"></div>
-
-            	<div class="halo-block halo-block-post home_below_recent_posts">
-		<div class="container halo-block-post-container">
-			<div class="halo-block-header">
-                <div class="content">
-                    <h3 class="title">From Our Blog</h3>
-                </div>
-            </div>
-	        <div class="halo-recent-post halo-row disable-srollbar">
-	        		<div class="halo-row-slider">
-	        			<div class="halo-row-item">
-			        		<div class="item">
-					            <div class="item-image">
-					                <a class="image-with-overlay" href="/blog/naminos-elementum-disumos-annec-congue-elito/">
-					                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/uploaded_images/blog-2-cp.jpg?t=1677036053" alt="Naminos Elementum Disumos Annec Congue Elito" title="Naminos Elementum Disumos Annec Congue Elito" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/uploaded_images/blog-2-cp.jpg?t=1677036053"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/uploaded_images/blog-2-cp.jpg?t=1677036053 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/uploaded_images/blog-2-cp.jpg?t=1677036053 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/uploaded_images/blog-2-cp.jpg?t=1677036053 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/uploaded_images/blog-2-cp.jpg?t=1677036053 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/uploaded_images/blog-2-cp.jpg?t=1677036053 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/uploaded_images/blog-2-cp.jpg?t=1677036053 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/uploaded_images/blog-2-cp.jpg?t=1677036053 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/uploaded_images/blog-2-cp.jpg?t=1677036053 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-					                </a>
-					            </div>
-						        <div class="item-content">
-						        	<p class="date">by ThemeVale on 1st Feb 2023</p>
-						            <h3 class="title">
-							                <a href="/blog/naminos-elementum-disumos-annec-congue-elito/" style="-webkit-box-orient: vertical;">Naminos Elementum Disumos Annec Congue Elito</a>
-						            </h3>
-							            <div class="summary">
-							                Nullam aliquet vestibulum augue non varius. Duis risus leo, elementum in malesuada an darius ut augue. Cras sit amet lectus et justo feugiat euismod sed n&hellip;
-							            </div>
-						            <a class="button button--primary" href="/blog/naminos-elementum-disumos-annec-congue-elito/">View Details</a>
-						        </div>
-						    </div>
 						</div>
 					</div>
-	        		<div class="halo-row-slider">
-	        			<div class="halo-row-item">
-			        		<div class="item">
-					            <div class="item-image">
-					                <a class="image-with-overlay" href="/blog/loremous-cosmopolis/">
-					                    <img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/uploaded_images/blog-1-cp.jpg?t=1677036071" alt="Loremous Cosmopolis" title="Loremous Cosmopolis" data-sizes="auto"
-    srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/uploaded_images/blog-1-cp.jpg?t=1677036071"
-data-srcset="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/80w/uploaded_images/blog-1-cp.jpg?t=1677036071 80w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/160w/uploaded_images/blog-1-cp.jpg?t=1677036071 160w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/320w/uploaded_images/blog-1-cp.jpg?t=1677036071 320w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/640w/uploaded_images/blog-1-cp.jpg?t=1677036071 640w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/960w/uploaded_images/blog-1-cp.jpg?t=1677036071 960w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1280w/uploaded_images/blog-1-cp.jpg?t=1677036071 1280w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/1920w/uploaded_images/blog-1-cp.jpg?t=1677036071 1920w, https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/2560w/uploaded_images/blog-1-cp.jpg?t=1677036071 2560w"
-
-class="lazyload" width="1440" height="558"
-
- />
-					                </a>
-					            </div>
-						        <div class="item-content">
-						        	<p class="date">by ThemeVale on 15th Feb 2014</p>
-						            <h3 class="title">
-							                <a href="/blog/loremous-cosmopolis/" style="-webkit-box-orient: vertical;">Loremous Cosmopolis</a>
-						            </h3>
-							            <div class="summary">
-							                Nullam aliquet vestibulum augue non varius. Cras nec congue elitos. Duis tristique del ante nec aliquam. Praesent urna tellus laoreet an t&hellip;
-							            </div>
-						            <a class="button button--primary" href="/blog/loremous-cosmopolis/">View Details</a>
-						        </div>
-						    </div>
-						</div>
-					</div>
-	        </div>
-
+					<div class="header-bottom-right"><a href="tel:Need help : 1800 375 9788">
+							<div class="text-icon" style="color:#000000">
+								Need help : 1800 375 9788
+							</div>
+						</a></div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div data-content-region="home_below_recent_posts"></div>
-
-            <div data-content-region="home_brands"><div data-layout-id="6139c4f0-20a4-4898-b96d-144a49e87ccb"><div data-sub-layout-container="77496319-dd33-4dfb-9ba2-e14cac9dc274" data-layout-name="Layout">
-  <style data-container-styling="77496319-dd33-4dfb-9ba2-e14cac9dc274">
-    [data-sub-layout-container="77496319-dd33-4dfb-9ba2-e14cac9dc274"] {
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 0;
-      position: relative;
-    }
-    [data-sub-layout-container="77496319-dd33-4dfb-9ba2-e14cac9dc274"]:after {
-      background-position: center center;
-      background-size: cover;
-      z-index: auto content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <div data-sub-layout="749b3368-f22a-493c-b891-ecc6a45f0368">
-    <style data-column-styling="749b3368-f22a-493c-b891-ecc6a45f0368">
-      [data-sub-layout="749b3368-f22a-493c-b891-ecc6a45f0368"] {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        flex-basis: 100%;
-        max-width: 100%;
-        z-index: 0;
-        justify-content: center;
-        position: relative;
-      }
-      [data-sub-layout="749b3368-f22a-493c-b891-ecc6a45f0368"]:after {
-        background-position: center center;
-        background-size: cover;
-        z-index: auto content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      @media only screen and (max-width: 700px) {
-        [data-sub-layout="749b3368-f22a-493c-b891-ecc6a45f0368"] {
-          flex-basis: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-    <div data-widget-id="907b967a-d143-4492-80fd-1d3178bff2f3" data-placement-id="1211c94a-abf7-4a70-bfde-d37d4519ab57" data-placement-status="ACTIVE"><div class="halo-block halo-home-section halo-dots" id="popularBrands">
-                <div class="container popularBrands__container">
-                    <div class="halo-block-header">
-                        <div class="content">
-                            <h3 class="title">Shop Our Top Brands</h3>
-                        </div>
-                    </div>
-                    <div class="popularBrands__wrapper">
-                        <div class="popularBrands__carousel">
-                            <div class="popularBrands__item home-banner-image">
-                                <div class="popularBrands__img">
-                                    <a href="#" aria-label="Loremous">
-                                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-wo0bjzph9t/content/loading/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/brand-logo-1.png" alt="Loremous">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="popularBrands__item home-banner-image">
-                                <div class="popularBrands__img">
-                                    <a href="#" aria-label="Isabella">
-                                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-wo0bjzph9t/content/loading/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/brand-logo-2.png" alt="Isabella">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="popularBrands__item home-banner-image">
-                                <div class="popularBrands__img">
-                                    <a href="#" aria-label="magcor">
-                                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-wo0bjzph9t/content/loading/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/brand-logo-3.png" alt="magcor">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="popularBrands__item home-banner-image">
-                                <div class="popularBrands__img">
-                                    <a href="#" aria-label="Fermends">
-                                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-wo0bjzph9t/content/loading/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/brand-logo-4.png" alt="Fermends">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="popularBrands__item home-banner-image">
-                                <div class="popularBrands__img">
-                                    <a href="#" aria-label="Conseqaur">
-                                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-wo0bjzph9t/content/loading/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/brand-logo-5.png" alt="Conseqaur">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-</div>
-  </div>
-</div></div></div>
-            <div data-content-region="home_instagram"><div data-layout-id="f7c09769-591f-4753-9fbd-5d1b9406fd29"><div data-sub-layout-container="80e46e54-b201-4a46-accb-c6b162b225c1" data-layout-name="Layout">
-  <style data-container-styling="80e46e54-b201-4a46-accb-c6b162b225c1">
-    [data-sub-layout-container="80e46e54-b201-4a46-accb-c6b162b225c1"] {
-      box-sizing: border-box;
-      display: flex;
-      flex-wrap: wrap;
-      z-index: 0;
-      position: relative;
-    }
-    [data-sub-layout-container="80e46e54-b201-4a46-accb-c6b162b225c1"]:after {
-      background-position: center center;
-      background-size: cover;
-      z-index: auto content: "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-    }
-  </style>
-  <div data-sub-layout="0b441029-cfe4-4150-b516-366bc6e589e8">
-    <style data-column-styling="0b441029-cfe4-4150-b516-366bc6e589e8">
-      [data-sub-layout="0b441029-cfe4-4150-b516-366bc6e589e8"] {
-        display: flex;
-        flex-direction: column;
-        box-sizing: border-box;
-        flex-basis: 100%;
-        max-width: 100%;
-        z-index: 0;
-        justify-content: center;
-        position: relative;
-      }
-      [data-sub-layout="0b441029-cfe4-4150-b516-366bc6e589e8"]:after {
-        background-position: center center;
-        background-size: cover;
-        z-index: auto content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-      }
-      @media only screen and (max-width: 700px) {
-        [data-sub-layout="0b441029-cfe4-4150-b516-366bc6e589e8"] {
-          flex-basis: 100%;
-          max-width: 100%;
-        }
-      }
-    </style>
-    <div data-widget-id="5a6fdc77-036b-4922-8740-b82e2729d8b4" data-placement-id="61ecbdd7-ed5b-41a6-8dbf-6c6387cc4a1f" data-placement-status="ACTIVE"><div id="halo_instagram" class="halo-marketing-banners">
-    <div class="halo-block halo-banners halo-instagram-gallery">
-        <div class="container">
-            <div class="halo-block-header">
-                <h3 class="title">Follow Us On Instagram</h3>
-                <p class="description">#BeauticaCosmetics</p>
-            </div>
-            <div class="halo-image-instagram disable-srollbar">
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-1-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 1" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 1" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-1-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-2-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 2" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 2" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-2-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-4-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 4" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 4" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-4-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-5-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 5" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 5" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-5-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-6-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 6" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 6" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-6-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-7-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 7" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 7" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-7-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-8-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 8" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 8" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-8-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-6-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 6" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 6" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-6-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-7-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 7" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 7" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-7-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-8-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 8" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 8" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-8-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="image-collection">
-                        <a class="image-wrapper image-with-overlay" href="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-5-cp.jpg" data-fancybox="instagram_image">
-                            <img class="lazyload" title="Image Instagram 5" src="https://cdn11.bigcommerce.com/s-q8olo630qr/content/loading/loading.svg" alt="Image Instagram 5" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/images/stencil/original/image-manager/instagram-5-cp.jpg">
-                            <span class="icon_plus">icon</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	<div class="header-mobile">
+	<div class="header-top-mobile">
+		<div class="container">
+			<div class="header-center__inner">
+				<div class="button-menu">
+					<button class="js-menu-mobile btn menu-mobile__btn" type="button">
+						<i class="feather-menu"></i>
+					</button>
+					<div class="search-mobile"><div class="search-toggle"><i class="icon-search"></i></div></div>
+				</div>
+				<div class="header-logo" itemscope itemtype="http://schema.org/Organization"><a href="/" itemprop="url" class="header-logo__link">
+							<img class="header-logo__img"
+								src="//mafoil-organic.myshopify.com/cdn/shop/files/logo.png?crop=center&height=84&v=1680592450&width=223"
+								srcset="//mafoil-organic.myshopify.com/cdn/shop/files/logo.png?crop=center&height=84&v=1680592450&width=223"
+								alt="Mafoil - Multipurpose Shopify Theme OS 2.0"
+								width="223" height="84"
+								itemprop="logo">
+						</a></div>
+				<div class="header-right"><div class="wishlist-mobile">
+						<a href="/pages/wishlist" title="wishlist" data-count-wishlist><i class="icon-heart"><span class="count"></span></i></a>
+					</div><div class="header-cart">
+	<a class="js-header-cart header-cart__link" href="/cart">
+		<i class="icon-cart"></i>
+		<span class="header-cart__span d-none">Cart</span>
+		<span class="header-cart__count" data-cart-count>1</span>
+		<span class="header-cart__span d-none">item</span>
+		<span class="header-cart__span d-none" data-cart-cost>$19.00</span>
+	</a></div>
 
 </div>
-  </div>
-</div></div></div>
-    </div>
-
-
-    <div id="modal" class="modal" data-reveal data-prevent-quick-search-close>
-    <button class="modal-close"
-        type="button"
-        title="Close"
-
->
-    <span class="aria-description--hidden">Close</span>
-    <span aria-hidden="true">&#215;</span>
-</button>
-    <div class="modal-content"></div>
-    <div class="loadingOverlay"></div>
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom-fixed">
+		<div class="home-mobile">
+			<a href="\" title="home"><i class="feather-home"></i><span>Home</span></a>
+		</div>
+		<div class="shop-mobile">
+			<a href="/collections/all" title="shop"><i class="feather-grid"></i><span>Shop</span></a>
+		</div><div class="search-mobile">
+			<div class="search-toggle"><i class="feather-search"></i><span>Search</span></div>
+				<div class="content-search-toggle">
+	<div class="close-search-toggle" data-close-search-toggle></div>
+	<div class="contents-search">
+		<div class="contents-search-top">
+			<div class="close-search" data-close-search-toggle></div>
+			<details-modal class="header__search">
+				<div class="search-modal">
+					<div class="search-modal__content" tabindex="-1">
+						<predictive-search class="search-modals__form">
+							<form action="/search" method="get" role="search" class="search search-modal__form">
+								<div class="content-input">
+									<div class="field">
+										<input type="hidden" name="type" value="product" />
+										<input type="hidden" name="options[prefix]" value="last" />
+										<input class="search__input field__input" name="q" value="" placeholder="Search..." aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" autocapitalize="off" spellcheck="false">
+									</div>
+								</div>
+								<div class="predictive-search-content" style="display:none">
+									<div class="predictive-search-content-product" tabindex="-1" data-predictive-search>
+										<div class="predictive-search__loading-state"></div>
+									</div><div class="predictive-search-content-blog" tabindex="-1" data-predictive-search-article>
+											<div class="predictive-search__loading-state"></div>
+										</div></div>
+								<span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
+							</form>
+						</predictive-search>
+					</div>
+				</div>
+			</details-modal>
+		</div>
+	</div>
 </div>
-    <div id="alert-modal" class="modal modal--alert modal--small" data-reveal data-prevent-quick-search-close>
-    <div class="swal2-icon swal2-error swal2-icon-show"><span class="swal2-x-mark"><span class="swal2-x-mark-line-left"></span><span class="swal2-x-mark-line-right"></span></span></div>
 
-    <div class="modal-content"></div>
+		</div><div class="account-mobile">
+			<a href="/account/login" title="my account"><i class="feather-user"></i><span>Account</span></a>
+		</div><div class="wishlist-mobile">
+			<a href="/pages/wishlist" title="wishlist" data-count-wishlist><i class="feather-heart"><span class="count"></span></i><span>Wishlist</span></a>
+		</div></div>
+	<div class="menu-mobile">
+	<div class="menu-mobile__overlay"></div>
+	<div class="menu-mobile__inner">
+		<button class="js-menu-mobile btn menu-mobile__btn" type="button"><span></span></button>
+		<div class="menu-mobile__nav"><div class="menu-mobile__nav-item">
+						<div class="mm-nav__wrapper">
+							<a href="/" title="Home">Home</a>
+							<button class="js-mm-nav-item mm-nav__btn" type="button"><i class="feather-chevron-right"></i></button>
+						</div>
+						<div class="mm-nav__links">
+							<div class="mm-nav__links-header">
+								<a class="js-mm-nav-item mm-nav__prev" href="javascript:void(0)">
+									<i class="feather-chevron-left"></i>
+									<span>Home</span>
+								</a>
 
-    <div class="button-container"><button type="button" class="confirm button" data-reveal-close>OK</button></div>
+							</div>
+							<div class="mm-nav__links-wrapper">	<div class="megamenu-products"><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Fashion v1 <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143708684594">Fashion v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143793586482">Fashion v3</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143914565938">Fashion v4</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144043671858">Fashion v5</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144159605042">Fashion v6</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144218718514">Fashion v7</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Fashion v8</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412508466">Fashion v9</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144588964146">Fashion v10</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144724394290">Fashion v11</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144778494258">Fashion v12</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145416356162">Furniture v1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145411866946">Furniture v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145485070658">Furniture v3 <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145585340738">Furniture v4</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145657758018">Furniture v5</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145742889282">Furniture v6</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=145871176002">Furniture v7</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-furnitures.myshopify.com//?preview_theme_id=146054086978">Furniture v8</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-jewelry.myshopify.com//?preview_theme_id=146045468956">Jewelry v1 <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-jewelry.myshopify.com//?preview_theme_id=146284249372">Jewelry v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-jewelry.myshopify.com//?preview_theme_id=146473517340">Jewelry v3</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fastfood.myshopify.com//?preview_theme_id=147614826795">Fast Food v1</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fastfood.myshopify.com//?preview_theme_id=147849478443">Fast Food v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-organic.myshopify.com//?preview_theme_id=146933186845">Organic v1 <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-organic.myshopify.com//?preview_theme_id=147219841309">Organic v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-pet.myshopify.com//?preview_theme_id=147450200356">Pet v1 <span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-pet.myshopify.com//?preview_theme_id=147736461604">Pet v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-sport.myshopify.com/?preview_theme_id=148224213313">Sport v1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-sport.myshopify.com/?preview_theme_id=148855947585">Sport v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-vape.myshopify.com/?preview_theme_id=149265449277">Vape</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-electronic.myshopify.com//?preview_theme_id=150088614199">Electronic v1 <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-electronic.myshopify.com//?preview_theme_id=149947810103">Electronic v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-wine.myshopify.com/?preview_theme_id=149595128127">Wine</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-cosmetics.myshopify.com//?preview_theme_id=149851996456">Cosmetics v1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-cosmetics.myshopify.com//?preview_theme_id=150039658792">Cosmetics v2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-autoparts.myshopify.com/?preview_theme_id=149892497729">Auto Parts <span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-baby.myshopify.com//?preview_theme_id=150317957408">Baby</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-plants.myshopify.com/?preview_theme_id=150126559554">Plants</a>
+								</li>
+
+						</ul></div>
 </div>
-</main>
+						</div>
+					</div><div class="menu-mobile__nav-item">
+						<div class="mm-nav__wrapper">
+							<a href="/collections/all" title="Shop">Shop</a>
+							<button class="js-mm-nav-item mm-nav__btn" type="button"><i class="feather-chevron-right"></i></button>
+						</div>
+						<div class="mm-nav__links">
+							<div class="mm-nav__links-header">
+								<a class="js-mm-nav-item mm-nav__prev" href="javascript:void(0)">
+									<i class="feather-chevron-left"></i>
+									<span>Shop</span>
+								</a>
 
-<div data-content-region="home_policy_block--global"></div>
-<div data-content-region="home_policy_block"></div>
+							</div>
+							<div class="mm-nav__links-wrapper">	<div class="megamenu-banner">
+						<a href=""><img class="lazyload  img-fluid fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?v=1681208142 329w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?v=1681208142 329w"
+	data-sizes="auto"
+	width="329"
+	height="384"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/4_a829d26d-7cc6-4af3-bd02-8de84d2a6782.jpg?crop=center&height=384&v=1681208142&width=329"  width="329" height="384" /></noscript>
+</a>
+						<div class="content"><a class="button" href="">New arrivals</a></div></div>
+	<div class="megamenu-banner">
+						<a href=""><img class="lazyload  img-fluid fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?v=1681208142 329w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8_180x.jpg?v=1681208142 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?v=1681208142 329w"
+	data-sizes="auto"
+	width="329"
+	height="384"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/5_539d754a-520f-48be-988e-78df17f0f4e8.jpg?crop=center&height=384&v=1681208142&width=329"  width="329" height="384" /></noscript>
+</a>
+						<div class="content"><a class="button" href="">Best Sellers</a></div></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Layout</span></div><ul class="menu-list">
 
-<footer class="footer" role="contentinfo">
-    <div class="container">
-        <section class="footer-info">
-                <article class="footer-info-col footer-info-col--small" data-section-type="footer-categories">
-                    <h3 class="footer-info-heading footer-info-heading--toggle">Shop</h3>
-                    <ul class="footer-info-list">
-                            <li>
-                                <a href="https://beautica-light.mybigcommerce.com/trend-now/"><span>#Trend Now</span></a>
-                            </li>
-                            <li>
-                                <a href="https://beautica-light.mybigcommerce.com/fragrance/"><span>Fragrance</span></a>
-                            </li>
-                            <li>
-                                <a href="https://beautica-light.mybigcommerce.com/makeup/"><span>Makeup</span></a>
-                            </li>
-                            <li>
-                                <a href="https://beautica-light.mybigcommerce.com/nail/"><span>Nail</span></a>
-                            </li>
-                            <li>
-                                <a href="https://beautica-light.mybigcommerce.com/beauty-accessories/"><span>Beauty Accessories</span></a>
-                            </li>
-                    </ul>
-                </article>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Standard</a>
+								</li>
 
-                <article class="footer-info-col footer-info-col--small" data-section-type="footer-webPages">
-                    <h3 class="footer-info-heading footer-info-heading--toggle">Infomation</h3>
-                    <ul class="footer-info-list">
-                            <li><a href="#"><span>About Us</span></a></li>
-                            <li><a href="#"><span>Theme FAQs</span></a></li>
-                            <li><a href="#"><span>New Collections</span></a></li>
-                            <li><a href="#"><span>Best Sellers</span></a></li>
-                            <li><a href="#"><span>Manufacturers</span></a></li>
-                            <li><a href="#"><span>Privacy Policy</span></a></li>
-                            <li><a href="#"><span>Terms &amp; Conditions</span></a></li>
-                            <li><a href="/blog/"><span>Blog</span></a></li>
-                            <li>
-                                <a href="/giftcertificates.php"
-                                   aria-label="Gift Certificates"
-                                >
-                                    Gift Certificates
-                                </a>
-                            </li>
-                    </ul>
-                </article>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Standard With Banner</a>
+								</li>
 
-                <article class="footer-info-col footer-info-col--small" data-section-type="footer-webPages">
-                    <h3 class="footer-info-heading footer-info-heading--toggle">Customer Service</h3>
-                    <ul class="footer-info-list">
-                            <li><a href="#"><span>Search Terms</span></a></li>
-                            <li><a href="#"><span>Advanced Search</span></a></li>
-                            <li><a href="#"><span>Orders and Returns</span></a></li>
-                            <li><a href="#"><span>Contact Us</span></a></li>
-                            <li><a href="#"><span>RSS</span></a></li>
-                            <li><a href="#"><span>Help &amp; FAQs</span></a></li>
-                            <li><a href="#"><span>Consultant</span></a></li>
-                            <li><a href="#"><span>Store Locations</span></a></li>
-                    </ul>
-                </article>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Categories Image 1</a>
+								</li>
 
-                <article class="footer-info-col footer-info-col--small" data-section-type="newsletterSubscription">
-                              <h3 class="footer-info-heading">Newsletter Sign Up</h3>
-    <p class="footer-newsletter-summary">Receive our latest updates about our products and promotions. </p>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143914565938">Categories Image 2</a>
+								</li>
 
-<form class="form" action="/subscribe.php" method="post">
-    <fieldset class="form-fieldset">
-        <input type="hidden" name="action" value="subscribe">
-        <input type="hidden" name="nl_first_name" value="bc">
-        <input type="hidden" name="check" value="1">
-        <div class="form-field">
-            <label class="form-label is-srOnly" for="nl_email">Email Address</label>
-            <div class="form-prefixPostfix wrap">
-                <input class="form-input"
-                       id="nl_email"
-                       name="nl_email"
-                       type="email"
-                       value=""
-                       placeholder="enter your email address"
-                       aria-describedby="alertBox-message-text"
-                       aria-required="true"
-                >
-                <input class="button button--tertiary form-prefixPostfix-button--postfix"
-                       type="submit"
-                       value="Submit"
-                >
-            </div>
-        </div>
-    </fieldset>
-</form>
-                            <h3 class="footer-info-heading footer-info-heading--toggle">Stay Connected</h3>
-                        <div class="footer-info-col--social">
-                                <ul class="socialLinks socialLinks--alt">
-            <li class="socialLinks-item">
-                <a class="icon icon--facebook" href="https://www.facebook.com/BigCommerce/" target="_blank" rel="noopener" aria-label="Open facebook in a new tab">
-                    <svg class="icon" role="img" aria-label="facebook">
-                        <title>facebook</title>
-                        <desc>facebook</desc>
-                        <use xlink:href="#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--twitter" href="https://twitter.com/BigCommerce/" target="_blank" rel="noopener" aria-label="Open twitter in a new tab">
-                    <svg class="icon" role="img" aria-label="twitter">
-                        <title>twitter</title>
-                        <desc>twitter</desc>
-                        <use xlink:href="#icon-twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--pinterest" href="https://www.pinterest.com/bigcommerce/" target="_blank" rel="noopener" aria-label="Open pinterest in a new tab">
-                    <svg class="icon" role="img" aria-label="pinterest">
-                        <title>pinterest</title>
-                        <desc>pinterest</desc>
-                        <use xlink:href="#icon-pinterest"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--instagram" href="https://www.instagram.com/bigcommerce/" target="_blank" rel="noopener" aria-label="Open instagram in a new tab">
-                    <svg class="icon" role="img" aria-label="instagram">
-                        <title>instagram</title>
-                        <desc>instagram</desc>
-                        <use xlink:href="#icon-instagram"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--youtube" href="https://www.youtube.com/c/bigcommerce" target="_blank" rel="noopener" aria-label="Open youtube in a new tab">
-                    <svg class="icon" role="img" aria-label="youtube">
-                        <title>youtube</title>
-                        <desc>youtube</desc>
-                        <use xlink:href="#icon-youtube"></use>
-                    </svg>
-                </a>
-            </li>
-    </ul>
-                        </div>
-                </article>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144043671858">Fullwidth</a>
+								</li>
 
-        </section>
-    </div>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144724394290">List view</a>
+								</li>
 
-    <div class="footer-bottom">
-        <div class="container footer-bottom__container">
-            <div class="footer-bottom__left">
-                    <div class="footer-copyright">
-                        <p class="powered-by">&copy; 2023 beautica-light. </p>
-                        <a href='https://www.bigcommerce.com/theme' rel='nofollow' title='BigCommerce' aria-label='BigCommerce'>All Rights Reserved.Ecommerce Software by BigCommerce.</a>
-                    </div>
-                    <div class="footer-copyright">
-                        <p class='powered-by'><a href='https://www.themevale.com/' title='BigCommerce Themes by ThemeVale.com' aria-label='BigCommerce Themes by ThemeVale.com'>BigCommerce Themes by ThemeVale.com</a></p>
-                    </div>
-            </div>
-            <div class="footer-bottom__right">
-                        <div class="footer-payment-icons">
-            <svg class="footer-payment-icon footer-payment-icon--visa" role="img" aria-label="Visa">
-                <title>Visa</title>
-                <desc>Visa</desc>
-                <use xlink:href="#icon-logo-visa"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--mastercard" role="img" aria-label="Mastercard">
-                <title>Mastercard</title>
-                <desc>Mastercard</desc>
-                <use xlink:href="#icon-logo-mastercard"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--americanExpress" role="img" aria-label="Amex">
-                <title>Amex</title>
-                <desc>Amex</desc>
-                <use xlink:href="#icon-logo-american-express"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--discover" role="img" aria-label="Discover">
-                <title>Discover</title>
-                <desc>Discover</desc>
-                <use xlink:href="#icon-logo-discover"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--cirrus" role="img" aria-label="Cirrus">
-                <title>Cirrus</title>
-                <desc>Cirrus</desc>
-                <use xlink:href="#icon-logo-cirrus"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--paypal" role="img" aria-label="Paypal">
-                <title>Paypal</title>
-                <desc>Paypal</desc>
-                <use xlink:href="#icon-logo-paypal"></use>
-            </svg>
-            <svg class="footer-payment-icon footer-payment-icon--westernUnion" role="img" aria-label="Western Union">
-                <title>Western Union</title>
-                <desc>Western Union</desc>
-                <use xlink:href="#icon-logo-western-union"></use>
-            </svg>
-    </div>
-            </div>
-        </div>
-    </div>
-    <div data-content-region="ssl_site_seal--global"></div>
-</footer>
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412508466">Simple</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412311858">Mansonry<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Overlay Header</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=139013783858">Collection List 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=144218718514">Collection List 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/?preview_theme_id=144588964146">Collection Slider<span class="new">New</span></a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Filter</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">On top</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144412311858">Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Side out</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143914565938">Drawer</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Sidebar Style 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144778494258">Sidebar Style 2<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Sidebar Style 3</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144588964146">Sidebar Style 4<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144218718514">Filter Scroll</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Loader & Cart</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Shop Paggination</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=139013783858">Shop Load more button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Shop Infinite scrolling </a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Cart Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143708684594">Cart Side out</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143793586482">Cart Page</a>
+								</li>
+
+						</ul></div>
+</div>
+						</div>
+					</div><div class="menu-mobile__nav-item">
+						<div class="mm-nav__wrapper">
+							<a href="/products/berry-smoothie-concor" title="Product">Product</a>
+							<button class="js-mm-nav-item mm-nav__btn" type="button"><i class="feather-chevron-right"></i></button>
+						</div>
+						<div class="mm-nav__links">
+							<div class="mm-nav__links-header">
+								<a class="js-mm-nav-item mm-nav__prev" href="javascript:void(0)">
+									<i class="feather-chevron-left"></i>
+									<span>Product</span>
+								</a>
+
+							</div>
+							<div class="mm-nav__links-wrapper">	<div class="megamenu-products"><div class="megamenu-heading"><span>Product Layout</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=143708684594">Grid 1 columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=143793586482">Grid 2 columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=143914565938">Grid modern</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144043671858">Grid sticky</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=144159605042">Slider full-width</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144218718514">Bottom Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=139013783858">Left Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144412311858">Right Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=144588964146">Without Thumbnails</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144724394290">Left Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-brown?preview_theme_id=144778494258">Right Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/colorful-uv-protection-glasses?preview_theme_id=139013783858">Group Product</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Tab information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/sleeveless-shirt-2023?preview_theme_id=144412311858">Collapsible tabs information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=144778494258">Full Content information</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=144724394290">Vertical information</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=139013783858">Pre-order product<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/red-high-heels/long-shoulder-bag?preview_theme_id=139013783858">Sticky add to cart</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-khaki-pants?preview_theme_id=139013783858">Video</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/daytime-black-glasses?preview_theme_id=139013783858">3D, AR models</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/znike-air-force-one?preview_theme_id=139013783858">Product 360</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-khaki-pants?preview_theme_id=139013783858">Countdown Timer</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Frequently Bought Together v1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=144588964146">Frequently Bought Together v2<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Buy more save more</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/colorful-uv-protection-glasses?preview_theme_id=139013783858">Real-time visitors</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-flare-skirt?preview_theme_id=139013783858">Stock countdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-sleeved-shirt?preview_theme_id=139013783858">Back in stock notification<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/short-shoulder-bag-black?preview_theme_id=139013783858">Dynamic checkout button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=139013783858">Trust badge</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Delivery information</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product Upsell Features</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product pickup<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-long-dress?preview_theme_id=139013783858">Variant Images Grouped<span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=139013783858">Size Guide HTML</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-skirt-pants?preview_theme_id=139013783858">Delivery & Return</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-skirt-pants?preview_theme_id=139013783858">Ask a Question</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/brim-hats-for-men?preview_theme_id=139013783858">Product Variable Image </a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/fur-slippers-in-house?preview_theme_id=139013783858">Product Variable Color</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=144588964146">Product Variable Color and Check Box<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/3-hole-sweater?preview_theme_id=144218718514">Product Variable Dropdown</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=144724394290">Product Variable Color and Dropdown<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-shoulder-bag?preview_theme_id=139013783858">Product Variable Box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/floral-print-mini-dress?preview_theme_id=144412311858">Product Variable Check Box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/long-sleeved-shirt?preview_theme_id=139013783858">Product Out of stock</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Product Card</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144043671858">Scale hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=144159605042">Slider hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143793586482">Fadein hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/collections/all?preview_theme_id=143708684594">Zoom hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144218718514">Icons on hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143708684594">Icon & add to cart</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143793586482">Quick view button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=143914565938">Add to cart button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144043671858">Icons on the bottom</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144159605042">Shadow box</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144412508466">Standard button</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=144412311858">Info on hover</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com//collections/all?preview_theme_id=139013783858">Quick shop button <span class="hot">Hot</span></a>
+								</li>
+
+						</ul></div>
+</div>
+						</div>
+					</div><div class="menu-mobile__nav-item">
+						<div class="mm-nav__wrapper">
+							<a href="/blogs/news" title="Blog">Blog</a>
+							<button class="js-mm-nav-item mm-nav__btn" type="button"><i class="feather-chevron-right"></i></button>
+						</div>
+						<div class="mm-nav__links">
+							<div class="mm-nav__links-header">
+								<a class="js-mm-nav-item mm-nav__prev" href="javascript:void(0)">
+									<i class="feather-chevron-left"></i>
+									<span>Blog</span>
+								</a>
+
+							</div>
+							<div class="mm-nav__links-wrapper">	<div class="megamenu-products"><div class="megamenu-heading"><span>Layout & Post</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=139013783858">Blog Standard</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143708684594">Blog Grid</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143793586482">Blog Grid mix</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion?preview_theme_id=143914565938">List</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/trends-from-spring-summer?preview_theme_id=139013783858">Post Sidebar</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/best-collection-2023?preview_theme_id=143708684594">Post One Column</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/hot-trend-2023?preview_theme_id=143914565938">Post Prallax Image</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/what-the-colours-you-wear?preview_theme_id=144043671858">Post Sticky</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/fashion/trends-from-spring-summer?preview_theme_id=144159605042">Post Simple Title</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-blog">
+
+							<div class="featured-blog__post">
+								<div class="article__image">
+									<a class="article__featured-image-link" href="/blogs/life-style/nam-scelerisque-sit-amet-diam-id-blandit">
+										<img class="img-fluid" src="//mafoil-organic.myshopify.com/cdn/shop/articles/8_600x260.jpg?v=1680860368" >
+									</a>
+								</div>
+								<div class="article__content">
+									<div class="blog-category">
+										<a href="/blogs/life-style">Life Style</a>
+									</div>
+									<h2 class="article__heading">
+										<a class="article__heading-link" href="/blogs/life-style/nam-scelerisque-sit-amet-diam-id-blandit">Nam scelerisque sit amet diam id blandit</a>
+									</h2>
+								</div>
+							</div>
+
+							<div class="featured-blog__post">
+								<div class="article__image">
+									<a class="article__featured-image-link" href="/blogs/life-style/nullam-ultrices-ligula-at-ligula-tincidunt">
+										<img class="img-fluid" src="//mafoil-organic.myshopify.com/cdn/shop/articles/7_600x260.jpg?v=1680860346" >
+									</a>
+								</div>
+								<div class="article__content">
+									<div class="blog-category">
+										<a href="/blogs/life-style">Life Style</a>
+									</div>
+									<h2 class="article__heading">
+										<a class="article__heading-link" href="/blogs/life-style/nullam-ultrices-ligula-at-ligula-tincidunt">Nullam ultrices ligula at ligula tincidunt</a>
+									</h2>
+								</div>
+							</div>
+
+					</div>
+</div>
+						</div>
+					</div><div class="menu-mobile__nav-item">
+						<div class="mm-nav__wrapper">
+							<a href="#" title="Featured">Featured</a>
+							<button class="js-mm-nav-item mm-nav__btn" type="button"><i class="feather-chevron-right"></i></button>
+						</div>
+						<div class="mm-nav__links">
+							<div class="mm-nav__links-header">
+								<a class="js-mm-nav-item mm-nav__prev" href="javascript:void(0)">
+									<i class="feather-chevron-left"></i>
+									<span>Featured</span>
+								</a>
+
+							</div>
+							<div class="mm-nav__links-wrapper">	<div class="megamenu-products"><div class="megamenu-heading"><span>Page</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/about-us">About US</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/contact">Contact</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/faqs">Faqs</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/faqs-2">Faqs 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/size-guid">Size Guid</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="/pages/wishlist">Wishlist</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Portfolio</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=139013783858">2 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143708684594">3 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143793586482">4 Columns</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio?preview_theme_id=143708684594">Masonry Layout<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=139013783858">Products in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/creative-interior-freedom?preview_theme_id=143793586482">Lookbook in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143708684594">Lookbook Slider in portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143914565938">Instagram Shop in portfolio</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Featured</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143793586482">Christmas effect <span class="hot">Hot</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143914565938">Announcement bar 1</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412508466">Announcement bar 2</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144043671858">Age verification</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144159605042">Popup Newsletter</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Popup Compare<span class="new">New</span></a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144588964146">Cookies law info</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143533277490">RTL Layout</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Lookbook</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143708684594">Lookbook Slider</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143914565938">Lookbook Single</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/creative-interior-freedom?preview_theme_id=143793586482">Loobook In Portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=143708684594">Lookbook In Page</a>
+								</li>
+
+						</ul></div>
+	<div class="megamenu-products"><div class="megamenu-heading"><span>Instagram Shop</span></div><ul class="menu-list">
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Instagram Shop Slider</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Instagram Shop Grid Modern</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=144412311858">Instagram Shop Grid (No padding)</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/blogs/portfolio/books-that-open-knowledge?preview_theme_id=143914565938">Instagram Shop in Portfolio</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/?preview_theme_id=139013783858">Instagram Shop in Page</a>
+								</li>
+
+								<li class="menu__item">
+									<a class="menu__link" href="https://mafoil-fashion.myshopify.com/products/sleeveless-shirt-2023?preview_theme_id=144588964146">Instagram Shop in Single Product</a>
+								</li>
+
+						</ul></div>
+</div>
+						</div>
+					</div></div>
+	</div>
+</div>
+
+</div>
+</div>
 
 
-        <div class="halo-background"></div>
+</div></header>
+		<main class="main-content" role="main">
+			<div id="shopify-section-template--18555181957405__slideshow" class="shopify-section wpbingo-framework"><style data-shopify>#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots button{
+			border-radius:50%;
+			background:#d1d1d1;
+		}
+		#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li{
+			border-width:1px 1px 1px 1px;
+			border-radius:50%;
+			border-color:rgba(0,0,0,0);
+			border-style:solid;
+		}
+		#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li:hover{
+			border-color:#82c341;
+		}
+		#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots button:hover{
+			border-color:#82c341;
+			background:#82c341 !important;
+		}
+		#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li.slick-active{
+			border-color:#82c341;
+		}
+		#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li.slick-active button{
+			border-color:#82c341;
+			background:#82c341 !important;
+		}
+		@media (max-width:767px){
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots button:hover{
+				border-color:#000;
+				background:#000 !important;
+			}
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li.slick-active{
+				border-color:#000;
+			}
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow .slick-dots li.slick-active button{
+				border-color:#000;
+				background:#000 !important;
+			}
+		}
+#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow__item-image{
+			min-height:600px ;
+		}@media (max-width:1200px){
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow__item-image{
+				min-height: 500px ;
+			}
+		}@media (max-width:991px){
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow__item-image{
+				min-height: 400px ;
+			}
+		}@media (max-width:767px){
+			#shopify-section-template--18555181957405__slideshow .wpbingo-slideshow__item-image{
+				min-height: 350px;
+			}
+		}#shopify-section-template--18555181957405__slideshow .caption__inner-1{
+					padding:;
+				}#shopify-section-template--18555181957405__slideshow .heading-2{
+					font-size:90px;
+					line-height:95px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 0px 0px;
+					color:#82c341;
+				}#shopify-section-template--18555181957405__slideshow .subheading-3{
+					font-size:48px;
+					line-height:55px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 15px 0px;
+					color:#000000;
+				}#shopify-section-template--18555181957405__slideshow .desc-4{
+					font-size:18px;
+					line-height:25px;
+					font-weight:400;
+					letter-spacing:0px;
+					margin:0px 0px 75px 0px;
+					color:#414141;
+				}#shopify-section-template--18555181957405__slideshow .button_slider-5{
+					font-size:14px;
+					line-height:45px;
+					font-weight:700;
+					letter-spacing:0px;
+					color:#ffffff;
+					background:#82c341;
+					padding:0px 57px 0px 47px;
+					margin:0px 0px 0px 0px;
+					overflow:hidden;border:0px solid rgba(0,0,0,0);
+						border-radius:50px;}
+				#shopify-section-template--18555181957405__slideshow .button_slider-5:hover{
+					color:#ffffff;
+					background:#3f730a;
+				}#shopify-section-template--18555181957405__slideshow .caption__inner-6{
+					padding:;
+				}#shopify-section-template--18555181957405__slideshow .heading-7{
+					font-size:90px;
+					line-height:95px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 0px 0px;
+					color:#82c341;
+				}#shopify-section-template--18555181957405__slideshow .subheading-8{
+					font-size:48px;
+					line-height:55px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 15px 0px;
+					color:#000000;
+				}#shopify-section-template--18555181957405__slideshow .desc-9{
+					font-size:18px;
+					line-height:25px;
+					font-weight:400;
+					letter-spacing:0px;
+					margin:0px 0px 75px 0px;
+					color:#414141;
+				}#shopify-section-template--18555181957405__slideshow .button_slider-10{
+					font-size:14px;
+					line-height:45px;
+					font-weight:700;
+					letter-spacing:0px;
+					color:#ffffff;
+					background:#82c341;
+					padding:0px 57px 0px 47px;
+					margin:0px 0px 0px 0px;
+					overflow:hidden;border:1px solid rgba(0,0,0,0);
+						border-radius:50px;}
+				#shopify-section-template--18555181957405__slideshow .button_slider-10:hover{
+					color:#ffffff;
+					background:#3f730a;
+				}#shopify-section-template--18555181957405__slideshow .caption__inner-11{
+					padding:;
+				}#shopify-section-template--18555181957405__slideshow .heading-12{
+					font-size:90px;
+					line-height:95px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 0px 0px;
+					color:#82c341;
+				}#shopify-section-template--18555181957405__slideshow .subheading-13{
+					font-size:48px;
+					line-height:55px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 15px 0px;
+					color:#000000;
+				}#shopify-section-template--18555181957405__slideshow .desc-14{
+					font-size:18px;
+					line-height:25px;
+					font-weight:400;
+					letter-spacing:0px;
+					margin:0px 0px 75px 0px;
+					color:#414141;
+				}#shopify-section-template--18555181957405__slideshow .button_slider-15{
+					font-size:14px;
+					line-height:45px;
+					font-weight:700;
+					letter-spacing:0px;
+					color:#ffffff;
+					background:#82c341;
+					padding:0px 57px 0px 47px;
+					margin:0px 0px 0px 0px;
+					overflow:hidden;border:0px solid rgba(0,0,0,0);
+						border-radius:50px;}
+				#shopify-section-template--18555181957405__slideshow .button_slider-15:hover{
+					color:#ffffff;
+					background:#3f730a;
+				}@media (max-width:767px){#shopify-section-template--18555181957405__slideshow .caption__inner-1{
+						padding:5% 0 8% 0;
+					}#shopify-section-template--18555181957405__slideshow .heading-2{
+						font-size:40px;
+						line-height:45px;
+						letter-spacing:0px;
+						margin:0px 0px 5px 0px;
+						color:#82c341;
+					}#shopify-section-template--18555181957405__slideshow .subheading-3{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 10px 0px;
+						color:#000000;
+					}#shopify-section-template--18555181957405__slideshow .desc-4{
+						font-size:14px;
+						line-height:24px;
+						letter-spacing:0px;
+						margin:0px 0px 20px 0px;
+						color:#414141;
+					}#shopify-section-template--18555181957405__slideshow .button_slider-5{
+						font-size:14px;
+						line-height:45px;
+						letter-spacing:0px;
+						padding:0px 57px 0px 47px;
+						margin:0px 0px 0px 0px;
+						color:#ffffff;
+						background:#82c341;border:0px solid rgba(0,0,0,0);
+							border-radius:50px;}
+					#shopify-section-template--18555181957405__slideshow .button_slider-5:hover{
+						color:#ffffff;
+						background:#3f730a;
+					}#shopify-section-template--18555181957405__slideshow .caption__inner-6{
+						padding:5% 0 8% 0;
+					}#shopify-section-template--18555181957405__slideshow .heading-7{
+						font-size:40px;
+						line-height:45px;
+						letter-spacing:0px;
+						margin:0px 0px 5px 0px;
+						color:#82c341;
+					}#shopify-section-template--18555181957405__slideshow .subheading-8{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 10px 0px;
+						color:#222222;
+					}#shopify-section-template--18555181957405__slideshow .desc-9{
+						font-size:14px;
+						line-height:24px;
+						letter-spacing:0px;
+						margin:0px 0px 20px 0px;
+						color:#414141;
+					}#shopify-section-template--18555181957405__slideshow .button_slider-10{
+						font-size:14px;
+						line-height:45px;
+						letter-spacing:0px;
+						padding:0px 57px 0px 47px;
+						margin:0px 0px 0px 0px;
+						color:#ffffff;
+						background:#82c341;border:0px solid rgba(0,0,0,0);
+							border-radius:50px;}
+					#shopify-section-template--18555181957405__slideshow .button_slider-10:hover{
+						color:#ffffff;
+						background:#3f730a;
+					}#shopify-section-template--18555181957405__slideshow .caption__inner-11{
+						padding:5% 0 8% 0;
+					}#shopify-section-template--18555181957405__slideshow .heading-12{
+						font-size:40px;
+						line-height:45px;
+						letter-spacing:0px;
+						margin:0px 0px 5px 0px;
+						color:#82c341;
+					}#shopify-section-template--18555181957405__slideshow .subheading-13{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 10px 0px;
+						color:#000000;
+					}#shopify-section-template--18555181957405__slideshow .desc-14{
+						font-size:14px;
+						line-height:24px;
+						letter-spacing:0px;
+						margin:0px 0px 20px 0px;
+						color:#414141;
+					}#shopify-section-template--18555181957405__slideshow .button_slider-15{
+						font-size:14px;
+						line-height:47px;
+						letter-spacing:0px;
+						padding:0px 57px 0px 47px;
+						margin:0px 0px 0px 0px;
+						color:#ffffff;
+						background:#82c341;border:1px solid rgba(0,0,0,0);
+							border-radius:50px;}
+					#shopify-section-template--18555181957405__slideshow .button_slider-15:hover{
+						color:#ffffff;
+						background:#3f730a;
+					}}</style><section class="wpbingo-section wpbingo-section--slideshow">
+	<div class="container-full" >
+		<div class="wpbingo-slideshow__inner">
+			<div class="js-wpbingo-slideshow wpbingo-slideshow"
+				data-autoplay="true"
+				data-autoplayinterval="8000"
+				data-navigation="false"
+				data-pagination="true"
+				data-fade="true" ><div class="wpbingo-slideshow__item image-size--cover image-pos--center_center image-size-mobi--cover image-pos-mobi--center_center"><img class="lazyload  wpbingo-slideshow__item-image mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf.jpg?v=1681351247 945w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf.jpg?v=1681351247 945w"
+	data-sizes="auto"
+	width="945"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/8_347ac3cc-a656-4acc-9872-f034fa7c4bcf.jpg?crop=center&height=598&v=1681351247&width=945"  width="945" height="598" /></noscript>
+									<img class="lazyload  wpbingo-slideshow__item-image hide_mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97.jpg?v=1681351247 1920w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97.jpg?v=1681351247 1920w"
+	data-sizes="auto"
+	width="1920"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/7_46b25e06-73be-4e3e-a455-aedcd12a3e97.jpg?crop=center&height=598&v=1681351247&width=1920"  width="1920" height="598" /></noscript>
+<div class="slideshow-caption slideshow-vertical--middle slideshow-vertical-mobi--middle disable_absolute">
+								<div class="container">
+									<div class="slideshow-caption__inner caption__inner-1 slideshow-horizontal--left slideshow-horizontal-mobi--center">
+										<div class="slideshow-caption__content slideshow-text--left  slideshow-text-mobi--center"><h2 class="slideshow-caption__heading heading-2 leftright-1">
+																	Fresh Strawberry
+																</h2><div class="slideshow-caption__subheading subheading-3 topbottom-2">
+																	Everything You Need
+																</div><div class="slideshow-caption__desc desc-4 leftright-4">
+																	Save 10% when you order before 21/03/2023
+																</div><a class="btn slideshow-caption__btn leftright-3 button_slider-5" href="/collections/all" >
+																	Shop Now
+																</a></div>
+									</div>
+								</div>
+							</div>
+						</div><div class="wpbingo-slideshow__item image-size--cover image-pos--center_center image-size-mobi--cover image-pos-mobi--center_center"><img class="lazyload  wpbingo-slideshow__item-image mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f.jpg?v=1681351247 974w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f.jpg?v=1681351247 974w"
+	data-sizes="auto"
+	width="974"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/10_72e4f50f-3659-4012-8d74-31518639e14f.jpg?crop=center&height=598&v=1681351247&width=974"  width="974" height="598" /></noscript>
+									<img class="lazyload  wpbingo-slideshow__item-image hide_mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40.jpg?v=1681351247 1920w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40.jpg?v=1681351247 1920w"
+	data-sizes="auto"
+	width="1920"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/9_01ff8196-39ce-47b5-81d5-2f716549cc40.jpg?crop=center&height=598&v=1681351247&width=1920"  width="1920" height="598" /></noscript>
+<div class="slideshow-caption slideshow-vertical--middle slideshow-vertical-mobi--middle disable_absolute">
+								<div class="container">
+									<div class="slideshow-caption__inner caption__inner-6 slideshow-horizontal--left slideshow-horizontal-mobi--center">
+										<div class="slideshow-caption__content slideshow-text--left  slideshow-text-mobi--center"><h2 class="slideshow-caption__heading heading-7 leftright-1">
+																	Fresh milk
+																</h2><div class="slideshow-caption__subheading subheading-8 leftright-2">
+																	Weekend Promotions
+																</div><div class="slideshow-caption__desc desc-9 leftright-4">
+																	Save 10% when you order before 21/03/2023
+																</div><a class="btn slideshow-caption__btn leftright-3 button_slider-10" href="/collections/all" >
+																	Shop Now
+																</a></div>
+									</div>
+								</div>
+							</div>
+						</div><div class="wpbingo-slideshow__item image-size--cover image-pos--center_center image-size-mobi--cover image-pos-mobi--center_center"><img class="lazyload  wpbingo-slideshow__item-image mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/12_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/12.jpg?v=1681351247 989w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/12_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/12_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/12.jpg?v=1681351247 989w"
+	data-sizes="auto"
+	width="989"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/12.jpg?crop=center&height=598&v=1681351247&width=989"  width="989" height="598" /></noscript>
+									<img class="lazyload  wpbingo-slideshow__item-image hide_mobile fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/11_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/11.jpg?v=1681351247 1920w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/11_180x.jpg?v=1681351247 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_360x.jpg?v=1681351247 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_540x.jpg?v=1681351247 540w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_720x.jpg?v=1681351247 720w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_900x.jpg?v=1681351247 900w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1080x.jpg?v=1681351247 1080w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1296x.jpg?v=1681351247 1296w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1512x.jpg?v=1681351247 1512w ,//mafoil-organic.myshopify.com/cdn/shop/files/11_1728x.jpg?v=1681351247 1728w ,//mafoil-organic.myshopify.com/cdn/shop/files/11.jpg?v=1681351247 1920w"
+	data-sizes="auto"
+	width="1920"
+	height="598"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/11.jpg?crop=center&height=598&v=1681351247&width=1920"  width="1920" height="598" /></noscript>
+<div class="slideshow-caption slideshow-vertical--middle slideshow-vertical-mobi--middle disable_absolute">
+								<div class="container">
+									<div class="slideshow-caption__inner caption__inner-11 slideshow-horizontal--left slideshow-horizontal-mobi--center">
+										<div class="slideshow-caption__content slideshow-text--left  slideshow-text-mobi--center"><h2 class="slideshow-caption__heading heading-12 leftright-1">
+																	Fresh energy
+																</h2><div class="slideshow-caption__subheading subheading-13 leftright-2">
+																	Picked in the Garden
+																</div><div class="slideshow-caption__desc desc-14 leftright-4">
+																	Save 10% when you order before 21/03/2023
+																</div><a class="btn slideshow-caption__btn leftright-3 button_slider-15" href="/collections/all" >
+																	Shop Now
+																</a></div>
+									</div>
+								</div>
+							</div>
+						</div></div>
+		</div>
+	</div>
+</section>
+</div><div id="shopify-section-template--18555181957405__featured-banner" class="shopify-section wpbingo-framework">
 
-        <script>window.__webpack_public_path__ = "https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/dist/";</script>
-        <script>
-            function onThemeBundleMain() {
-                window.stencilBootstrap("default", "{\"themeSettings\":{\"recently_bought_text_name\":\"Someone recently bought a \",\"optimizedCheckout-formChecklist-color\":\"#8b714a\",\"footer-info-2-text7\":\"Terms & Conditions\",\"button-checkout-border-color\":\"#000000\",\"mega_menu_custom_style1_item_col\":4,\"navPages-lv2-color\":\"#2d2d2d\",\"home_product_block-3-description\":\"Magnis de darturien eros laciniados de cosmopolis dinterdum\",\"product_soldProduct_products\":\"3,5,7,8,9,10,12,15,17,26\",\"optimizedCheckout-buttonPrimary-backgroundColorActive\":\"#ffffff\",\"mega_menu_custom_style1_item\":\"1\",\"show_accept_amex\":true,\"optimizedCheckout-buttonPrimary-borderColorDisabled\":\"#cccccc\",\"homepage_top_products_count\":10,\"mega_menu_custom_style3_item\":\"5\",\"halo-sidebar-image-link\":\"#\",\"home_product_block_col_1\":5,\"halo-blog-sidebar\":true,\"paymentbuttons-paypal-cart-page-add-cart-color\":\"gold\",\"homepage_new_products_column_count\":5,\"paymentbuttons-paypal-cart-page-add-cart-label\":\"checkout\",\"mega_menu_custom_style2_item_custom_link5\":\"#\",\"brandpage_products_per_page\":20,\"color-secondaryDarker\":\"#cccccc\",\"mega_menu_style4_item_col_width\":\"59.3%\",\"card--alternate-color--hover\":\"#ffffff\",\"optimizedCheckout-colorFocus\":\"#4496f6\",\"halo_header_customLink_1\":\"\",\"halo_header_customText_1\":\"\",\"footer-info-2-text5\":\"Manufacturers\",\"halo-before-quick-results-trending-now-4\":\"page builder\",\"paymentbuttons-paypal-checkout-payment-label\":\"checkout\",\"fontSize-root\":12,\"halo_product_countdown_show\":true,\"store_location_privacy_link\":\"#\",\"home_product_block-1-title\":\"Just Arrived\",\"navUser-color\":\"#000000\",\"color-textBase--active\":\"#000000\",\"button--default-backgroundColorActive\":\"#000000\",\"mega_menu_style2_item_img_width\":\"95%\",\"social_icon_placement_bottom\":\"bottom_none\",\"show_site_info_footer\":true,\"mega_menu_custom_style3_item_col\":5,\"halo-cart-secure-image-6\":\"\",\"store_owner_email\":\"\",\"show_powered_by\":true,\"show_product_quick_view_mobile\":false,\"button--primary-borderColorHover\":\"#e82b1a\",\"show_accept_amazonpay\":false,\"mega_menu_custom_style2_item_subMenuBlock\":\"\",\"button--primary-borderColor\":\"#000000\",\"fontSize-h4\":20,\"checkRadio-borderColor\":\"#8f8f8f\",\"mega_menu_custom_style1_item_custom_img1\":\"\",\"color-primaryDarker\":\"#000000\",\"optimizedCheckout-buttonPrimary-colorHover\":\"#000000\",\"brand_size\":\"200x200\",\"optimizedCheckout-logo-position\":\"center\",\"home_product_block-2-link\":\"\",\"recently_bought_location4\":\"from Newcastle, UK\",\"color-textLink--hover\":\"#e9446e\",\"halo-faqs-sidebar\":true,\"halo_recently_viewed_products_count\":5,\"pdp-sale-price-label\":\"\",\"optimizedCheckout-buttonSecondary-backgroundColorHover\":\"#f5f5f5\",\"mega_menu_custom_style1_item2_link\":\"\",\"mega_menu_custom_style1_item_custom_link1\":\"#\",\"halo-cart-secure-image-4\":\"\",\"footer-info-4-image-logo\":\"\",\"optimizedCheckout-headingPrimary-font\":\"Google_Poppins_700\",\"home_product_block_2_lookbook_2_id_product\":\"\",\"logo_size\":\"244x75\",\"optimizedCheckout-formField-backgroundColor\":\"#ffffff\",\"header-textColor\":\"#ffffff\",\"optimizedCheckout-discountBanner-backgroundColor\":\"#e5e5e5\",\"recently_bought_changeSlides\":10,\"halo_header_layout\":\"header_layout_1\",\"footer-info-2-link4\":\"#\",\"mega_menu_custom_style3_item_custom_linktext6\":\"\",\"haloAddOptionForProduct2\":\"\",\"footer-backgroundColor\":\"#0f0f0f\",\"navPages-color\":\"#2d2d2d\",\"home_product_block_limit_3\":6,\"product_viewingProduct\":true,\"productpage_reviews_count\":10,\"optimizedCheckout-step-borderColor\":\"#000000\",\"mega_menu_style2_item_col_width\":\"100%\",\"powered_by-text\":\"<a href='https://www.bigcommerce.com/theme' rel='nofollow' title='BigCommerce' aria-label='BigCommerce'>All Rights Reserved.Ecommerce Software by BigCommerce.</a>\",\"haloRecentlyBought\":true,\"mega_menu_custom_style1_item_custom_linktext7\":\"\",\"home_product_block_2_lookbook_3_id_product\":\"\",\"show_accept_paypal\":true,\"mega_menu_hot_label_bgColor\":\"#fdba49\",\"mega_menu_custom_style1_item_custom_img5\":\"\",\"paymentbuttons-paypal-shape\":\"rect\",\"footer-info-3-link8\":\"#\",\"homepage_show_carousel_0_subheading\":\"Set Your Style\",\"optimizedCheckout-discountBanner-textColor\":\"#333333\",\"halo_newsletter_popup_image\":\"newsletter-image-popup-cp.jpg\",\"optimizedCheckout-buttonPrimary-font\":\"Google_Poppins_700\",\"footer-info-3-text8\":\"Store Locations\",\"halo_card_title-line\":\"2\",\"halo-before-quick-results-trending-now-1\":\"best stencil themes\",\"home_product_block_3_imageLink\":\"\",\"show_warranty_tabs\":false,\"paymentbuttons-paypal-label\":\"checkout\",\"halo_stock_level\":true,\"optimizedCheckout-backgroundImage-size\":\"1000x400\",\"pdp_sold_out_label\":\"\",\"pdp-retail-price-label\":\"MSRP:\",\"footer-info-3-link3\":\"#\",\"store_location_sitemap\":\"Sitemap\",\"mega_menu_style2_item_img2\":\"megamenu-image-5-cp.jpg\",\"haloMegamenu\":true,\"sale_badges_type\":\"text\",\"product_lookbook_size\":\"210x270\",\"mega_menu_custom_style2_item_custom_linktext6\":\"On Sale\",\"blockquote-cite-font-color\":\"#999999\",\"mega_menu_custom_style1_item_custom_link5\":\"#\",\"halo-before-you-leave-history\":true,\"store_location_sitemap_link\":\"#\",\"halo_card_image_swap\":true,\"store_location_chat\":\"Live Chat\",\"productpage_product_block_col\":5,\"carousel-dot-color\":\"#cccccc\",\"halo_social_twitter_link\":\"https://twitter.com/bigcommerce\",\"mega_menu_custom_style3_item_custom_link4\":\"\",\"button--disabled-backgroundColor\":\"#cccccc\",\"optimizedCheckout-formField-shadowColor\":\"transparent\",\"categorypage_products_per_page\":20,\"haloAddToCartAction\":\"sidebar\",\"halo_card_ratings\":true,\"container-fill-base\":\"#ffffff\",\"homepage_featured_products_column_count\":5,\"button--default-color\":\"#000000\",\"pace-progress-backgroundColor\":\"#999999\",\"halo_newsletter_popup_again\":true,\"color-textLink--active\":\"#e9446e\",\"homepage_show_carousel_0_custombtn\":\"#\",\"halo_stock_level_limit\":\"5\",\"footer-info-3-text5\":\"RSS\",\"halo-before-quick-results-trending-now\":true,\"product_sidebar_size\":\"85x110\",\"paymentbuttons-paylater-cart-page-add-cart-color\":\"gold\",\"halo_header_customText\":false,\"halo-cart-secure-image-5\":\"\",\"halo-faqs-sidebar-icon2\":\"Contact Us\",\"body-700-font\":\"Google_Arimo_700\",\"optimizedCheckout-loadingToaster-backgroundColor\":\"#333333\",\"header-topBackgroundColor\":\"#000000\",\"color-textHeading\":\"#000000\",\"show_accept_discover\":true,\"mega_menu_custom_style1_item_custom_link11\":\"\",\"footer_text_color\":\"#ffffff\",\"product_viewingProduct_change\":\"10\",\"recently_bought_location5\":\"from Cessnock, AU\",\"mega_menu_custom_style1_item_custom_linktext4\":\"Most Popular\",\"homepage_show_carousel_4_customtextbtn\":\"\",\"optimizedCheckout-formField-errorColor\":\"#d14343\",\"spinner-borderColor-dark\":\"#999999\",\"halo_recent_post\":true,\"input-font-color\":\"#777777\",\"select-bg-color\":\"#ffffff\",\"halo-product-security-image-1\":\"product-security-image-1.jpg\",\"footer-info-2-text4\":\"Best Sellers\",\"halo_social_share\":true,\"show_accept_mastercard\":true,\"color_text_product_sale_badges\":\"#ffffff\",\"store_location_find\":\"Find A Store\",\"product_list_display_col\":\"4\",\"optimizedCheckout-link-font\":\"Google_Poppins_700\",\"homepage_show_carousel_arrows\":true,\"carousel-arrow-bgColor\":\"#ffffff\",\"restrict_to_login\":false,\"haloStickyToolbar\":true,\"halo-cart-secure-image-1\":\"\",\"haloAjaxAddToCart\":true,\"lazyload_mode\":\"lazyload+lqip\",\"carousel-title-color\":\"#000000\",\"home_product_tab-title-3\":\"\",\"show_product_wishlist_mobile\":false,\"halo-before-you-leave-link\":\"#\",\"mega_menu_custom_style2_item_custom_link1\":\"#\",\"haloRecommendedBlock_cart_title\":\"Customers Who Bought This Item Also Bought\",\"home_product_block_2_title_border\":true,\"halo-before-quick-results-trending-now-8\":\"best seller\",\"brandpage_brands_per_page\":1000,\"homepage_show_carousel_2_customtextbtn\":\"\",\"halo-faqs-sidebar-title\":\"Need Help?\",\"footer-info-3-text2\":\"Advanced Search\",\"supported_payment_methods\":[\"card\",\"paypal\",\"bank\"],\"carousel-play-pause-button-textColor--hover\":\"#474747\",\"card--alternate-borderColor\":\"#ffffff\",\"mega_menu_custom_style3_item_custom_linktext5\":\"\",\"button--disabled-color\":\"#ffffff\",\"product_soldProduct_text\":\"sold in last\",\"recently_bought_productID\":\"116,117,118,119\",\"haloAddOptionForProductText\":\"\",\"color-grey\":\"#999999\",\"home_product_block_col_2\":5,\"body-font\":\"Google_Arimo_400\",\"paymentbuttons-bolt-shape\":\"rect\",\"optimizedCheckout-step-textColor\":\"#ffffff\",\"recently_bought_location8\":\"from Tamworth, AU\",\"show_accept_googlepay\":false,\"homepage_new_products_count\":10,\"mega_menu_custom_style1_item_custom_linktext11\":\"\",\"color-primaryDark\":\"#000000\",\"pdp_sale_badge_label\":\"\",\"headings-500-font\":\"Google_Poppins_500\",\"optimizedCheckout-buttonPrimary-borderColorActive\":\"#000000\",\"carousel-description-mb-color\":\"#ffffff\",\"navPages-subMenu-backgroundColor\":\"#ffffff\",\"show_custom_tab_type\":\"all\",\"halo_recently_viewed_products\":true,\"product_soldProduct_hours_text\":\"hours\",\"mega_menu_custom_new_label_text\":\"New\",\"info_email_support\":\"\",\"button--primary-backgroundColor\":\"#000000\",\"optimizedCheckout-formField-borderColor\":\"#cccccc\",\"halo_card_title\":\"ellipsis\",\"halo-sidebar-popular-tags\":false,\"optimizedCheckout-link-color\":\"#476bef\",\"icon-color-hover\":\"#000000\",\"optimizedCheckout-headingSecondary-font\":\"Google_Poppins_700\",\"halo_QuickEditCart\":true,\"headings-font\":\"Google_Poppins_700\",\"paymentbuttons-venmo-checkout-on-top-color\":\"blue\",\"productpage_product_block-2\":\"Customers\",\"mega_menu_style2_item_col\":5,\"show_custom_tab\":true,\"button--primary-backgroundColorHover\":\"#e82b1a\",\"checkRadio-color\":\"#333333\",\"mega_menu_custom_style3_item_link2\":\"\",\"home_product_block_col\":5,\"show_product_dimensions\":false,\"card-figcaption-button-background\":\"#ffffff\",\"footer-info-2-link8\":\"/blog/\",\"show_product_reviews\":true,\"show_subcategories\":false,\"button--default-borderColor\":\"#000000\",\"mega_menu_style2_item\":\"2\",\"label-backgroundColor\":\"#cccccc\",\"halo-product-security-image-2\":\"product-security-image-2.jpg\",\"halo_sticky_add_to_cart_mobile\":true,\"mega_menu_custom_style2_item_img2\":\"\",\"pdp-non-sale-price-label\":\"\",\"button--disabled-borderColor\":\"transparent\",\"optimizedCheckout-headingSecondary-color\":\"#000000\",\"home_product_block_limit\":6,\"home_product_block_limit_1\":6,\"home_product_block_col_3\":5,\"mega_menu_custom_style3_item_custom_linktext1\":\"\",\"logo_fontSize\":28,\"halo-before-you-leave-recommended\":true,\"alert-backgroundColor\":\"#ffffff\",\"halo-sidebar-products-title\":\"Best Sellers\",\"default_image_brand\":\"img/BrandDefault.png\",\"halo_product_countdown_time\":\"Dec 11, 2023 18:04:00\",\"footer-info-3-link7\":\"#\",\"halo_newsletter_popup\":true,\"home_product_block-1-description\":\"Magnis de darturien eros laciniados de cosmopolis dinterdum\",\"halo_ask_an_expert_mailto\":\"example@domain.com\",\"label-color\":\"#ffffff\",\"mega_menu_custom_style1_item3_link\":\"\",\"select-arrow-color\":\"#757575\",\"halo-before-quick-results-trending-now-5\":\"bigcommerce template\",\"footer-info-2-text6\":\"Privacy Policy\",\"halo-before-quick-results-popular\":false,\"optimizedCheckout-logo-size\":\"121x25\",\"halo_CalculateFreeShipping_list\":\"US,UK,CA\",\"haloAddOptionForProduct\":false,\"homepage_show_carousel_0_customtextbtn\":\"\",\"home_product_block_1_banner\":false,\"halo_product_countdown\":\"all\",\"button--tertiary-colorHover\":\"#ffffff\",\"card-title-color\":\"#000000\",\"carousel-arrow-color--hover\":\"#ffffff\",\"home_product_block_1_imageButton\":\"\",\"halo-sidebar-custom-block\":true,\"location_open_hour\":\"Weekdays 8:30am-5:30pm GMT+7\",\"footer-info-3-link2\":\"#\",\"home_product_block_2_layout\":true,\"mega_menu_hot_label_text\":\"Hot\",\"home_product_block_1_image\":\"\",\"store_location_chat_link\":\"#\",\"footer_info_logo\":\"\",\"fontSize-h5\":14,\"footer-info-2-text1\":\"About Us\",\"mega_menu_style3_item\":\"5\",\"halo_share\":\"custom\",\"mega_menu_sale_label_bgColor\":\"#ed5f55\",\"home_product_block_2_lookbook_1_position_y\":\"\",\"halo_homepage_layout_1\":true,\"paymentbuttons-venmo-cart-page-add-cart-color\":\"blue\",\"home_product_block_2_banner\":false,\"home_product_block_3_imageButton\":\"\",\"halo_ask_an_expert_subject_mail\":\"Ask An Expert\",\"product_list_display_mode\":\"grid\",\"footer-info-2-link5\":\"#\",\"optimizedCheckout-link-hoverColor\":\"#002fe1\",\"halo_notify_me_mailto\":\"example@domain.com\",\"halo_CalculateFreeShipping_type\":\"all\",\"paymentbanners-cartpage-logo-type\":\"primary\",\"homepage_show_carousel_0_position-content\":\"center\",\"product_size\":\"746x746\",\"paymentbuttons-paypal-color\":\"gold\",\"homepage_show_carousel\":true,\"optimizedCheckout-body-backgroundColor\":\"#ffffff\",\"carousel-arrow-borderColor\":\"#000000\",\"halo-label-product-position\":\"left\",\"button--default-borderColorActive\":\"#000000\",\"header-backgroundColor\":\"#ffffff\",\"show_more_description_tabs_mb\":true,\"mega_menu_style4_item_col\":3,\"color-greyDarkest\":\"#000000\",\"price_ranges\":true,\"productpage_videos_count\":8,\"color-greyDark\":\"#666666\",\"mega_menu_custom_style1_item_custom_link2\":\"#\",\"halo_before_you_leave_recommended_id\":\"113,114,115,116,117,118\",\"store_location_faq_link\":\"#\",\"halo_newsletter_popup_time\":\"2\",\"optimizedCheckout-buttonSecondary-borderColorHover\":\"#999999\",\"optimizedCheckout-discountBanner-iconColor\":\"#333333\",\"optimizedCheckout-buttonSecondary-borderColor\":\"#cccccc\",\"mega_menu_custom_style2_item_custom_link6\":\"#\",\"halo_subscription_form\":true,\"optimizedCheckout-loadingToaster-textColor\":\"#ffffff\",\"homepage_show_carousel_3_custombtn\":\"\",\"optimizedCheckout-formField-placeholderColor\":\"#999999\",\"mega_menu_style4_item_productID\":\"112,113\",\"navUser-color-hover\":\"#e9446e\",\"haloRecommendedBlock_cart_type\":\"Featured\",\"paymentbuttons-paylater-checkout-on-top-color\":\"gold\",\"color_bg_product_soldOut_badges\":\"#ebebeb\",\"show_shipping_tab_link\":\"/shipping-returns-tab-page/\",\"footer-info-3-text3\":\"Orders and Returns\",\"carousel-arrow-bgColor--hover\":\"transparent\",\"color-textBase--hover\":\"#000000\",\"color-errorLight\":\"#ffdddd\",\"home_product_block-id-tab-limit\":6,\"halo_top_bar_promotion_text_1\":\"3 Free Samples with any Purchase\",\"recently_bought_location9\":\"from New York, US\",\"optimizedCheckout-buttonPrimary-colorDisabled\":\"#ffffff\",\"icon-ratingFull\":\"#e7040f\",\"home_product_block-3\":\"Top\",\"default_image_gift_certificate\":\"img/GiftCertificate.png\",\"mega_menu_custom_style3_item_custom_link1\":\"\",\"recently_bought_location6\":\"from Goulburn, AU\",\"halo_ask_an_expert_desc1\":\"Ask an Expert anything on Beautica\",\"halo-sidebar-shop-by-brand\":true,\"mega_menu_custom_style1_item_custom_link6\":\"#\",\"footer_title_color\":\"#ffffff\",\"social_icon_placement_top\":false,\"mega_menu_style3_item_bottomCates\":\"Free International Shipping. No Minimum Purchase Required*\",\"blog_size\":\"190x250\",\"mega_menu_style2_item_link2\":\"\",\"paymentbuttons-paypal-checkout-payment-color\":\"gold\",\"shop_by_price_visibility\":true,\"optimizedCheckout-buttonSecondary-colorActive\":\"#000000\",\"button-checkout-color\":\"#ffffff\",\"paymentbanners-proddetailspage-color\":\"white\",\"store_location_mess_link\":\"#\",\"mega_menu_custom_style2_item_custom_linktext5\":\"Editor's Pick\",\"mega_menu_custom_style1_item_custom_linktext3\":\"Top Rated\",\"footer-info-3-link1\":\"#\",\"halo-product-security-image\":true,\"halo_recently_viewed_products_top\":true,\"color-warningLight\":\"#fbf8e5\",\"show_product_weight\":true,\"paymentbuttons-provider-sorting\":[],\"button-checkout-color-hover\":\"#ffffff\",\"optimizedCheckout-orderSummary-backgroundColor\":\"#ffffff\",\"mega_menu_custom_style2_item_custom_link2\":\"#\",\"halo_header_customText_3\":\"\",\"masterpass-button-color\":\"black\",\"mega_menu_custom_style3_item_custom_linktext4\":\"\",\"mega_menu_style2_item_productBlock\":\"Shop By Brands\",\"mega_menu_sale_label_text\":\"Sale\",\"mega_menu_custom_style3_item_custom_link5\":\"\",\"mega_menu_custom_style2_item_link1\":\"\",\"halo-before-you-leave-title\":\"Before you leave\",\"card--alternate-backgroundColor\":\"#ffffff\",\"hide_content_navigation\":false,\"mega_menu_custom_style2_item_col_width\":\"100%\",\"color_border_product_soldOut_badges\":\"#ebebeb\",\"button--default-colorActive\":\"#ffffff\",\"mega_menu_style4_item_img_width\":\"40.7%\",\"home_product_block_3_image\":\"\",\"color-info\":\"#666666\",\"button--tertiary-borderColor\":\"#ffffff\",\"homepage_show_carousel_3_subheading\":\"\",\"homepage_show_carousel_2_subheading\":\"\",\"homepage_show_carousel_3_mobile-image\":\"\",\"mega_menu_custom_style2_item_img_width\":\"100%\",\"amazon-button-color\":\"Gold\",\"optimizedCheckout-formChecklist-backgroundColorSelected\":\"#fbf8e5\",\"homepage_show_carousel_1_mobile-image\":\"slider-02-mb-cb.jpg\",\"halo_card_quick_add\":true,\"halo_newsletter_subscribe\":\"Join Our Mailing List\",\"halo_recent_post_linkViewAll\":\"#\",\"show_product_quick_view\":true,\"button--default-borderColorHover\":\"#000000\",\"mega_menu_style4_item_img1\":\"image-mega-menu-2-cp.jpg\",\"halo-before-quick-results\":true,\"button-checkout-bgColor-hover\":\"#e82b1a\",\"swatch_option_size\":\"22x22\",\"halo_newsletter_popup_expires_date\":\"1\",\"optimizedCheckout-orderSummary-borderColor\":\"#dddddd\",\"halo-before-quick-results-trending-now-9\":\"featured product\",\"recently_bought_location2\":\"from Sydney, AU\",\"mega_menu_custom_style2_item_img3\":\"\",\"color_border_product_custom_badges\":\"#191919\",\"footer-info-2-link2\":\"#\",\"haloStickyToolbar_viewAs\":true,\"halo-before-you-leave-heading-2\":\"CODESALE20\",\"optimizedCheckout-formChecklist-backgroundColor\":\"#ffffff\",\"pdp-price-label\":\"\",\"home_product_tab-title-2\":\"\",\"show_copyright_footer\":true,\"productcartthumb_size\":\"100x128\",\"product_viewingProduct_viewer\":\"6,9,11,19,30,49,94,97,186\",\"optimizedCheckout-show-logo\":\"none\",\"product_soldProduct\":true,\"mega_menu_custom_style1_item_custom_link9\":\"\",\"productpage_product_block-1\":\"Related\",\"mega_menu_custom_style1_item_custom_linktext8\":\"\",\"mega_menu_style1_item\":\"1\",\"carousel-description-color\":\"#000000\",\"halo_recently_viewed_products_title\":\"Recently viewed\",\"fontSize-h2\":25,\"home_product_block_limit_2\":6,\"optimizedCheckout-step-backgroundColor\":\"#757575\",\"mega_menu_custom_style2_item_custom_linktext1\":\"What's New\",\"halo-cart-secure-image-label\":\"\",\"halo-sidebar-image\":\"sidebar-left-image.jpg\",\"mega_menu_custom_style1_item_custom_img2\":\"\",\"mega_menu_style4_item\":\"3\",\"color-textBase\":\"#000000\",\"footer-info-3-link6\":\"#\",\"homepage_show_carousel_2_mobile-image\":\"slider-03-mb-cb.jpg\",\"color-warning\":\"#8a714a\",\"mega_menu_custom_style3_item_link1\":\"\",\"productgallery_size\":\"448x448\",\"halo_CalculateFreeShipping_required\":\"Free Shipping for all orders over $1000\",\"carousel-play-pause-button-textColor\":\"8f8f8f\",\"optimizedCheckout-headingPrimary-color\":\"#000000\",\"mega_menu_custom_style1_item_custom_link3\":\"#\",\"mega_menu_custom_style2_item_col\":4,\"mega_menu_custom_style2_item_img1\":\"\",\"halo-before-you-leave-btn-text\":\"Continue Shopping\",\"paymentbuttons-paypal-checkout-on-top-color\":\"gold\",\"home_product_block_2_lookbook_3_position_y\":\"\",\"halo-sidebar-recent-post\":true,\"footer-info-3-link5\":\"#\",\"mega_menu_new_label_bgColor\":\"#21bfe1\",\"carousel-arrow-borderColor--hover\":\"transparent\",\"paymentbuttons-venmo-product-details-page-color\":\"blue\",\"alert-color\":\"#333333\",\"halo_ask_an_expert\":true,\"shop_by_brand_show_footer\":true,\"card-figcaption-button-color\":\"#333333\",\"searchpage_products_per_page\":20,\"halo_social_pinterest_link\":\"https://www.pinterest.com/bigcommerce/\",\"mega_menu_custom_style2_item_link3\":\"\",\"optimizedCheckout-contentPrimary-color\":\"#333333\",\"optimizedCheckout-backgroundImage\":\"\",\"form-label-font-color\":\"#000000\",\"footer-info-4-description\":\"\",\"halo-before-you-leave-text-2\":\"Enter the code below at checkout to get 20% off your first order\",\"mega_menu_custom_style3_item_custom_link2\":\"\",\"mega_menu_custom_hot_label\":\"3\",\"home_product_block_2_imageButton\":\"\",\"halo_sizechart\":false,\"halo-faqs-sidebar-icon1\":\"Message Us\",\"show_shipping_tab\":true,\"footer-info-2-link6\":\"#\",\"mega_menu_new_label_text\":\"New\",\"brand_show_footer_limit\":6,\"color-textSecondary--active\":\"#000000\",\"optimizedCheckout-formField-inputControlColor\":\"#232323\",\"mega_menu_custom_style1_item_custom_link7\":\"\",\"footer-info-3-text4\":\"Contact Us\",\"optimizedCheckout-buttonSecondary-font\":\"Google_Poppins_700\",\"halo-before-you-leave-time\":\"1\",\"storeName-color\":\"#333333\",\"halo-faqs-sidebar-icon1-link\":\"#\",\"show_payments_footer\":true,\"halo-before-quick-results-trending-now-6\":\"themevale\",\"mega_menu_style1_item_col_width\":\"100%\",\"paymentbuttons-paypal-product-details-page-color\":\"gold\",\"mega_menu_custom_style2_item_custom_linktext3\":\"Top Rated\",\"productpage_related_products_count\":10,\"optimizedCheckout-buttonSecondary-backgroundColorActive\":\"#e5e5e5\",\"mega_menu_custom_style1_item_custom_img3\":\"\",\"color-textLink\":\"#000000\",\"mega_menu_custom_style3_item_col_width\":\"100%\",\"paymentbuttons-paypal-checkout-on-top-payment-label\":\"checkout\",\"mega_menu_custom_style2_item_productBlock\":\"Shop By Brands\",\"homepage_show_carousel_0_mobile-image\":\"slider-01-mb-cb.jpg\",\"store_location_mess\":\"Send A Messase\",\"store_location_terms\":\"Terms & Conditions\",\"home_product_block_1_layout\":true,\"color_bg_product_sale_badges\":\"#e7040f\",\"color-greyLightest\":\"#e5e5e5\",\"homepage_show_carousel_4_mobile-image\":\"\",\"home_product_block_3_layout\":true,\"optimizedCheckout-header-backgroundColor\":\"#f5f5f5\",\"paymentbuttons-paypal-product-details-page-label\":\"checkout\",\"color-secondaryDark\":\"#e5e5e5\",\"fontSize-h6\":12,\"recently_bought_location7\":\"from Grafton, AU\",\"mega_menu_style3_item_custom_link1\":\"#\",\"carousel-arrow-color\":\"#000000\",\"productpage_similar_by_views_count\":10,\"color-greyLighter\":\"#cbcbcb\",\"navPages-lv3-color-hover\":\"#e9446e\",\"home_product_block-2-description\":\"Magnis de darturien eros laciniados de cosmopolis dinterdum\",\"paymentbanners-homepage-ratio\":\"8x1\",\"mega_menu_custom_style1_item_custom_link10\":\"\",\"productpage_product_block-2-title\":\"Customers Also Viewed\",\"show_top_banner_category\":true,\"halo-before-before-you-leave-history\":true,\"halo_top_bar_promotion\":true,\"sidebar_products_per_page\":3,\"pdp-custom-fields-tab-label\":\"Additional Information\",\"afterpay-button-color\":\"black-mint\",\"button--primary-borderColorActive\":\"#e82b1a\",\"show_custom_tab_link\":\"/custom-tab-page/\",\"home_product_block_2_lookbook_2_position_x\":\"\",\"footer-info-3-heading\":\"Customer Service\",\"halo-cart-secure-image-2\":\"\",\"halo-before-quick-results-trending-now-title\":\"Top Searches\",\"optimizedCheckout-buttonPrimary-color\":\"#ffffff\",\"haloRecommendedBlock_cart\":true,\"halo-compare-colors\":true,\"halo-search-sidebar\":true,\"halo_ask_an_expert_title\":\"Have Question?\",\"show_product_swatch_names\":true,\"input-bg-color\":\"#ffffff\",\"loadingOverlay-backgroundColor\":\"#ffffff\",\"paymentbanners-proddetailspage-ratio\":\"8x1\",\"halo-product-security-image-3\":\"product-security-image-3.jpg\",\"product_viewingProduct_text\":\"customers are viewing this product\",\"navPages-subMenu-separatorColor\":\"#cccccc\",\"navPages-color-hover\":\"#e9446e\",\"halo-sidebar-custom-block-title\":\"Custom Block\",\"color-infoLight\":\"#dfdfdf\",\"paymentbanners-homepage-color\":\"white\",\"store_location_faq\":\"FAQs\",\"optimizedCheckout-buttonPrimary-colorActive\":\"#000000\",\"mega_menu_custom_style1_item_custom_linktext2\":\"Best Selling\",\"footer-info-2-text8\":\"Blog\",\"halo-google-map\":true,\"halo-cart-notification-text2\":\"you have in the cart. We'll keep it for you for\",\"halo_top_bar_promotion_text_2\":\"Order Online <a href='tel:(1800) 000' title='Phone' aria-label='Phone'>(1800) 000 BEAUTICA</a>\",\"optimizedCheckout-formChecklist-borderColor\":\"transparent\",\"mega_menu_custom_style1_item_img_width\":\"31.75%\",\"googlepay-button-color\":\"black\",\"fontSize-h1\":28,\"homepage_featured_products_count\":10,\"paymentbuttons-paylater-product-details-page-color\":\"gold\",\"default_image_product\":\"img/ProductDefault.gif\",\"mega_menu_custom_style1_item1_img\":\"\",\"halo-before-quick-results-trending-now-10\":\"new product\",\"halo_homepage_layout_2\":false,\"navUser-dropdown-borderColor\":\"#cccccc\",\"color-greyMedium\":\"#777777\",\"mega_menu_style4_item_link1\":\"#\",\"color-greyLight\":\"#999999\",\"optimizedCheckout-logo\":\"\",\"home_product_block_3_title_border\":true,\"icon-ratingEmpty\":\"#eeeeee\",\"homepage_show_carousel_play_pause_button\":true,\"icon-color\":\"#000000\",\"halo-before-you-leave-heading-1\":\"20% off\",\"checkout-paymentbuttons-paypal-shape\":\"rect\",\"button--default-backgroundColorHover\":\"#000000\",\"overlay-backgroundColor\":\"#333333\",\"input-border-color-active\":\"#474747\",\"mega_menu_style3_item_img_width\":\"100%\",\"homepage_show_carousel_3_customtextbtn\":\"\",\"halo_CalculateFreeShipping\":true,\"hide_contact_us_page_heading\":false,\"container-fill-dark\":\"#e5e5e5\",\"halo_before_you_leave_history_expires_date\":30,\"show_product_details_tabs\":true,\"color_text_product_soldOut_badges\":\"#ffffff\",\"homepage_show_carousel_1_subheading\":\"New Collection\",\"halo_social_youtube_link\":\"https://www.youtube.com/bigcommerce\",\"mega_menu_style2_item_productBlock_btnAll\":\"View All\",\"focusTooltip-backgroundColor\":\"#313440\",\"halo-cart-notification-time\":\"30\",\"halo_ask_an_expert_desc2\":\"We will follow up with you via email within 24-36 hours\",\"show_accept_western_union\":true,\"halo_CalculateFreeShipping_matched\":\"You qualify for free shipping!\",\"home_product_block_2_lookbook_1_id_product\":\"\",\"quickSearchPopularId\":\"113,114,115,116,117\",\"paymentbuttons-number-of-buttons\":1,\"halo_sticky_add_to_cart\":true,\"mega_menu_custom_style1_item_custom_linktext9\":\"\",\"optimizedCheckout-buttonPrimary-backgroundColorDisabled\":\"#cccccc\",\"footer-info-3-text7\":\"Consultant\",\"recently_bought_location1\":\"from Melbourne, AU\",\"button--primary-color\":\"#ffffff\",\"homepage_show_carousel_1_custombtn\":\"\",\"optimizedCheckout-buttonPrimary-borderColorHover\":\"#000000\",\"mega_menu_custom_style2_item_custom_linktext2\":\"Best Selling\",\"halo_notify_me_text2\":\"when this item is back to stock\",\"mega_menu_sale_label_textColor\":\"#ffffff\",\"halo-before-quick-results-trending-now-3\":\"cornerstone theme\",\"color-successLight\":\"#d5ffd8\",\"color_bg_product_custom_badges\":\"#191919\",\"homepage_show_carousel_1_customtextbtn\":\"\",\"home_product_block-3-link\":\"\",\"color-greyDarker\":\"#333333\",\"show_product_quantity_box\":true,\"button--default-backgroundColor\":\"#ffffff\",\"sale_price_color\":\"#e7040f\",\"navPages-lv3-color\":\"#505050\",\"mega_menu_style4_item_productBlock\":\"Top Sellers\",\"home_product_block-2\":\"Featured\",\"color-success\":\"#008a06\",\"halo-product-show-more\":false,\"mega_menu_custom_style2_item_custom_link3\":\"#\",\"halo_footer_layout\":\"footer_layout_1\",\"color-white\":\"#ffffff\",\"haloMegamenuType\":\"Editor\",\"button--tertiary-borderColorHover\":\"#ffffff\",\"fontSize-h3\":22,\"productview_thumb_size\":\"64x64\",\"halo-cart-notification\":true,\"color_text_product_custom_badges\":\"#ffffff\",\"mega_menu_custom_style3_item_custom_linktext2\":\"\",\"halo_back_to_top\":false,\"footer-info-2-link1\":\"#\",\"product_quicksearch_size\":\"170x220\",\"footer-info-2-text2\":\"Theme FAQs\",\"footer-info-1-heading\":\"Shop\",\"mega_menu_style2_item_link1\":\"\",\"mega_menu_custom_sale_label_text\":\"Sale\",\"spinner-borderColor-light\":\"#ffffff\",\"homepage_show_carousel_4_custombtn\":\"\",\"optimizedCheckout-header-borderColor\":\"#dddddd\",\"paymentbuttons-container\":\"medium\",\"halo_social_facebook_link\":\"https://www.facebook.com/BigCommerce/\",\"halo_header_customLink_3\":\"\",\"halo_brandAZlayout\":true,\"zoom_size\":\"1280x1280\",\"optimizedCheckout-buttonSecondary-backgroundColor\":\"#ffffff\",\"halo-label-product\":true,\"halo_header_customText_2\":\"\",\"mega_menu_custom_style1_item_custom_link8\":\"\",\"show_shipping_tab_type\":\"all\",\"halo-faqs-sidebar-icon2-link\":\"#\",\"paymentbuttons-paypal-checkout-payment-size\":\"medium\",\"input-border-color\":\"#cccccc\",\"productpage_product_block-1-title\":\"Related Products\",\"color-secondary\":\"#ffffff\",\"home_product_block_tab\":\"New\",\"mega_menu_custom_style3_item_img1\":\"\",\"carousel-bgColor\":\"transparent\",\"halo_share_code\":\"#pubid=ra-595b0ea2fb9c5869\",\"color_text_product_new_badges\":\"#ffffff\",\"blog_posts_summary\":\"500\",\"checkout-paymentbuttons-paypal-color\":\"black\",\"halo-before-quick-results-trending-now-7\":\"add on\",\"carousel-dot-color-active\":\"#151515\",\"button--primary-backgroundColorActive\":\"#e82b1a\",\"color-textSecondary--hover\":\"#000000\",\"halo-sidebar-all-categories\":true,\"mega_menu_style3_item_col_width\":\"100%\",\"optimizedCheckout-buttonPrimary-backgroundColor\":\"#000000\",\"carousel-play-pause-button-borderColor\":\"#ffffff\",\"navPages-lv2-color-hover\":\"#e9446e\",\"mega_menu_custom_style2_item_custom_link4\":\"#\",\"button-checkout-border-color-hover\":\"#e82b1a\",\"halo_before_you_leave\":true,\"show_social-links\":true,\"footer-info-3-link4\":\"#\",\"halo-cart-secure-image\":false,\"halo-brand-sidebar\":true,\"mega_menu_custom_style2_item_productBlock_btnAll\":\"View All\",\"optimizedCheckout-contentSecondary-font\":\"Google_Poppins_700\",\"navUser-dropdown-backgroundColor\":\"#ffffff\",\"product_soldProduct_hours\":\"3,6,9,10,12,24,36\",\"halo_social_instagram_link\":\"https://www.instagram.com/bigcommerce/\",\"home_product_block_2_imageLink\":\"\",\"haloStickyToolbar_limit\":false,\"color-primary\":\"#000000\",\"mega_menu_new_label\":\"1\",\"color-whitesBase\":\"#e5e5e5\",\"home_product_block_2_lookbook\":false,\"mega_menu_custom_style2_item_link2\":\"\",\"body-bg\":\"#ffffff\",\"store_location_find_link\":\"#\",\"footer-info-2-link3\":\"#\",\"dropdown--quickSearch-backgroundColor\":\"#ffffff\",\"halo_before_you_leave_history_count\":6,\"button--tertiary-backgroundColor\":\"#ffffff\",\"pages_show_footer_limit\":\"8\",\"optimizedCheckout-contentPrimary-font\":\"Google_Poppins_700\",\"footer_text_colorHover\":\"#ffffff\",\"supported_card_type_icons\":[\"american_express\",\"diners_club\",\"discover\",\"mastercard\",\"unionpay\",\"visa\"],\"footer-borderBottom-color\":\"#272727\",\"share_custom_code\":\"#pubid=ra-595b0ea2fb9c5869\",\"navigation_design\":\"alternate\",\"paymentbuttons-paylater-checkout-payment-color\":\"gold\",\"optimizedCheckout-formField-textColor\":\"#202020\",\"color_bg_product_new_badges\":\"#000000\",\"home_product_block_tab_col\":\"5\",\"color-black\":\"#000000\",\"home_product_block_2_lookbook_3_position_x\":\"\",\"homepage_top_products_column_count\":5,\"hide_page_heading\":false,\"haloStickyToolbar_sort\":true,\"halo_buy_it_now\":true,\"mega_menu_custom_style3_item_img_width\":\"100%\",\"homepage_show_carousel_2_position-content\":\"right\",\"mega_menu_custom_style1_item_custom_linktext6\":\"SALE\",\"footer-bgBottom-color\":\"#0f0f0f\",\"show_accept_cirrus\":true,\"mega_menu_custom_style1_item_custom_linktext1\":\"What's New\",\"mega_menu_custom_style1_item_custom_img4\":\"\",\"home_product_block_2_lookbook_2_position_y\":\"\",\"mega_menu_custom_style1_item_custom_link4\":\"#\",\"mega_menu_custom_hot_label_text\":\"Hot\",\"focusTooltip-textColor\":\"#ffffff\",\"checkout-paymentbuttons-paypal-size\":\"large\",\"halo-cart-secure-image-3\":\"\",\"optimizedCheckout-buttonSecondary-colorHover\":\"#333333\",\"location_title\":\"Customer Service\",\"mega_menu_custom_style3_item_custom_link6\":\"\",\"halo_recently_viewed_products_expires_date\":30,\"mega_menu_hot_label\":\"3\",\"paymentbanners-cartpage-logo-position\":\"left\",\"homepage_stretch_carousel_images\":false,\"halo-before-you-leave-text-1\":\"Take 20% off your first order\",\"home_product_block_3_banner\":false,\"mega_menu_custom_style2_item_custom_linktext4\":\"Most Popular\",\"card-title-color-hover\":\"#e9446e\",\"halo-before-quick-results-popular-title\":\"Most Popular\",\"checkout-paymentbuttons-paypal-label\":\"pay\",\"button--tertiary-color\":\"#000000\",\"thumb_size\":\"100x100\",\"homepage_show_carousel_4_position-content\":\"center\",\"footer-info-2-heading\":\"Infomation\",\"hide_breadcrumbs\":false,\"show_accept_klarna\":false,\"home_product_block-id-tab-cate-limit\":5,\"button--primary-colorActive\":\"#ffffff\",\"optimizedCheckout-contentSecondary-color\":\"#757575\",\"home_product_block_2_image\":\"\",\"halo-next-product\":true,\"mega_menu_custom_style1_item_custom_linktext10\":\"\",\"mega_menu_style1_item_col\":3,\"halo-product-security-image-4\":\"product-security-image-4.jpg\",\"recently_bought_hours\":\"10,15,16,17,18,20,25,35\",\"applePay-button\":\"black\",\"homepage_show_carousel_3_position-content\":\"left\",\"optimizedCheckout-buttonPrimary-borderColor\":\"#000000\",\"mega_menu_style3_item_col\":5,\"mega_menu_custom_style1_item_custom_linktext5\":\"Editor's Pick\",\"color_border_product_sale_badges\":\"#e7040f\",\"optimizedCheckout-buttonSecondary-borderColorActive\":\"#757575\",\"halo-sidebar-products\":true,\"hide_blog_page_heading\":false,\"recently_bought_location3\":\"from Bauru, BR\",\"productView_desShort\":false,\"mega_menu_style1_item1_link\":\"\",\"optimizedCheckout-header-textColor\":\"#333333\",\"hide_category_page_heading\":false,\"optimizedCheckout-show-backgroundImage\":false,\"footer-info-3-text6\":\"Help & FAQs\",\"color-primaryLight\":\"#999999\",\"navUser-indicator-backgroundColor\":\"#333333\",\"homepage_show_carousel_1_position-content\":\"center\",\"mega_menu_style1_item1_img\":\"image-mega-menu-1-cp.jpg\",\"halo_headerSticky\":true,\"halo-before-you-leave-img\":\"before-you-leave-img-cp.jpg\",\"home_product_block-3-title\":\"Editors' Picks\",\"footer-info-4-heading-download-app\":\"\",\"mega_menu_custom_style3_item_bottomCates\":\"COVID-19 Delayed Shipping Notice*\",\"home_product_tab-title-1\":\"\",\"mega_menu_custom_style1_item1_link\":\"\",\"homepage_show_carousel_4_subheading\":\"\",\"categories_show_footer_limit\":8,\"banner--deafault-backgroundColor\":\"#707070\",\"halo_sizechart_image\":\"\",\"mega_menu_new_label_textColor\":\"#ffffff\",\"share_custom\":true,\"mega_menu_custom_sale_label\":\"2\",\"halo_notify_me_text1\":\"Enter your email address to be notified\",\"mega_menu_custom_style3_item_custom_link3\":\"\",\"halo-before-you-leave-search\":true,\"recently_bought_text_info\":\"minutes ago,\",\"homepage_show_carousel_2_custombtn\":\"\",\"optimizedCheckout-buttonSecondary-color\":\"#333333\",\"store_location_privacy\":\"Privacy Policy\",\"halo-sidebar-custom-block-text\":\"<p>Custom CMS block displayed at the left sidebar on the Catalog Page. Put your own content here: text, html, images, media... whatever you like.</p><p>There are many similar sample content placeholders across the store. All editable from admin panel.</p>\",\"home_product_block_1_title_border\":false,\"button-checkout-bgColor\":\"#000000\",\"carousel-title-mb-color\":\"#ffffff\",\"home_product_block-1\":\"New\",\"show_accept_visa\":true,\"halo_sizechart_type\":\"all\",\"home_product_block_2_lookbook_1_position_x\":\"\",\"carousel-dot-bgColor\":\"#cccccc\",\"blog_posts_per_page\":\"4\",\"optimizedCheckout-form-textColor\":\"#000000\",\"halo_notify_me\":true,\"halo_homepage_layout_3\":false,\"color_border_product_new_badges\":\"#000000\",\"footer-info-4-heading\":\"\",\"mega_menu_custom_style3_item_img2\":\"\",\"alert-color-alt\":\"#ffffff\",\"quickSearchResultLimit\":\"10\",\"mega_menu_custom_style1_item2_img\":\"\",\"global_style\":\"#000000\",\"mega_menu_custom_style3_item_custom_linktext3\":\"\",\"checkRadio-backgroundColor\":\"#ffffff\",\"home_product_block-2-title\":\"Featured Products\",\"mega_menu_custom_style1_item_col_width\":\"68.25%\",\"optimizedCheckout-buttonPrimary-backgroundColorHover\":\"#ffffff\",\"carousel-play-pause-button-bgColor\":\"#ffffff\",\"halo-category-sidebar\":true,\"button--icon-svg-color\":\"#757575\",\"mega_menu_sale_label\":\"8\",\"button--default-colorHover\":\"#ffffff\",\"button--tertiary-backgroundColorHover\":\"#000000\",\"paymentbuttons-venmo-checkout-payment-color\":\"blue\",\"mega_menu_hot_label_textColor\":\"#ffffff\",\"home_product_block_1_imageLink\":\"\",\"haloRecentlyBought_mobile\":true,\"input-disabled-bg\":\"#ffffff\",\"halo_CalculateFreeShipping_remaining\":\"Only {remaining} away from Free Shipping.\",\"show_halo_share\":true,\"productthumb_size\":\"100x100\",\"halo-cart-notification-text1\":\"Please, hurry! Someone has placed an order on one of the items\",\"powered_by-text-2\":\"<p class='powered-by'><a href='https://www.themevale.com/' title='BigCommerce Themes by ThemeVale.com' aria-label='BigCommerce Themes by ThemeVale.com'>BigCommerce Themes by ThemeVale.com</a></p>\",\"mega_menu_custom_new_label\":\"1\",\"mega_menu_custom_style1_item3_img\":\"\",\"blog_posts_pages\":\"3\",\"store_location_terms_link\":\"#\",\"footer-info-2-text3\":\"New Collections\",\"color-textSecondary\":\"#000000\",\"halo_ask_an_expert_desc3\":\"Please answer the following questionnaire\",\"halo-before-before-you-leave-recommended\":true,\"paymentbanners-cartpage-text-color\":\"black\",\"dropdown--wishList-backgroundColor\":\"#ffffff\",\"mega_menu_custom_style2_item\":\"2\",\"halo_header_customLink_2\":\"\",\"halo-before-you-leave-color\":\"#ffffff\",\"container-border-global-color-base\":\"#e5e5e5\",\"footer-info-3-text1\":\"Search Terms\",\"button--primary-colorHover\":\"#ffffff\",\"color-error\":\"#cc4749\",\"halo_social_tikTok_link\":\"https://www.tiktok.com/@bigcommerceie\",\"mega_menu_style2_item_img1\":\"megamenu-image-4-cp.jpg\",\"homepage_blog_posts_count\":3,\"halo_card_brand\":true,\"footer-info-2-link7\":\"#\",\"gallery_size\":\"300x300\",\"recently_bought_location10\":\"from Los Angeles, US\",\"halo-before-quick-results-trending-now-2\":\"bigcommerce store\",\"halo_notify_me_subject\":\"Out of Stock Notification from Halothemes store\",\"carousel-dot-bgColor-active\":\"transparent\"},\"zoomSize\":\"1280x1280\",\"productSize\":\"746x746\",\"genericError\":\"Oops! Something went wrong.\",\"maintenanceModeSettings\":[],\"adminBarLanguage\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"admin.maintenance_header\\\":\\\"en\\\",\\\"admin.maintenance_tooltip\\\":\\\"en\\\",\\\"admin.maintenance_showstore_link\\\":\\\"en\\\",\\\"admin.prelaunch_header\\\":\\\"en\\\",\\\"admin.page_builder_link\\\":\\\"en\\\"},\\\"translations\\\":{\\\"admin.maintenance_header\\\":\\\"Your store is down for maintenance.\\\",\\\"admin.maintenance_tooltip\\\":\\\"Only administrators can view the store at the moment. Visit your control panel settings page to disable maintenance mode.\\\",\\\"admin.maintenance_showstore_link\\\":\\\"Click here to see what your visitors will see.\\\",\\\"admin.prelaunch_header\\\":\\\"Your storefront is private. Share your site with preview code:\\\",\\\"admin.page_builder_link\\\":\\\"Design this page in Page Builder\\\"}}\",\"urls\":{\"home\":\"https://beautica-light.mybigcommerce.com/\",\"account\":{\"index\":\"/account.php\",\"orders\":{\"all\":\"/account.php?action=order_status\",\"completed\":\"/account.php?action=view_orders\",\"save_new_return\":\"/account.php?action=save_new_return\"},\"update_action\":\"/account.php?action=update_account\",\"returns\":\"/account.php?action=view_returns\",\"addresses\":\"/account.php?action=address_book\",\"inbox\":\"/account.php?action=inbox\",\"send_message\":\"/account.php?action=send_message\",\"add_address\":\"/account.php?action=add_shipping_address\",\"wishlists\":{\"all\":\"/wishlist.php\",\"add\":\"/wishlist.php?action=addwishlist\",\"edit\":\"/wishlist.php?action=editwishlist\",\"delete\":\"/wishlist.php?action=deletewishlist\"},\"details\":\"/account.php?action=account_details\",\"recent_items\":\"/account.php?action=recent_items\"},\"brands\":\"https://beautica-light.mybigcommerce.com/brands/\",\"gift_certificate\":{\"purchase\":\"/giftcertificates.php\",\"redeem\":\"/giftcertificates.php?action=redeem\",\"balance\":\"/giftcertificates.php?action=balance\"},\"auth\":{\"login\":\"/login.php\",\"check_login\":\"/login.php?action=check_login\",\"create_account\":\"/login.php?action=create_account\",\"save_new_account\":\"/login.php?action=save_new_account\",\"forgot_password\":\"/login.php?action=reset_password\",\"send_password_email\":\"/login.php?action=send_password_email\",\"save_new_password\":\"/login.php?action=save_new_password\",\"logout\":\"/login.php?action=logout\"},\"product\":{\"post_review\":\"/postreview.php\"},\"cart\":\"/cart.php\",\"checkout\":{\"single_address\":\"/checkout\",\"multiple_address\":\"/checkout.php?action=multiple\"},\"rss\":{\"products\":[]},\"contact_us_submit\":\"/pages.php?action=sendContactForm\",\"search\":\"/search.php\",\"compare\":\"/compare\",\"sitemap\":\"/sitemap.php\",\"subscribe\":{\"action\":\"/subscribe.php\"}},\"secureBaseUrl\":\"https://beautica-light.mybigcommerce.com\",\"cartId\":null,\"channelId\":1,\"template\":\"pages/home\",\"validationDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_messages.valid_email\\\":\\\"en\\\",\\\"validation_messages.password\\\":\\\"en\\\",\\\"validation_messages.password_match\\\":\\\"en\\\",\\\"validation_messages.invalid_password\\\":\\\"en\\\",\\\"validation_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationFallbackDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"en\\\",\\\"validation_fallback_messages.password\\\":\\\"en\\\",\\\"validation_fallback_messages.password_match\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"en\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_fallback_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_fallback_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_fallback_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_fallback_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_fallback_messages.field_not_blank\\\":\\\" field cannot be blank.\\\",\\\"validation_fallback_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_fallback_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_fallback_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_fallback_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_fallback_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_fallback_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_fallback_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"validationDefaultDictionaryJSON\":\"{\\\"locale\\\":\\\"en\\\",\\\"locales\\\":{\\\"validation_default_messages.valid_email\\\":\\\"en\\\",\\\"validation_default_messages.password\\\":\\\"en\\\",\\\"validation_default_messages.password_match\\\":\\\"en\\\",\\\"validation_default_messages.invalid_password\\\":\\\"en\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"en\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"en\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"en\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"en\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"en\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"en\\\"},\\\"translations\\\":{\\\"validation_default_messages.valid_email\\\":\\\"You must enter a valid email.\\\",\\\"validation_default_messages.password\\\":\\\"You must enter a password.\\\",\\\"validation_default_messages.password_match\\\":\\\"Your passwords do not match.\\\",\\\"validation_default_messages.invalid_password\\\":\\\"Passwords must be at least 7 characters and contain both alphabetic and numeric characters.\\\",\\\"validation_default_messages.field_not_blank\\\":\\\"The field cannot be blank.\\\",\\\"validation_default_messages.certificate_amount\\\":\\\"You must enter a gift certificate amount.\\\",\\\"validation_default_messages.certificate_amount_range\\\":\\\"You must enter a certificate amount between [MIN] and [MAX]\\\",\\\"validation_default_messages.price_min_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_max_evaluation\\\":\\\"Min. price must be less than max. price.\\\",\\\"validation_default_messages.price_min_not_entered\\\":\\\"Min. price is required.\\\",\\\"validation_default_messages.price_max_not_entered\\\":\\\"Max. price is required.\\\",\\\"validation_default_messages.price_invalid_value\\\":\\\"Input must be greater than 0.\\\",\\\"validation_default_messages.invalid_gift_certificate\\\":\\\"Please enter your valid certificate code.\\\"}}\",\"carouselArrowAndDotAriaLabel\":\"Go to slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\",\"carouselActiveDotAriaLabel\":\"active\",\"carouselContentAnnounceMessage\":\"You are currently on slide [SLIDE_NUMBER] of [SLIDES_QUANTITY]\",\"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJjaWQiOjEsImNvcnMiOlsiaHR0cHM6Ly9iZWF1dGljYS1saWdodC5teWJpZ2NvbW1lcmNlLmNvbSJdLCJlYXQiOjE3MDA0MDgyMzQsImlhdCI6MTcwMDIzNTQzNCwiaXNzIjoiQkMiLCJzaWQiOjEwMDI4MTAzNDcsInN1YiI6ImJjYXBwLmxpbmtlcmQiLCJzdWJfdHlwZSI6MCwidG9rZW5fdHlwZSI6MX0.l39TKMf74L8__wj5NbwebaPpdgoauU5XWas5VuFGlAfHy-klndy6FuC1W8wgytyelO9iU1YKxY0EZKiNNIvQ_g\",\"money\":{\"currency_token\":\"$\",\"currency_location\":\"left\",\"decimal_token\":\".\",\"decimal_places\":2,\"thousands_token\":\",\"},\"isProductCardPresented\":true}").load();
-            }
-        </script>
-        <script async defer src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/dist/theme-bundle.main.js" onload="onThemeBundleMain()"></script>
+<style data-shopify>#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner {margin: 90px 0 ;padding:0 10px ;}
 
-        <div class="halo-global-block" data-image-load="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/loading.svg" data-store-hash-image="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/">
-			<div id="halo-auth-sidebar" class="halo-sidebar login-form-sidebar halo-auth-sidebar halo-sidebar-right">
-			<div class="halo-sidebar-header">
-				<span class="title">Sign In</span>
-				<a href="#" class="close">
-					<svg class="icon" role="img" aria-label="Close">
-			        	<title>Close</title>
-			        	<desc>Close</desc>
-			        	<use xlink:href="#icon-close"></use>
-			        </svg>
+
+
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-2{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#ffffff;
+						background:#ff7d09;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-3{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 6px 0px;
+						color:#3c6939;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-4{
+						font-size:15px;
+						line-height:24px;
+						font-weight:500;
+						letter-spacing:0px;
+						margin:0px 0px 16px 0px;
+						color:#414141;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#ff7d09;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;border:0px solid #ff7d09;
+							border-radius:0px 0px 0px 0px;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:before{
+						background:#ff7d09;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);border-color:#82c341;}
+
+
+
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-7{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#ffffff;
+						background:#3f730a;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-8{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 15px 0px;
+						color:#f34c09;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#3f730a;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:before{
+						background:#3f730a;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);}
+
+
+
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-11{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#000000;
+						background:#ffffff;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-12{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 6px 0px;
+						color:#1e929b;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-13{
+						font-size:15px;
+						line-height:24px;
+						font-weight:500;
+						letter-spacing:0px;
+						margin:0px 0px 16px 0px;
+						color:#414141;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#ff7d09;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:before{
+						background:#ff7d09;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);}
+@media (max-width:1200px){#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner{padding: 0 7.5px;}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1{padding: 0 7.5px ;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1 .banner-wrapper-infor{
+								padding: 0 15px;
+							}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6{padding: 0 7.5px ;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6 .banner-wrapper-infor{
+								padding: 0 15px;
+							}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10{padding: 0 7.5px;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10 .banner-wrapper-infor{
+								padding: 0 15px;
+							}}
+	@media (max-width:991px){#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner{margin:  60px 0;}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-2{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#ff7d09;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-3{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3c6939;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-4{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 10px 0px;
+							color:#414141;
+						}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-7{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-8{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#f34c09;
+						}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-11{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#000000;
+							background:#ffffff;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-12{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#1e929b;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-13{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 10px 0px;
+							color:#414141;
+						}}
+	@media (max-width:767px){
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-1{max-width:  100%;flex:0 0  100%;padding: 0 7.5px 15px;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-2{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#ff7d09;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-3{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3c6939;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-4{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#414141;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#ff7d09;
+							background:rgba(0,0,0,0);}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:before{
+							background:#ff7d09;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-5:hover{
+							color:#82c341;border-color:#82c341;}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-6{max-width:  100%;flex:0 0  100%;padding: 0 7.5px 15px;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-7{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-8{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#f34c09;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#3f730a;
+							background:rgba(0,0,0,0);border:0px solid #3f730a;
+								border-radius:0px 0px 0px 0px;}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:before{
+							background:#3f730a;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-9:hover{
+							color:#82c341;}
+
+#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .col-banner.banner-10{max-width:  100%;flex:0 0  100%;}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .subtitle-11{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#000000;
+							background:#ffffff;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-12{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#1e929b;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .title-13{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#414141;
+						}#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#ff7d09;
+							background:rgba(0,0,0,0);}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:before{
+							background:#ff7d09;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner .bwp-widget-banner .button-14:hover{
+							color:#82c341;}}</style><section class="wpbingo-section bwp-widget-banner wpbingo-section--template--18555181957405__featured-banner overflow-hidden">
+	<div class="bwp-container" style="max-width: 1560px;">
+		<div class="wpbingo-section__inner">
+			<div class="wpbingo-section__content"><div class="row--banners"><div class="col-banner banner-1">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2.jpg?v=1680683989 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2.jpg?v=1680683989 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7aa9e69-6391-450c-b89d-4520a0063bf2.jpg?crop=center&height=290&v=1680683989&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-2">Get 25% Off</h3><h3 class="title-banner title-3">Fresh Lemon <br> Drink</h3><h3 class="title-banner title-4">Save the Money</h3><a class="bwp-button style_1 button-5" href="https://mafoil-organic.myshopify.com/collections/all">Get it now!</a></div>
+											</div>
+										</div>
+									</div>
+								</div><div class="col-banner banner-6">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1.jpg?v=1680683989 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1.jpg?v=1680683989 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/2_ed23d8c0-0e91-4b27-ba01-cec72e4342c1.jpg?crop=center&height=290&v=1680683989&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-7">Sale 30% Off</h3><h3 class="title-banner title-8">100% ECO <br> Fresh and clean <br> every day</h3><a class="bwp-button style_1 button-9" href="https://mafoil-organic.myshopify.com/collections/all">Shop Now</a></div>
+											</div>
+										</div>
+									</div>
+								</div><div class="col-banner banner-10">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac.jpg?v=1680683989 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac_180x.jpg?v=1680683989 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac_360x.jpg?v=1680683989 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac.jpg?v=1680683989 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/3_e09a4f46-182e-4cdd-b147-9cb6cf84b2ac.jpg?crop=center&height=290&v=1680683989&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-11">Organic Brand</h3><h3 class="title-banner title-12">Big savings on <br> expertly</h3><h3 class="title-banner title-13">Free delivery for first order</h3><a class="bwp-button style_1 button-14" href="https://mafoil-organic.myshopify.com/collections/all">Get it now!</a></div>
+											</div>
+										</div>
+									</div>
+								</div></div></div>
+		</div>
+	</div>
+</section>
+</div><div id="shopify-section-template--18555181957405__featured-product" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-product .wpbingo-section--products-3{margin: 0 0 65px ;}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-product .wpbingo-section--products-3{margin:  0 0 40px;}
+		}</style><section class="wpbingo-section wpbingo-section--products-3 overflow-hidden wpbingo-section--template--18555181957405__featured-product">
+	<div class="container" >
+		<div class="wpbingo-section__inner row">
+			<div class="wpbingo-section__inner-left col-xl-2 col-lg-3 col-md-3 col-sm-3 col-12"><div class="wpbingo-title">
+						<h3 class="wpbingo-title__heading">organic</h3>
+					</div><ul class="wpbingo-menu-product"><li><a href="https://mafoil-organic.myshopify.com/collections/all">Healthy Foods</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fresh Vegetables</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Diet Nutrition</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Meat & Seafood</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Breakfast & Dairy</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Superfoods & Greens</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fruit & Veggies</a></li></ul><div class="button_view">
+						<a href="https://mafoil-organic.myshopify.com/collections/all">View All Products</a>
+					</div></div>
+			<div class="wpbingo-section__inner-right col-xl-10 col-lg-9 col-md-9 col-sm-9 col-12">
+				<div class="wpbingo-section__content bwp_slider-carousel bwp_slick-margin-mobile">
+					<div class="js-carousel slick-carousel" data-nav="false" data-infinite="true" data-autoplay="false"
+						data-autoplayspeed="10000"
+						data-columns="5"
+						data-column1440="4"
+						data-column1="3"
+						data-column2="2"
+						data-column3="1"
+						data-column4="1"><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-06-28"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-beef-meat">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Beef Meat"
+		aria-label="Fresh Beef Meat"
+		data-alt="Fresh Beef Meat"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
 				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-06-28"></div>
+				</div><div class="product-card__form" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722717032733" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243146817821"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-beef-meat">Fresh Beef Meat</a>
 			</div>
-		    <div class="halo-sidebar-wrapper">
-		        <form class="form" action="https://beautica-light.mybigcommerce.com/login.php?action=check_login" method="post">
-		            <div class="login-form-wrapper">
-		                <div class="form-field">
-		                    <label class="form-label" for="login_email">
-		                        Email Address
-		                        <small>*</small>
-		                    </label>
-		                    <input id="login_email" class="form-input" type="email" value="" name="login_email" placeholder="john.smith@example.com">
-		                </div>
-		                <div class="form-field">
-		                    <label class="form-label" for="login_pass">
-		                        Password
-		                        <small>*</small>
-		                    </label>
-		                    <input id="login_pass" class="form-input" type="password" value="" name="login_pass" placeholder="">
-		                </div>
-		                <div class="form-actions">
-		                    <button type="button" class="button button--secondary">Login</button>
-		                    <a class="forgot-password" href="/login.php?action&#x3D;reset_password">
-		                    	<span>Forgot your password?</span>
-		                    </a>
-		                    <a class="create-account button button--primary" href="/login.php?action&#x3D;create_account">Create Account</a>
-		                </div>
-		            </div>
-		        </form>
-		    </div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-beef-meat">
+
+<div class="product-price">$80.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722717032733" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-03-06"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cherry-juice">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cherry Juice"
+		aria-label="Cherry Juice"
+		data-alt="Cherry Juice"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+
 		</div>
 
-    <div class="halo-sidebar halo-cart-sidebar halo-sidebar-right" id="halo-cart-sidebar">
-    	<div class="halo-sidebar-header">
-    		<span class="title">your cart</span>
-    		<a href="#" class="close">
-    			<svg class="icon" role="img" aria-label="Close">
-                	<title>Close</title>
-                	<desc>Close</desc>
-                	<use xlink:href="#icon-close"></use>
-                </svg>
-    		</a>
-    	</div>
-        <div class="halo-sidebar-wrapper haloCustomScrollbar">
-            <div class="previewCart">
-        <div class="previewCart-emptyBody">
-            Your cart is empty
-        </div>
-</div>
-        </div>
-    </div>
+</a>
 
-<div class="halo-sidebar halo-menu-sidebar halo-sidebar-left halo-menu-megamenu" id="halo-menu-sidebar">
-	<div class="halo-sidebar-header">
-		<span class="title">Menu</span>
-	    <a href="#" class="halo-sidebar-close">
-	        <svg class="icon" role="img" aria-label="Close">
-	        	<title>Close</title>
-	        	<desc>Close</desc>
-	        	<use xlink:href="#icon-close"></use>
-	        </svg>
-	    </a>
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 24%</span>
+
+
+
 	</div>
-    <div class="halo-sidebar-wrapper navPages-container" data-menu>
-        <nav class="navPages">
-    <ul class="navPages-list navPages-list-mobile"></ul>
-    <ul class="navPages-list navPages-list--user" data-level-list>
-        <li class="navPages-item navPages-item-user">
-                <a class="navPages-action navPages-action-end" href="/login.php">
-                    <span class="text">
-                        <svg class="icon" role="img" aria-label="Account">
-                            <title>Account</title>
-                            <desc>Account</desc>
-                            <use xlink:href="#icon-user"></use>
-                        </svg>
-                        Sign In
-                    </span>
-                </a>
-        </li>
-        <li class="navPages-item navPages-item-user">
-            <a class="navPages-action navPages-action-end" href="/wishlist.php">
-                <span class="text">
-                    <svg class="icon" role="img" aria-label="Wish Lists">
-                        <title>Wish Lists</title>
-                        <desc>Wish Lists</desc>
-                        <use xlink:href="#icon-heart"></use>
-                    </svg>
-                    Wish Lists
-                </span>
-            </a>
-        </li>
-                <li class="navPages-item navPages-item-user navPages-item-phone">
-                    <div class="navPages-action navPages-action-end">
-                        <span class="text">
-                            <svg class="icon" role="img" aria-label="Phone:">
-                                <title>Phone:</title>
-                                <desc>Phone:</desc>
-                                <use xlink:href="#icon-phone"></use>
-                            </svg>
-                            Order Online <a href='tel:(1800) 000' title='Phone' aria-label='Phone'>(1800) 000 BEAUTICA</a>
-                        </span>
-                    </div>
-                </li>
-        <li class="navPages-item navPages-item-user">
-            <a class="navPages-action navPages-action-end" href="/giftcertificates.php">
-                <span class="text">
-                    <svg class="icon" role="img" aria-label="Gift Certificates">
-                        <title>Gift Certificates</title>
-                        <desc>Gift Certificates</desc>
-                        <use xlink:href="#icon-gift"></use>
-                    </svg>
-                    Gift Certificates
-                </span>
-            </a>
-        </li>
-            <li class="navPages-item navPages-item-user has-dropdown currencies" data-level="2">>
-                <p id="currency_selector" class="navPages-action navPages-action-depth-max has-subMenu is-root">
-                    <a class="text" href="#">
-                        <span class="flag"><img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/us.gif" border="0" alt="" role="presentation" /></span>
-                        USD
-                    </a>
-                    <span class="navPages-action-moreIcon" aria-hidden="true">
-                        <svg class="icon"><use xlink:href="#icon-chevron-down" /></svg>
-                    </span>
-                </p>
-                <div class="navPage-subMenu navPage-subMenu-horizontal level-2" id="navPages-currency">
-                    <ul class="navPage-subMenu-list">
-                        <li class="navPage-subMenu-item-child navPage-subMenu-title" data-level="2">
-                            <p class="navPage-subMenu-action navPages-action">
-                                <span class="navPages-action-moreIcon" aria-hidden="true">
-                                    <svg class="icon"><use xlink:href="#icon-long-arrow-left" /></svg>
-                                </span>
-                                <a class="text" href="#">
-                                    USD
-                                </a>
-                            </p>
-                        </li>
-                            <li class="navPage-subMenu-item-child navPages-action-end" data-level="3">
-                                <a class="navPage-subMenu-action navPages-action" href="https://beautica-light.mybigcommerce.com/?setCurrencyId=2">
-                                    <span class="text"><span class="flag"><img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/us.gif" border="0" alt="" role="presentation" /></span>US Dollar</span>
-                                </a>
-                            </li>
-                            <li class="navPage-subMenu-item-child navPages-action-end" data-level="3">
-                                <a class="navPage-subMenu-action navPages-action" href="https://beautica-light.mybigcommerce.com/?setCurrencyId=3">
-                                    <span class="text"><span class="flag"><img src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/lib/flags/au.gif" border="0" alt="" role="presentation" /></span>Australian Dollar</span>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="navPages-item navPages-item-user">
-                <div class="navPages-action navPages-action-end">
-                    <div class="text">
-                            <ul class="socialLinks socialLinks--alt">
-            <li class="socialLinks-item">
-                <a class="icon icon--facebook" href="https://www.facebook.com/BigCommerce/" target="_blank" rel="noopener" aria-label="Open facebook in a new tab">
-                    <svg class="icon" role="img" aria-label="facebook">
-                        <title>facebook</title>
-                        <desc>facebook</desc>
-                        <use xlink:href="#icon-facebook"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--twitter" href="https://twitter.com/BigCommerce/" target="_blank" rel="noopener" aria-label="Open twitter in a new tab">
-                    <svg class="icon" role="img" aria-label="twitter">
-                        <title>twitter</title>
-                        <desc>twitter</desc>
-                        <use xlink:href="#icon-twitter"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--pinterest" href="https://www.pinterest.com/bigcommerce/" target="_blank" rel="noopener" aria-label="Open pinterest in a new tab">
-                    <svg class="icon" role="img" aria-label="pinterest">
-                        <title>pinterest</title>
-                        <desc>pinterest</desc>
-                        <use xlink:href="#icon-pinterest"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--instagram" href="https://www.instagram.com/bigcommerce/" target="_blank" rel="noopener" aria-label="Open instagram in a new tab">
-                    <svg class="icon" role="img" aria-label="instagram">
-                        <title>instagram</title>
-                        <desc>instagram</desc>
-                        <use xlink:href="#icon-instagram"></use>
-                    </svg>
-                </a>
-            </li>
-            <li class="socialLinks-item">
-                <a class="icon icon--youtube" href="https://www.youtube.com/c/bigcommerce" target="_blank" rel="noopener" aria-label="Open youtube in a new tab">
-                    <svg class="icon" role="img" aria-label="youtube">
-                        <title>youtube</title>
-                        <desc>youtube</desc>
-                        <use xlink:href="#icon-youtube"></use>
-                    </svg>
-                </a>
-            </li>
-    </ul>
-                    </div>
-                </div>
-            </li>
-    </ul>
-</nav>
-    </div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-03-06"></div>
+				</div><div class="product-card__form" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722693996829" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243136692509"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cherry-juice">Cherry Juice</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cherry-juice">
+
+<div class="product-price product-price--regular">$25.00</div><div class="product-price price-sale">$19.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722693996829" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
 </div>
 
-<div class="halo-sidebar halo-search-sidebar halo-sidebar-left" id="halo-search-sidebar">
-    <div class="halo-sidebar-header">
-		<span class="title">Search</span>
-		<a href="#" class="close">
-			<svg class="icon" role="img" aria-label="Close">
-            	<title>Close</title>
-            	<desc>Close</desc>
-            	<use xlink:href="#icon-close"></use>
-            </svg>
-		</a>
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-19"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-tomatoes">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?crop=center&height=900&v=1680835690&width=900" width="900" height="900" /></noscript>
 	</div>
-    <div class="halo-sidebar-wrapper">
-    	<div class="halo-sidebar-search"></div>
-    	<div class="halo-sidebar-content"></div>
-    </div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Tomatoes"
+		aria-label="Organic Tomatoes"
+		data-alt="Organic Tomatoes"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?crop=center&height=900&v=1680835691&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-19"></div>
+				</div><div class="product-card__form" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722709102877" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243142885661"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-tomatoes">Organic Tomatoes</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-tomatoes">
+
+<div class="product-price">$100.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722709102877" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
 </div>
 
 
-	    <div id="halo-newsletter-popup" class="halo-popup halo-newsletter-popup hide">
-        <div class="newsletter-popup-container">
-            <div class="newsletter-popup-inner">
-                <button type="button" data-close-newsletter-popup>
-                    <svg class="icon" role="img" aria-label="Close">
-                        <title>Close</title>
-                        <desc>Close</desc>
-                        <use xlink:href="#icon-close"></use>
-                    </svg>
-                </button>
-                    <div class="newsletter-left">
-                        <img class="lazyload" src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/stencil/ab22c4a0-4bd1-013c-821b-6623b83370e2/e/5e16f880-1e55-013c-a51f-5e2664a7e7b6/img/loading.svg" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/newsletter-image-popup-cp.jpg" alt="Newsletter Sign Up" title="Newsletter Sign Up">
-                    </div>
-                <div class="newsletter-right">
-                    <h2 class="newsletter-heading">Join Our Mailing List</h2>
-                    <div class="newsletter-message">
-                        <span>Sign Up for Exclusive Updates, New Arrivals &amp; Insider-only Discounts</span>
-                    </div>
-                    <div id="popupSubcribeForm">
-                        <form class="form" action="/subscribe.php" method="post" id="popupSubcribeFormSubmit">
-                            <fieldset class="form-fieldset">
-                                <input type="hidden" name="action" value="subscribe">
-                                <input type="hidden" name="nl_first_name" value="bc">
-                                <input type="hidden" name="check" value="1">
-                                <div class="form-field">
-                                    <label class="form-label is-srOnly" for="nl_email2">enter your email address</label>
-                                    <input class="form-input" id="nl_email2" name="nl_email" type="email" placeholder="enter your email address">
-                                    <input class="button button--primary button--large" type="submit" value="Submit">
-                                </div>
-                            </fieldset>
-                        </form>
-                    </div>
-                        <div class="form-show-again">
-                            <form class="form">
-                                <div class="form-field form-field-checkbox">
-                                    <input id="do-not-show-again" class="do-not-show-again" type="checkbox" name="don't show again" value="1">
-                                    <label class="form-label" for="do-not-show-again">
-                                        <span>No, thanks</span>
-                                    </label>
-                                </div>
-                            </form>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
+								</div><div class="slick-carousel__item">
 
-		<section id="before-you-leave" class="before-you-leave side_popup" data-time="1" style="display: none;">
-        <button class="btn-close" type="button" title="Close">
-    <span>Close</span>
-</button>
-        <div class="before-you-leave-inner haloCustomScrollbar">
-			<div class="before-you-leave-banner">
-				<div class="banner-inner ">
-						<a class="image-wrapper" href="#" title="Before you leave">
-							<img class="lazyload" src="" data-src="https://cdn11.bigcommerce.com/s-puuf0ho3a3/product_images/uploaded_images/before-you-leave-img-cp.jpg" alt="">
-						</a>
-					<div class="content text-center">
-						<div class="content-inner">
-								<h2 class="title">Before you leave</h2>
-								<p class="desc1">Take 20% off your first order</p>
-								<h3 class="heading1"><span>20% off</span></h3>
-								<p class="desc2">Enter the code below at checkout to get 20% off your first order</p>
-								<h3 class="heading2"><span>CODESALE20</span></h3>
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-12"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-cashews">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Cashews"
+		aria-label="Organic Cashews"
+		data-alt="Organic Cashews"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-12"></div>
+				</div><div class="product-card__form" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722866749725" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243149340957"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-cashews">Organic Cashews</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-cashews">
+
+<div class="product-price variant-price">$35.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="organic-cashews">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722866749725" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-seafood">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Seafood"
+		aria-label="Fresh Seafood"
+		data-alt="Fresh Seafood"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 50%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722705170717" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243139641629"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-seafood">Fresh Seafood</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-seafood">
+
+<div class="product-price product-price--regular">$50.00</div><div class="product-price price-sale">$25.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722705170717" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-24"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/berry-smoothie-concor">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Berry Smoothie Concor"
+		aria-label="Berry Smoothie Concor"
+		data-alt="Berry Smoothie Concor"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 12%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-24"></div>
+				</div><div class="product-card__form" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722688000285" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243134398749"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/berry-smoothie-concor">Berry Smoothie Concor</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="berry-smoothie-concor">
+
+<div class="product-price product-price--regular">$40.00</div><div class="product-price price-sale">$35.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722688000285" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/eggs">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Eggs"
+		aria-label="Eggs"
+		data-alt="Eggs"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="eggs" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722673418525" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243131646237"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/eggs">Eggs</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="eggs">
+
+<div class="product-price">$79.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="eggs" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722673418525" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cabbage-fresh">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?crop=center&height=900&v=1680834952&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cabbage Fresh"
+		aria-label="Cabbage Fresh"
+		data-alt="Cabbage Fresh"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?crop=center&height=900&v=1680834953&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722862981405" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243130335517"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cabbage-fresh">Cabbage Fresh</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cabbage-fresh">
+
+<div class="product-price variant-price">$80.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="cabbage-fresh">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722862981405" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-background-image-1" class="shopify-section wpbingo-framework">
+
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section__inner{
+				background-image: url('//mafoil-organic.myshopify.com/cdn/shop/files/9.jpg?v=1681288819');
+				background-size:cover;
+				background-position:center center;}#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section__inner{padding:65px 135px 50px ;}#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background{margin: 0 0 90px ;}@media (max-width:1200px){#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section__inner{
+				padding: 60px 15px 45px;
+			}}
+	@media (max-width:991px){#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background{margin:  0 0 60px;}}
+	@media (max-width:767px){}#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .subheading-1{
+					font-size:24px;
+					line-height:30px;
+					font-weight:400;
+					letter-spacing:0px;
+					margin:;
+					color:#000000;
+					text-align:left;}#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .button-2{
+					margin:-40px 0px 0px 0px;
+					text-align:right;
+				}
+				#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .button-2 a{
+					font-size:14px;
+					line-height:45px;
+					font-weight:700;
+					letter-spacing:0px;
+					color:#ffffff;
+					background:#ff7d09;
+					padding:0px 57px 0px 47px;
+					overflow:hidden;border:0px solid rgba(0,0,0,0);
+						border-radius:50px
+}
+				#shopify-section-template--18555181957405__featured-background-image-1 .button-2 a:before{
+					background:#3f730a;
+				}
+				#shopify-section-template--18555181957405__featured-background-image-1 .button-2 a:hover{
+					color:#ffffff;
+					background:#3f730a;border-color:rgba(0,0,0,0)}@media (max-width:991px){#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .subheading-1{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 0px 0px;
+						color:#000000;
+						text-align:left;
+					}}
+	@media (max-width:767px){#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .subheading-1{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 20px 0px;
+						color:#000000;
+						text-align:center;
+					}#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .button-2{
+						text-align:center;
+						margin:0px 0px 0px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-background-image-1 .wpbingo-section--background .button-2 a{
+						font-size:14px;
+						line-height:45px;
+						letter-spacing:0px;
+						padding:0px 57px 0px 47px;
+						color:#ffffff;
+						background:#ff7d09;border:0px solid rgba(0,0,0,0);
+							border-radius:50px
+}
+					#shopify-section-template--18555181957405__featured-background-image-1 .button-2:before{
+						background:#3f730a;
+					}
+					#shopify-section-template--18555181957405__featured-background-image-1 .button-2 a:hover{
+						color:#ffffff;
+						background:#3f730a;border-color:#ffffff}}</style><section class="wpbingo-section wpbingo-section--background wpbingo-section--template--18555181957405__featured-background-image-1 overflow-hidden">
+	<div class="container" >
+		<div class="wpbingo-section__inner"><div class="wpbingo-sub-title subheading-1">
+								<span class="bold">Free delivery</span> for first order and every next over <span class="bold">200$</span>
+							</div><div class="button-2">
+								<a class="bwp-button style_2" href="">Shop Now</a>
+							</div></div>
+	</div>
+</section>
+
+
+</div><div id="shopify-section-template--18555181957405__featured-product-2" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-product-2 .wpbingo-section--products-3{margin: 0 0 65px ;}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-product-2 .wpbingo-section--products-3{margin:  0 0 40px;}
+		}</style><section class="wpbingo-section wpbingo-section--products-3 overflow-hidden wpbingo-section--template--18555181957405__featured-product-2">
+	<div class="container" >
+		<div class="wpbingo-section__inner row">
+			<div class="wpbingo-section__inner-left col-xl-2 col-lg-3 col-md-3 col-sm-3 col-12"><div class="wpbingo-title">
+						<h3 class="wpbingo-title__heading">Fresh seafood</h3>
+					</div><ul class="wpbingo-menu-product"><li><a href="https://mafoil-organic.myshopify.com/collections/all">Healthy Foods</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fresh Vegetables</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Diet Nutrition</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Meat & Seafood</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Breakfast & Dairy</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Superfoods & Greens</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fruit & Veggies</a></li></ul><div class="button_view">
+						<a href="https://mafoil-organic.myshopify.com/collections/all">View All Products</a>
+					</div></div>
+			<div class="wpbingo-section__inner-right col-xl-10 col-lg-9 col-md-9 col-sm-9 col-12">
+				<div class="wpbingo-section__content bwp_slider-carousel bwp_slick-margin-mobile">
+					<div class="js-carousel slick-carousel" data-nav="false" data-infinite="true" data-autoplay="false"
+						data-autoplayspeed="10000"
+						data-columns="5"
+						data-column1440="4"
+						data-column1="3"
+						data-column2="2"
+						data-column3="1"
+						data-column4="1"><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-06-28"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-beef-meat">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Beef Meat"
+		aria-label="Fresh Beef Meat"
+		data-alt="Fresh Beef Meat"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-06-28"></div>
+				</div><div class="product-card__form" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722717032733" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243146817821"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-beef-meat">Fresh Beef Meat</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-beef-meat">
+
+<div class="product-price">$80.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722717032733" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-03-06"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cherry-juice">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cherry Juice"
+		aria-label="Cherry Juice"
+		data-alt="Cherry Juice"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 24%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-03-06"></div>
+				</div><div class="product-card__form" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722693996829" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243136692509"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cherry-juice">Cherry Juice</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cherry-juice">
+
+<div class="product-price product-price--regular">$25.00</div><div class="product-price price-sale">$19.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722693996829" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-19"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-tomatoes">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?crop=center&height=900&v=1680835690&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Tomatoes"
+		aria-label="Organic Tomatoes"
+		data-alt="Organic Tomatoes"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?crop=center&height=900&v=1680835691&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-19"></div>
+				</div><div class="product-card__form" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722709102877" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243142885661"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-tomatoes">Organic Tomatoes</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-tomatoes">
+
+<div class="product-price">$100.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722709102877" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-12"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-cashews">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Cashews"
+		aria-label="Organic Cashews"
+		data-alt="Organic Cashews"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-12"></div>
+				</div><div class="product-card__form" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722866749725" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243149340957"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-cashews">Organic Cashews</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-cashews">
+
+<div class="product-price variant-price">$35.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="organic-cashews">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722866749725" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-seafood">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Seafood"
+		aria-label="Fresh Seafood"
+		data-alt="Fresh Seafood"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 50%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722705170717" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243139641629"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-seafood">Fresh Seafood</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-seafood">
+
+<div class="product-price product-price--regular">$50.00</div><div class="product-price price-sale">$25.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722705170717" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-24"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/berry-smoothie-concor">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Berry Smoothie Concor"
+		aria-label="Berry Smoothie Concor"
+		data-alt="Berry Smoothie Concor"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 12%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-24"></div>
+				</div><div class="product-card__form" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722688000285" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243134398749"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/berry-smoothie-concor">Berry Smoothie Concor</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="berry-smoothie-concor">
+
+<div class="product-price product-price--regular">$40.00</div><div class="product-price price-sale">$35.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722688000285" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/eggs">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Eggs"
+		aria-label="Eggs"
+		data-alt="Eggs"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="eggs" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722673418525" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243131646237"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/eggs">Eggs</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="eggs">
+
+<div class="product-price">$79.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="eggs" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722673418525" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cabbage-fresh">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?crop=center&height=900&v=1680834952&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cabbage Fresh"
+		aria-label="Cabbage Fresh"
+		data-alt="Cabbage Fresh"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?crop=center&height=900&v=1680834953&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722862981405" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243130335517"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cabbage-fresh">Cabbage Fresh</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cabbage-fresh">
+
+<div class="product-price variant-price">$80.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="cabbage-fresh">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722862981405" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-collections" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-collections{
+			background-image: url('//mafoil-organic.myshopify.com/cdn/shop/files/10.jpg?v=1681288819');
+			background-position:center center;
+			background-size:cover;background-attachment: fixed;}#shopify-section-template--18555181957405__featured-collections .wpbingo-section--collections{margin: 0 0 90px 0 ;padding:120px 15px 185px ;}@media (max-width:1200px){
+			#shopify-section-template--18555181957405__featured-collections .wpbingo-section--collections{padding: 120px 0 185px ;}
+		}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-collections .wpbingo-section--collections{margin:  0 0 60px;padding: 60px 0px;}
+		}</style><section class="wpbingo-section wpbingo-section--collections overflow-hidden" >
+	<div class="bwp-container" style="max-width: 1550px;">
+		<div class="wpbingo-section__inner"><div class="wpbingo-section__content bwp_slider-carousel bwp_slick-margin-mobile"><div class="js-carousel slick-carousel"  data-nav="false" data-infinite="true" data-autoplay="false"
+						data-autoplayspeed="10000"
+						data-columns="7"
+						data-column1440="6"
+						data-column1="4"
+						data-column2="3"
+						data-column3="1"
+						data-column4="1"><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/dried" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/dried.jpg?v=1680766901 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/dried.jpg?v=1680766901 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/dried.jpg?crop=center&height=130&v=1680766901&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Dried
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/frontpage" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/drinks.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/drinks.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/drinks.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Drinks
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/eco-garden" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/eco-garden.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/eco-garden.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/eco-garden.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Eco Garden
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/fresh-nuts" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/fresh-nuts.jpg?v=1680766900 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/fresh-nuts.jpg?v=1680766900 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/fresh-nuts.jpg?crop=center&height=130&v=1680766900&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Fresh Nuts
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/fruits" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/fruits.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/fruits.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/fruits.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Fruits
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/meat" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/meat.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/meat.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/meat.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Meat
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/spices" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/spices.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/spices.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/spices.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Spices
+										</div>
+									</a>
+								</div>
+							</div><div class="slick-carousel__item">
+								<div class="collection-item"><a href="/collections/vegetables" class="collection-item__link">
+										<div class="collection-item__image"><img class="lazyload   fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/vegetables.jpg?v=1680766899 130w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/vegetables.jpg?v=1680766899 130w"
+	data-sizes="auto"
+	width="130"
+	height="130"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/vegetables.jpg?crop=center&height=130&v=1680766899&width=130"  width="130" height="130" /></noscript>
+</div>
+										<div class="collection-item__title">
+											Vegetables
+										</div>
+									</a>
+								</div>
+							</div></div></div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-product-3" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-product-3 .wpbingo-section--products-3{margin: 0 0 65px ;}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-product-3 .wpbingo-section--products-3{margin:  0 0 40px;}
+		}</style><section class="wpbingo-section wpbingo-section--products-3 overflow-hidden wpbingo-section--template--18555181957405__featured-product-3">
+	<div class="container" >
+		<div class="wpbingo-section__inner row">
+			<div class="wpbingo-section__inner-left col-xl-2 col-lg-3 col-md-3 col-sm-3 col-12"><div class="wpbingo-title">
+						<h3 class="wpbingo-title__heading">Nuts &amp; eco</h3>
+					</div><ul class="wpbingo-menu-product"><li><a href="/">Home</a></li><li><a href="/collections/all">Shop</a></li><li><a href="/products/berry-smoothie-concor">Product</a></li><li><a href="/blogs/news">Blog</a></li><li><a href="#">Featured</a></li></ul><div class="button_view">
+						<a href="https://mafoil-organic.myshopify.com/collections/all">View All Products</a>
+					</div></div>
+			<div class="wpbingo-section__inner-right col-xl-10 col-lg-9 col-md-9 col-sm-9 col-12">
+				<div class="wpbingo-section__content bwp_slider-carousel bwp_slick-margin-mobile">
+					<div class="js-carousel slick-carousel" data-nav="false" data-infinite="true" data-autoplay="false"
+						data-autoplayspeed="10000"
+						data-columns="5"
+						data-column1440="4"
+						data-column1="3"
+						data-column2="2"
+						data-column3="1"
+						data-column4="1"><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-06-28"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-beef-meat">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Beef Meat"
+		aria-label="Fresh Beef Meat"
+		data-alt="Fresh Beef Meat"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-06-28"></div>
+				</div><div class="product-card__form" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722717032733" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243146817821"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-beef-meat">Fresh Beef Meat</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-beef-meat">
+
+<div class="product-price">$80.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722717032733" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-03-06"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cherry-juice">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cherry Juice"
+		aria-label="Cherry Juice"
+		data-alt="Cherry Juice"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 24%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-03-06"></div>
+				</div><div class="product-card__form" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722693996829" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243136692509"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cherry-juice">Cherry Juice</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cherry-juice">
+
+<div class="product-price product-price--regular">$25.00</div><div class="product-price price-sale">$19.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722693996829" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-19"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-tomatoes">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?crop=center&height=900&v=1680835690&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Tomatoes"
+		aria-label="Organic Tomatoes"
+		data-alt="Organic Tomatoes"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?crop=center&height=900&v=1680835691&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-19"></div>
+				</div><div class="product-card__form" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722709102877" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243142885661"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-tomatoes">Organic Tomatoes</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-tomatoes">
+
+<div class="product-price">$100.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722709102877" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-12"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-cashews">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Cashews"
+		aria-label="Organic Cashews"
+		data-alt="Organic Cashews"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-12"></div>
+				</div><div class="product-card__form" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722866749725" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243149340957"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-cashews">Organic Cashews</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-cashews">
+
+<div class="product-price variant-price">$35.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="organic-cashews">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722866749725" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-seafood">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Seafood"
+		aria-label="Fresh Seafood"
+		data-alt="Fresh Seafood"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 50%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722705170717" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243139641629"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-seafood">Fresh Seafood</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-seafood">
+
+<div class="product-price product-price--regular">$50.00</div><div class="product-price price-sale">$25.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722705170717" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-24"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/berry-smoothie-concor">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Berry Smoothie Concor"
+		aria-label="Berry Smoothie Concor"
+		data-alt="Berry Smoothie Concor"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 12%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-24"></div>
+				</div><div class="product-card__form" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722688000285" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243134398749"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/berry-smoothie-concor">Berry Smoothie Concor</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="berry-smoothie-concor">
+
+<div class="product-price product-price--regular">$40.00</div><div class="product-price price-sale">$35.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722688000285" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/eggs">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Eggs"
+		aria-label="Eggs"
+		data-alt="Eggs"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="eggs" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722673418525" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243131646237"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/eggs">Eggs</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="eggs">
+
+<div class="product-price">$79.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="eggs" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722673418525" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cabbage-fresh">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?crop=center&height=900&v=1680834952&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cabbage Fresh"
+		aria-label="Cabbage Fresh"
+		data-alt="Cabbage Fresh"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?crop=center&height=900&v=1680834953&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722862981405" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243130335517"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cabbage-fresh">Cabbage Fresh</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cabbage-fresh">
+
+<div class="product-price variant-price">$80.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="cabbage-fresh">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722862981405" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-background-image-2" class="shopify-section wpbingo-framework">
+
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section__inner{
+				background-image: url('//mafoil-organic.myshopify.com/cdn/shop/files/8.jpg?v=1681288819');
+				background-size:cover;
+				background-position:center center;}#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section__inner{padding:65px 135px 50px ;}#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background{margin: 0 0 90px ;}@media (max-width:1200px){#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section__inner{
+				padding: 60px 15px 45px;
+			}}
+	@media (max-width:991px){#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background{margin:  0 0 60px;}}
+	@media (max-width:767px){}#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .subheading-1{
+					font-size:24px;
+					line-height:30px;
+					font-weight:400;
+					letter-spacing:0px;
+					margin:;
+					color:#000000;
+					text-align:left;}#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .button-2{
+					margin:-40px 0px 0px 0px;
+					text-align:right;
+				}
+				#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .button-2 a{
+					font-size:14px;
+					line-height:45px;
+					font-weight:700;
+					letter-spacing:0px;
+					color:#ffffff;
+					background:#82c341;
+					padding:0px 57px 0px 47px;
+					overflow:hidden;border:0px solid #ffffff;
+						border-radius:50px
+}
+				#shopify-section-template--18555181957405__featured-background-image-2 .button-2 a:before{
+					background:#3f730a;
+				}
+				#shopify-section-template--18555181957405__featured-background-image-2 .button-2 a:hover{
+					color:#ffffff;
+					background:#3f730a;border-color:#ffffff}@media (max-width:991px){#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .subheading-1{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 0px 0px;
+						color:#000000;
+						text-align:left;
+					}}
+	@media (max-width:767px){#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .subheading-1{
+						font-size:20px;
+						line-height:25px;
+						letter-spacing:0px;
+						margin:0px 0px 20px 0px;
+						color:#000000;
+						text-align:center;
+					}#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .button-2{
+						text-align:center;
+						margin:0px 0px 0px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-background-image-2 .wpbingo-section--background .button-2 a{
+						font-size:15px;
+						line-height:45px;
+						letter-spacing:0px;
+						padding:0px 57px 0px 47px;
+						color:#ffffff;
+						background:#82c341;border:0px solid #ffffff;
+							border-radius:50px
+}
+					#shopify-section-template--18555181957405__featured-background-image-2 .button-2:before{
+						background:#3f730a;
+					}
+					#shopify-section-template--18555181957405__featured-background-image-2 .button-2 a:hover{
+						color:#ffffff;
+						background:#3f730a;border-color:rgba(0,0,0,0)}}</style><section class="wpbingo-section wpbingo-section--background wpbingo-section--template--18555181957405__featured-background-image-2 overflow-hidden">
+	<div class="container" >
+		<div class="wpbingo-section__inner"><div class="wpbingo-sub-title subheading-1">
+								<span class="bold">Start</span> your day with tasty organic veggies. Only <span class="bold">$5.00</span>
+							</div><div class="button-2">
+								<a class="bwp-button style_2" href="">Shop Now</a>
+							</div></div>
+	</div>
+</section>
+
+
+</div><div id="shopify-section-template--18555181957405__featured-product-4" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-product-4 .wpbingo-section--products-3{margin: 0 0 65px ;}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-product-4 .wpbingo-section--products-3{margin:  0 0 40px;}
+		}</style><section class="wpbingo-section wpbingo-section--products-3 overflow-hidden wpbingo-section--template--18555181957405__featured-product-4">
+	<div class="container" >
+		<div class="wpbingo-section__inner row">
+			<div class="wpbingo-section__inner-left col-xl-2 col-lg-3 col-md-3 col-sm-3 col-12"><div class="wpbingo-title">
+						<h3 class="wpbingo-title__heading">fruit drinks</h3>
+					</div><ul class="wpbingo-menu-product"><li><a href="https://mafoil-organic.myshopify.com/collections/all">Healthy Foods</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fresh Vegetables</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Diet Nutrition</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Meat & Seafood</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Breakfast & Dairy</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Superfoods & Greens</a></li><li><a href="https://mafoil-organic.myshopify.com/collections/all">Fruit & Veggies</a></li></ul><div class="button_view">
+						<a href="https://mafoil-organic.myshopify.com/collections/all">View All Products</a>
+					</div></div>
+			<div class="wpbingo-section__inner-right col-xl-10 col-lg-9 col-md-9 col-sm-9 col-12">
+				<div class="wpbingo-section__content bwp_slider-carousel bwp_slick-margin-mobile">
+					<div class="js-carousel slick-carousel" data-nav="false" data-infinite="true" data-autoplay="false"
+						data-autoplayspeed="10000"
+						data-columns="5"
+						data-column1440="4"
+						data-column1="3"
+						data-column2="2"
+						data-column3="1"
+						data-column4="1"><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-06-28"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-beef-meat">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Beef Meat"
+		aria-label="Fresh Beef Meat"
+		data-alt="Fresh Beef Meat"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/27_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/27_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/27.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-beef-meat">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-beef-meat"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-06-28"></div>
+				</div><div class="product-card__form" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722717032733" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243146817821"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-beef-meat">Fresh Beef Meat</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-beef-meat">
+
+<div class="product-price">$80.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722717032733" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-03-06"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cherry-juice">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cherry Juice"
+		aria-label="Cherry Juice"
+		data-alt="Cherry Juice"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/16_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/16_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/16.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 24%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cherry-juice">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cherry-juice"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-03-06"></div>
+				</div><div class="product-card__form" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722693996829" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243136692509"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cherry-juice">Cherry Juice</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cherry-juice">
+
+<div class="product-price product-price--regular">$25.00</div><div class="product-price price-sale">$19.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722693996829" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-19"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-tomatoes">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?crop=center&height=900&v=1680835690&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Tomatoes"
+		aria-label="Organic Tomatoes"
+		data-alt="Organic Tomatoes"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/23_180x.jpg?v=1680835691 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_360x.jpg?v=1680835691 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_540x.jpg?v=1680835691 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/23_720x.jpg?v=1680835691 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?v=1680835691 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/23.jpg?crop=center&height=900&v=1680835691&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-tomatoes">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-tomatoes"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-19"></div>
+				</div><div class="product-card__form" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722709102877" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243142885661"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-tomatoes">Organic Tomatoes</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-tomatoes">
+
+<div class="product-price">$100.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722709102877" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-12"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/organic-cashews">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/29_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/29_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/29.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Organic Cashews"
+		aria-label="Organic Cashews"
+		data-alt="Organic Cashews"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/30_180x.jpg?v=1680835906 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_360x.jpg?v=1680835906 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_540x.jpg?v=1680835906 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/30_720x.jpg?v=1680835906 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?v=1680835906 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/30.jpg?crop=center&height=900&v=1680835906&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-cashews">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="organic-cashews">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="organic-cashews"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-12"></div>
+				</div><div class="product-card__form" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722866749725" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243149340957"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/organic-cashews">Organic Cashews</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="organic-cashews">
+
+<div class="product-price variant-price">$35.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="organic-cashews">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="organic-cashews" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722866749725" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/fresh-seafood">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/19_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/19_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/19.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Fresh Seafood"
+		aria-label="Fresh Seafood"
+		data-alt="Fresh Seafood"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/20_180x.jpg?v=1680835540 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_360x.jpg?v=1680835540 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_540x.jpg?v=1680835540 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/20_720x.jpg?v=1680835540 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?v=1680835540 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/20.jpg?crop=center&height=900&v=1680835540&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 50%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="fresh-seafood">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="fresh-seafood"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722705170717" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243139641629"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/fresh-seafood">Fresh Seafood</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="fresh-seafood">
+
+<div class="product-price product-price--regular">$50.00</div><div class="product-price price-sale">$25.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="fresh-seafood" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722705170717" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns="2024-01-24"
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/berry-smoothie-concor">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/11_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/11_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/11.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Berry Smoothie Concor"
+		aria-label="Berry Smoothie Concor"
+		data-alt="Berry Smoothie Concor"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/12_180x.jpg?v=1680835244 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_360x.jpg?v=1680835244 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_540x.jpg?v=1680835244 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/12_720x.jpg?v=1680835244 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?v=1680835244 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/12.jpg?crop=center&height=900&v=1680835244&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+<div class="product-card__label">
+
+
+<span class="product-card__on-sale">- 12%</span>
+
+
+
+	</div>
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="berry-smoothie-concor">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="berry-smoothie-concor"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="countdown-product style_2">
+					<div class="countdown" data-countdown="2024-01-24"></div>
+				</div><div class="product-card__form" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722688000285" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243134398749"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/berry-smoothie-concor">Berry Smoothie Concor</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="berry-smoothie-concor">
+
+<div class="product-price product-price--regular">$40.00</div><div class="product-price price-sale">$35.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				Phasellus sed volutpat orci. Fusce eget lore mauris vehicula elementum gravida nec dui.…
+			</div><div class="product-card__form mobile" data-handle="berry-smoothie-concor" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722688000285" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/eggs">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/8_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/8_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/8.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Eggs"
+		aria-label="Eggs"
+		data-alt="Eggs"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/9_180x.jpg?v=1680835054 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_360x.jpg?v=1680835054 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_540x.jpg?v=1680835054 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/9_720x.jpg?v=1680835054 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?v=1680835054 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/9.jpg?crop=center&height=900&v=1680835054&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="eggs">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="eggs">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="eggs"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="eggs" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722673418525" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243131646237"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/eggs">Eggs</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="eggs">
+
+<div class="product-price">$79.00</div></div>
+
+
+		</div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="eggs" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722673418525" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div><div class="slick-carousel__item">
+
+
+<div class="product-card hover_style_2" data-short_description="The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…"
+											data-group_product=""
+											data-is_group_product="false"
+											data-countdowns=""
+											data-external="">
+	<div class="product-card__image-wrapper fadein">
+<a class="product-card__image-link" href="/products/cabbage-fresh">
+
+		<div class="product-card__image">
+
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-visible fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/4_180x.jpg?v=1680834952 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_360x.jpg?v=1680834952 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_540x.jpg?v=1680834952 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/4_720x.jpg?v=1680834952 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?v=1680834952 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/4.jpg?crop=center&height=900&v=1680834952&width=900" width="900" height="900" /></noscript>
+	</div>
+				<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img-hidden variant fade-in"
+		alt = "Cabbage Fresh"
+		aria-label="Cabbage Fresh"
+		data-alt="Cabbage Fresh"
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/5_180x.jpg?v=1680834953 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_360x.jpg?v=1680834953 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_540x.jpg?v=1680834953 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/5_720x.jpg?v=1680834953 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?v=1680834953 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/5.jpg?crop=center&height=900&v=1680834953&width=900" width="900" height="900" /></noscript>
+	</div>
+
+		</div>
+
+</a>
+
+
+
+		<div class="content-button-mobile"><div class="button-wishlist mobile" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview mobile" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div>
+		<div class="product-card__buttons"><div class="button-wishlist" data-title="Wishlist">
+					<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="button-compare" data-title="Compare">
+					<button type="button" aria-label="Compare" class="" button-compare data-product-handle="cabbage-fresh">
+					</button>
+				</div><div class="product-card__quickview" data-title="Quickview">
+				<a class="js-btn-quickview btn btn--quickview" href="javascript:void(0);" data-handle="cabbage-fresh"
+					title="Quickview" >
+					<span>Quickview</span>
+				</a>
+			</div></div><div class="product-card__form" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+						<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+							<input type="hidden" name="id" value="44722862981405" />
+							<button class="js-btn-addtocart btn btn--add-to-cart"
+								type="submit"
+								value="Submit"
+								title="Add to Cart">
+								<span>Add to Cart</span>
+							</button>
+						</form>
+
+
+			</div></div>
+	<div class="product-card__content"><div class="product-card__review product-review">
+				<span class="shopify-product-reviews-badge" data-id="8243130335517"></span>
+			</div><div class="content-bottom">
+			<div class="product-card__name">
+				<a href="/products/cabbage-fresh">Cabbage Fresh</a>
+			</div>
+		</div>
+		<div class="product-card__price">
+			<div class="product-group-price" data-handle="cabbage-fresh">
+
+<div class="product-price variant-price">$80.00</div></div>
+
+
+		</div><div class="wpb-variants-swatch" data-handle="cabbage-fresh">
+<div class="swatch-content swatch-content-1 color">
+
+<div class="swatch-items active">
+										<label class="Organic" data-index="option1" title="Organic" data-variant="Organic" >
+											Organic
+											<span>Organic</span>
+										</label>
+									</div>
+
+<div class="swatch-items ">
+										<label class="Vegan" data-index="option1" title="Vegan" data-variant="Vegan" >
+											Vegan
+											<span>Vegan</span>
+										</label>
+									</div></div></div>
+<div class="product-short-description">
+				The EcoSmart Fleece Hoodie full-zip hooded jacket provides medium weight fleece comfort all…
+			</div><div class="product-card__form mobile" data-handle="cabbage-fresh" data-title="Add to Cart">
+
+
+							<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+								<input type="hidden" name="id" value="44722862981405" />
+								<div class="wpbingo-qty">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+										<i class="feather-minus"></i>
+									</button>
+									<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="0" aria-label="quantity" pattern="[0-9]*">
+									<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+										<i class="feather-plus"></i>
+									</button>
+								</div>
+								<button class="js-btn-addtocart btn btn--add-to-cart"
+									type="submit"
+									value="Submit"
+									title="Add to Cart">
+								</button>
+							</form>
+
+
+				</div></div>
+</div>
+
+
+								</div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-banner-2" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner {margin: 0 0 90px ;padding:0 10px ;}
+
+
+
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-2{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#ffffff;
+						background:#ff7d09;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-3{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 6px 0px;
+						color:#3c6939;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-4{
+						font-size:15px;
+						line-height:24px;
+						font-weight:500;
+						letter-spacing:0px;
+						margin:0px 0px 16px 0px;
+						color:#414141;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#ff7d09;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;border:0px solid #ff7d09;
+							border-radius:0px 0px 0px 0px;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:before{
+						background:#ff7d09;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);border-color:#82c341;}
+
+
+
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-7{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#ffffff;
+						background:#e74530;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-8{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 15px 0px;
+						color:#3f730a;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#3f730a;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:before{
+						background:#3f730a;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);}
+
+
+
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10{
+						max-width: 33.33% ;flex:0 0 33.33% ;padding:0 20px ;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10 .bwp-image{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10 .bwp-image img{
+						border-radius:;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10 .banner-wrapper-infor{padding: 0 40px ;top: 50%;transform: translateY(-50%);justify-content: left;text-align: left;
+					}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-11{
+						font-size:13px;
+						line-height:30px;
+						font-weight:400;
+						letter-spacing:0px;
+						text-align: center;
+						padding:0px 20px 0px 20px;
+						margin:0px 0px 10px 0px;
+						color:#ffffff;
+						background:#3f730a;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-12{
+						font-size:24px;
+						line-height:30px;
+						font-weight:700;
+						letter-spacing:0px;
+						margin:0px 0px 6px 0px;
+						color:#3f730a;font-family:Roboto;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-13{
+						font-size:15px;
+						line-height:24px;
+						font-weight:500;
+						letter-spacing:0px;
+						margin:0px 0px 16px 0px;
+						color:#414141;font-family:Roboto Flex;}
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14{
+						font-size:14px;
+						line-height:18px;
+						font-weight:700;
+						letter-spacing:0px;
+						color:#3f730a;
+						background:rgba(0,0,0,0);
+						padding:0px 0px 0px 0px;
+						margin:0px 0px 0px 0px;
+						overflow:hidden;}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:before{
+						background:#3f730a;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:hover:before{
+						background:#82c341;
+					}
+					#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:hover{
+						color:#82c341;
+						background:rgba(0,0,0,0);}
+@media (max-width:1200px){#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner{padding: 0 7.5px;}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1{padding: 0 7.5px ;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1 .banner-wrapper-infor{
+								padding: 0 15px;
+							}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6{padding: 0 7.5px ;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6 .banner-wrapper-infor{
+								padding: 0 15px;
+							}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10{padding: 0 7.5px;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10 .banner-wrapper-infor{
+								padding: 0 15px;
+							}}
+	@media (max-width:991px){#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner{margin:  0 0 60px 0;}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-2{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#ff7d09;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-3{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3c6939;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-4{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 10px 0px;
+							color:#414141;
+						}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-7{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#e74530;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-8{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3f730a;
+						}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-11{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-12{
+							font-size:16px;
+							line-height:20px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-13{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 10px 0px;
+							color:#414141;
+						}}
+	@media (max-width:767px){
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-1{max-width:  100%;flex:0 0  100%;padding: 0 7.5px 15px;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-2{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#ff7d09;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-3{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3c6939;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-4{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#414141;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#ff7d09;
+							background:rgba(0,0,0,0);}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:before{
+							background:#ff7d09;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-5:hover{
+							color:#82c341;border-color:#82c341;}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-6{max-width:  100%;flex:0 0  100%;padding: 0 7.5px 15px;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-7{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#e74530;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-8{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#3f730a;
+							background:rgba(0,0,0,0);border:0px solid #3f730a;
+								border-radius:0px 0px 0px 0px;}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:before{
+							background:#3f730a;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-9:hover{
+							color:#82c341;}
+
+#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .col-banner.banner-10{max-width:  100%;flex:0 0  100%;}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .subtitle-11{
+							font-size:12px;
+							line-height:24px;
+							letter-spacing:0px;
+							padding:0px 15px 0px 15px;
+							margin:0px 0px 5px 0px;
+							color:#ffffff;
+							background:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-12{
+							font-size:24px;
+							line-height:30px;
+							letter-spacing:0px;
+							margin:0px 0px 5px 0px;
+							color:#3f730a;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .title-13{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							margin:0px 0px 15px 0px;
+							color:#414141;
+						}#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14{
+							font-size:14px;
+							line-height:18px;
+							letter-spacing:0px;
+							padding:0px 0px 0px 0px;
+							margin:0px 0px 0px 0px;
+							color:#3f730a;
+							background:rgba(0,0,0,0);}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:before{
+							background:#3f730a;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:hover:before{
+							background:#82c341;
+						}
+						#shopify-section-template--18555181957405__featured-banner-2 .bwp-widget-banner .button-14:hover{
+							color:#82c341;}}</style><section class="wpbingo-section bwp-widget-banner wpbingo-section--template--18555181957405__featured-banner-2 overflow-hidden">
+	<div class="bwp-container" style="max-width: 1560px;">
+		<div class="wpbingo-section__inner">
+			<div class="wpbingo-section__content"><div class="row--banners"><div class="col-banner banner-1">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69.jpg?v=1681291884 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69.jpg?v=1681291884 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/6_7caf8e24-ea51-4244-8067-6049c7bacf69.jpg?crop=center&height=290&v=1681291884&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-2">Gift $25.00</h3><h3 class="title-banner title-3">The best <br> Organic Energy</h3><h3 class="title-banner title-4">Save the Money</h3><a class="bwp-button style_1 button-5" href="https://mafoil-organic.myshopify.com/collections/all">Get it now!</a></div>
+											</div>
+										</div>
+									</div>
+								</div><div class="col-banner banner-6">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476.jpg?v=1681291884 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476.jpg?v=1681291884 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/7_224c754f-a99b-4ae4-860a-fc0a9ab10476.jpg?crop=center&height=290&v=1681291884&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-7">Hot Summer</h3><h3 class="title-banner title-8">Detox with <br>Green Vegetables<br> and Fruits</h3><a class="bwp-button style_1 button-9" href="https://mafoil-organic.myshopify.com/collections/all">Shop Now</a></div>
+											</div>
+										</div>
+									</div>
+								</div><div class="col-banner banner-10">
+									<div class="featured-banner effect-one">
+										<div class="bwp-image" >
+											<a href=""><img class="lazyload  featured-banner__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c.jpg?v=1681291884 480w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c_180x.jpg?v=1681291884 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c_360x.jpg?v=1681291884 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c.jpg?v=1681291884 480w"
+	data-sizes="auto"
+	width="480"
+	height="290"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/8_8bb0cf07-213b-4e22-a776-571b8cfc445c.jpg?crop=center&height=290&v=1681291884&width=480"  width="480" height="290" /></noscript>
+</a>
+										</div>
+										<div class="banner-wrapper-infor position-absolute">
+											<div class="info">
+												<div class="content"><h3 class="subtitle-banner subtitle-11">Organic Brand</h3><h3 class="title-banner title-12">Fresh Food<br> Restore Health</h3><h3 class="title-banner title-13">Free delivery for first order</h3><a class="bwp-button style_1 button-14" href="https://mafoil-organic.myshopify.com/collections/all">Get it now!</a></div>
+											</div>
+										</div>
+									</div>
+								</div></div></div>
+		</div>
+	</div>
+</section>
+</div><div id="shopify-section-template--18555181957405__featured-title" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-title .wpbingo-section--title .heading-1{
+					font-size:40px;
+					line-height:40px;
+					font-weight:700;
+					letter-spacing:0px;
+					margin:0px 0px 40px 0px;
+					color:#82c341;
+					text-align:center;
+				}@media (max-width:767px){#shopify-section-template--18555181957405__featured-title .wpbingo-section--title .heading-1{
+						font-size:30px;
+						line-height:30px;
+						letter-spacing:0px;
+						margin:0px 0px 30px 0px;
+						color:#82c341;
+						text-align:center;
+					}}</style><section class="wpbingo-section wpbingo-section--title wpbingo-section--template--18555181957405__featured-title overflow-hidden" style="background-color:rgba(0,0,0,0);">
+	<div class="container" >
+		<div class="wpbingo-section__inner"><h2 class="wpbingo-title heading-1">
+								What Our Clients Say!
+							</h2></div>
+	</div>
+</section>
+
+
+</div><div id="shopify-section-template--18555181957405__featured-testimonials" class="shopify-section wpbingo-framework">
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials{
+		background-color:
+	}#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials{margin: 0 0 130px ;}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials{margin:  0 0 100px 0 ;}
+		}@media (max-width:767px){
+			#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials{margin:  0 0 80px 0;}
+		}#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials{
+					text-align:center;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .title-testimonial{
+					font-size: 0px;
+					line-height: 0px;
+					font-weight: ;
+					color:rgba(0,0,0,0);
+					margin:;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__content{
+					font-size: 15px;
+					line-height: 22px;
+					font-weight: 400;
+					color:#414141;
+					margin:0px 0px 30px 0px;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__title{
+					font-size: 18px;
+					line-height: 22px;
+					font-weight: 500;
+					color:#000000;
+					letter-spacing:0px;
+					margin:0px 0px 15px 0px;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__name{
+					font-size: 32px;
+					line-height: 32px;
+					font-weight: 500;
+					color:#82c341;
+					letter-spacing:0px;
+					margin:0px 0px 10px 0px;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__job{
+					font-size: 13px;
+					line-height: 13px;
+					font-weight: 500;
+					color:#82c341;
+					letter-spacing:0px;
+					margin:0px 0px 55px 0px;
+				}
+				#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__avatar img{
+					max-width:95px;
+					flex:0 0 95px;
+					border-radius:30px;
+					margin:0px 0px 20px 0px;
+				}
+				@media(max-width:767px){
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .title-testimonial{
+						font-size: 16px;
+						line-height: 22px;
+						margin:0px 0px 0px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__content{
+						font-size: 15px;
+						line-height: 22px;
+						margin:0px 0px 15px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__title{
+						font-size: 18px;
+						line-height: 22px;
+						margin:0px 0px 10px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__name{
+						font-size: 32px;
+						line-height: 32px;
+						margin:0px 0px 5px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__job{
+						font-size: 13px;
+						line-height: 13px;
+						margin:0px 0px 4px 0px;
+					}
+					#shopify-section-template--18555181957405__featured-testimonials .wpbingo-section--testimonials .testimonial-card__avatar img{
+						max-width:95px;
+						flex:0 0 95px;
+						margin:;
+					}
+				}</style><section class="wpbingo-section wpbingo-section--testimonials" >
+	<div class="container" >
+		<div class="wpbingo-section__inner" >
+			<div class="section-content">
+				<div class="content-testimonial"><div class="wpbingo-section__content bwp_slider-carousel"><div class="js-carousel slick-carousel" data-dots="false" data-nav="true" data-infinite="true"
+								data-autoplay="false"
+								data-autoplayspeed="10000"
+								data-columns="3"
+								data-column1440="3"
+								data-column1="3"
+								data-column2="2"
+								data-column3="1"
+								data-column4="1"><div class="slick-carousel__item">
+											<div class="testimonial-card">
+												<div class="testimonial-card__inner"><div class="content-image"><div class="testimonial-card__avatar"><img class="lazyload  testimonial-card__avatar-img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7d643b4-a239-4379-9f4c-bc8695271b4d.jpg?v=1681293552 150w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7d643b4-a239-4379-9f4c-bc8695271b4d.jpg?v=1681293552 150w"
+	data-sizes="auto"
+	width="150"
+	height="150"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/1_b7d643b4-a239-4379-9f4c-bc8695271b4d.jpg?crop=center&height=150&v=1681293552&width=150"  width="150" height="150" /></noscript>
+</div></div><div class="testimonial-card__title">Stunning Design</div><div class="testimonial-card__content">Everything is perfect. I would recommend! Everything is perfect. I would recommend! Absolutely
+thrilled with my order, thank you!!!</div><div class="content-info"><h2 class="testimonial-card__name">Shetty Jamie</h2><div class="testimonial-card__job">Farmer</div></div>
+												</div>
+											</div>
+										</div><div class="slick-carousel__item">
+											<div class="testimonial-card">
+												<div class="testimonial-card__inner"><div class="content-image"><div class="testimonial-card__avatar"><img class="lazyload  testimonial-card__avatar-img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/2_c1acba44-effb-4f50-b154-85fb608d9465.jpg?v=1681293552 150w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/2_c1acba44-effb-4f50-b154-85fb608d9465.jpg?v=1681293552 150w"
+	data-sizes="auto"
+	width="150"
+	height="150"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/2_c1acba44-effb-4f50-b154-85fb608d9465.jpg?crop=center&height=150&v=1681293552&width=150"  width="150" height="150" /></noscript>
+</div></div><div class="testimonial-card__title">Absolutely thrilled with my order</div><div class="testimonial-card__content">Everything is perfect. I would recommend! Excelent quality meat, fish and vegetables delivered and
+very well packed.</div><div class="content-info"><h2 class="testimonial-card__name">Monica Jin</h2><div class="testimonial-card__job">Farmer</div></div>
+												</div>
+											</div>
+										</div><div class="slick-carousel__item">
+											<div class="testimonial-card">
+												<div class="testimonial-card__inner"><div class="content-image"><div class="testimonial-card__avatar"><img class="lazyload  testimonial-card__avatar-img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/3_03c9518c-f3d6-4c58-ac18-63ff5ae1d5ad.jpg?v=1681293552 150w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/3_03c9518c-f3d6-4c58-ac18-63ff5ae1d5ad.jpg?v=1681293552 150w"
+	data-sizes="auto"
+	width="150"
+	height="150"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/3_03c9518c-f3d6-4c58-ac18-63ff5ae1d5ad.jpg?crop=center&height=150&v=1681293552&width=150"  width="150" height="150" /></noscript>
+</div></div><div class="testimonial-card__title">Excelent quality</div><div class="testimonial-card__content">Everything is perfect. I would recommend! Excelent quality meat, fish and vegetables delivered and
+very well packed.</div><div class="content-info"><h2 class="testimonial-card__name">Tony Amber</h2><div class="testimonial-card__job">Farmer</div></div>
+												</div>
+											</div>
+										</div><div class="slick-carousel__item">
+											<div class="testimonial-card">
+												<div class="testimonial-card__inner"><div class="content-image"><div class="testimonial-card__avatar"><img class="lazyload  testimonial-card__avatar-img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/4_53b002b5-8662-43d0-97af-ec76b94d3996.jpg?v=1681293552 150w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/4_53b002b5-8662-43d0-97af-ec76b94d3996.jpg?v=1681293552 150w"
+	data-sizes="auto"
+	width="150"
+	height="150"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/4_53b002b5-8662-43d0-97af-ec76b94d3996.jpg?crop=center&height=150&v=1681293552&width=150"  width="150" height="150" /></noscript>
+</div></div><div class="testimonial-card__title">Stunning Design</div><div class="testimonial-card__content">Great fresh! will support next  time. Everything is perfect. I would recommend! Absolutely
+thrilled, thank you!!!</div><div class="content-info"><h2 class="testimonial-card__name">Consazan</h2><div class="testimonial-card__job">Farmer</div></div>
+												</div>
+											</div>
+										</div><div class="slick-carousel__item">
+											<div class="testimonial-card">
+												<div class="testimonial-card__inner"><div class="content-image"><div class="testimonial-card__avatar"><img class="lazyload  testimonial-card__avatar-img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/5_0fad89b9-590c-440e-9ad4-dc43477f7c50.jpg?v=1681293552 150w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/5_0fad89b9-590c-440e-9ad4-dc43477f7c50.jpg?v=1681293552 150w"
+	data-sizes="auto"
+	width="150"
+	height="150"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/5_0fad89b9-590c-440e-9ad4-dc43477f7c50.jpg?crop=center&height=150&v=1681293552&width=150"  width="150" height="150" /></noscript>
+</div></div><div class="testimonial-card__title">“Great vineyard tour and tasting!”</div><div class="testimonial-card__content">Great fresh! will support next  time. Everything is perfect. I would recommend! Absolutely
+thrilled with my order, thank you!!!</div><div class="content-info"><h2 class="testimonial-card__name">Sara Colinton</h2><div class="testimonial-card__job">Farmer</div></div>
+												</div>
+											</div>
+										</div></div></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</div><div id="shopify-section-template--18555181957405__featured-instagram-shop" class="shopify-section wpbingoFramework">
+
+
+
+
+<style data-shopify>#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook{margin: 0 0 90px ;}#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook .slick-list{
+			margin: 0 -20px 0 -20px ;
+		}#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook .wpbingo-lookbook__item{
+			padding: 0 20px 0 20px ;
+		}#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook .wpbingo-lookbook__item{
+			margin: 0;
+		}@media (max-width:1200px){
+			#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook{}#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook .slick-list{
+					margin:  0 -7.5px 0 -7.5px;
+				}#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook .wpbingo-lookbook__item{
+					padding:  0 7.5px 0 7.5px;
+				}}@media (max-width:991px){
+			#shopify-section-template--18555181957405__featured-instagram-shop .wpbingo-section--lookbook{margin:  0 0 60px 0;}}</style><section class="wpbingo-section wpbingo-section--lookbook lookbook-instagram-slider wpbingo-section--template--18555181957405__featured-instagram-shop overflow-hidden" data-id="template--18555181957405__featured-instagram-shop">
+    <div class="container" >
+        <div class="wpbingo-section__inner">
+			<div class="wpbingo-lookbook__contents bwp_slider-carousel bwp_slick-margin-mobile">
+				<div class="js-carousel slick-carousel" data-infinite="false" data-nav="false" data-dots="false" data-infinite="true"
+				data-autoplay="false"
+				data-autoplayspeed="10000"
+				data-columns="6"
+				data-column1440="5"
+				data-column1="4"
+				data-column2="3"
+				data-column3="1"
+				data-column4="1">
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/1_8d167fb9-71a9-41ab-abfd-d2415172d7e5.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/2_d3e07a73-06ac-47d5-adf7-8b59e930f5db.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/3_c7ea0811-464a-426a-9373-288e9a84decb.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/4_447e9745-ac7e-495c-b4ed-2f1a824bbcde.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/5_80cdfdd4-2842-487e-bf27-43fb1f966a9a.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169.jpg?v=1681352870 400w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169_360x.jpg?v=1681352870 360w ,//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169.jpg?v=1681352870 400w"
+	data-sizes="auto"
+	width="400"
+	height="400"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/6_c1b31d02-84d5-4901-843a-016fbb4e1169.jpg?crop=center&height=400&v=1681352870&width=400"  width="400" height="400" /></noscript>
+</a>
+									</div></div></div>
+<div class="wpbingo-lookbook__item"><div class="lookbook-card">
+									<div class="lookbook-image">
+										<a href="#"><img class="lazyload  featured-lookbook__img fade-in"
+	aria-label=""
+	alt = ""
+	data-alt=""
+	data-src="//mafoil-organic.myshopify.com/cdn/shop/files/7_da6bfeec-c399-40cc-840a-ef5e62915032_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_da6bfeec-c399-40cc-840a-ef5e62915032.jpg?v=1681352870 310w"
+	data-srcset="//mafoil-organic.myshopify.com/cdn/shop/files/7_da6bfeec-c399-40cc-840a-ef5e62915032_180x.jpg?v=1681352870 180w ,//mafoil-organic.myshopify.com/cdn/shop/files/7_da6bfeec-c399-40cc-840a-ef5e62915032.jpg?v=1681352870 310w"
+	data-sizes="auto"
+	width="310"
+	height="310"
+	>
+	<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/files/7_da6bfeec-c399-40cc-840a-ef5e62915032.jpg?crop=center&height=310&v=1681352870&width=310"  width="310" height="310" /></noscript>
+</a>
+									</div></div></div></div>
+			</div>
+        </div>
+    </div></section>
+</div>
+		</main>
+		<footer class="bwp-footer"><div id="shopify-section-footer_2" class="shopify-section">
+
+<style data-shopify>.footer-logo img {max-width: px;}.footer-center{
+			padding:0 0 90px 0 ;
+			background:#ffffff;}.footer-center .item-1{
+						max-width:35%;
+						flex:0 0 35%;
+					}.footer-center .item-2{
+						max-width:15%;
+						flex:0 0 15%;
+					}.footer-center .title-2{
+							font-size:18px;
+							line-height:18px;
+							font-weight:500;
+							letter-spacing:0px;
+							margin:0px 0px 25px 0px;
+							color:#000000;
+						}.footer-center .social-icons li a{
+						color:#000000;
+					}.footer-center .item-3{
+						max-width:20%;
+						flex:0 0 20%;
+					}.footer-center .title-3{
+							font-size:18px;
+							line-height:18px;
+							font-weight:500;
+							letter-spacing:0px;
+							margin:0px 0px 25px 0px;
+							color:#000000;
+						}.footer-center .social-icons li a{
+						color:#000000;
+					}.footer-center .item-4{
+						max-width:30%;
+						flex:0 0 30%;
+					}.footer-center .title-4{
+							font-size:18px;
+							line-height:18px;
+							font-weight:500;
+							letter-spacing:0px;
+							margin:0px 0px 25px 0px;
+							color:#000000;
+						}.footer-center .social-icons li a{
+						color:#000000;
+					}@media (max-width:991px){.footer-center{
+					padding: 0 0 0;
+				}.footer-center .item-1{
+							max-width:50%;
+							flex:0 0 50%;
+						}.footer-center .item-2{
+							max-width:50%;
+							flex:0 0 50%;
+						}.footer-center .item-3{
+							max-width:50%;
+							flex:0 0 50%;
+						}.footer-center .item-4{
+							max-width:50%;
+							flex:0 0 50%;
+						}}
+		@media (max-width:767px){.footer-center .item-1{
+							max-width:100%;
+							flex:0 0 100%;
+						}.footer-center .item-2{
+							max-width:100%;
+							flex:0 0 100%;
+						}.footer-center .item-3{
+							max-width:100%;
+							flex:0 0 100%;
+						}.footer-center .item-4{
+							max-width:100%;
+							flex:0 0 100%;
+						}}</style><div class="footer-center accordion footer_2 overflow-hidden">
+    <div class="container">
+		<div class="footer-center__inner"><div class="footer-center-content">
+				<div class="footer-center-left">
+					<a class="phone item" href="tel:+866.597.2742">
+						<div class="icon"></div><div class="number">
+								<div class="text-phone">Need help :</div>
+								+866.597.2742
+							</div></a>
+				</div>
+				<div class="footer-center-right">
+					<div class="footer-newsletter">
+						<div class="footer-newsletter-content"><form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+
+<input type="hidden" name="contact[tags]" value="newsletter">
+									<div class="newsletter-footer">
+										<input value=""
+										placeholder="Your email"
+										name="contact[email]" class="form-control newsletter-form__input" type="email"
+										autocorrect="off" autocapitalize="off"/>
+										<button class="btn newsletter-form__submit" type="submit">
+										<span>Subscribe</span>
+										</button>
+									</div></form>
+</div>
+					</div>
+				</div>
+			</div><div class="row"><div class="content-item  item-1">
+										<div class="footer-block">
+											<div class="footer-block__content">
+												<p>240 East Houston Street New York, NY 10002
+<br>
+Fax: 1800 375 9788
+<br>
+info@companyname.com</p>
+<span>Monday – Friday: 8:00 - 19:00
+<br>
+Saturady: 09:00 – 16:00</span>
+											</div>
+										</div>
+									</div><div class="content-toggle item-2">
+										<h2 class="title-footer title-2">More Services</h2>
+										<div class="footer-block footer-block--menu">
+
+	<div class="footer-block__content">
+		<ul class="footer-menu">
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Who We Are">Who We Are</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Blog">Blog</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Careers">Careers</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Coupons">Coupons</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Contacts">Contacts</a>
+				</li>
+
+		</ul>
+	</div>
+</div>
+
+</div><div class="content-toggle item-3">
+										<h2 class="title-footer title-3">Categories</h2>
+										<div class="footer-block footer-block--menu">
+
+	<div class="footer-block__content">
+		<ul class="footer-menu">
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Boxes">Boxes</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Fruits">Fruits</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Herbs and Spices">Herbs and Spices</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="The Pantry">The Pantry</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Vegetables">Vegetables</a>
+				</li>
+
+		</ul>
+	</div>
+</div>
+
+</div><div class="content-toggle item-4">
+										<h2 class="title-footer title-4">My Account</h2>
+										<div class="footer-block footer-block--menu">
+
+	<div class="footer-block__content">
+		<ul class="footer-menu">
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Login">Login</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Register">Register</a>
+				</li>
+
+				<li class="footer-menu__item">
+					<a class="footer-menu__link" href="#" title="Reset Password">Reset Password</a>
+				</li>
+
+		</ul>
+	</div>
+</div>
+
+
+<ul class="social-icons"><li>
+        <a href="#" title="Mafoil - Multipurpose Shopify Theme OS 2.0 on Facebook">
+          <i class="fa fa-facebook"></i>
+          <span>Facebook</span>
+        </a>
+      </li><li>
+        <a href="#" title="Mafoil - Multipurpose Shopify Theme OS 2.0 on Twitter">
+          <i class="fa fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+      </li><li>
+        <a href="#" title="Mafoil - Multipurpose Shopify Theme OS 2.0 on Instagram">
+          <i class="fa fa-instagram"></i>
+          <span>Instagram</span>
+        </a>
+      </li><li>
+        <a href="#" title="Mafoil - Multipurpose Shopify Theme OS 2.0 on YouTube">
+          <i class="fa fa-youtube"></i>
+          <span>YouTube</span>
+        </a>
+      </li></ul>
+</div></div>
+		</div>
+    </div>
+</div>
+
+</div><div id="shopify-section-footer-bottom" class="shopify-section">
+
+<style data-shopify>.footer-bottom{
+			padding:10px 0 10px;
+			background:#82c341;
+		}.footer-bottom .footer-index-1{
+						color:#ffffff;
+						margin:5px 0px 5px 0px;
+						max-width:50%;
+						flex:0 0 50%;
+					}.footer-bottom .footer-index-2{
+						margin:5px 0px 5px 0px;
+						max-width:50%;
+						flex:0 0 50%;
+					}@media (max-width:991px){.footer-bottom .footer-index-1{
+							max-width:50%;
+							flex:0 0 50%;
+						}.footer-bottom .footer-index-2{
+							max-width:50%;
+							flex:0 0 50%;
+						}}
+		@media (max-width:767px){.footer-bottom .footer-index-1{
+							max-width:100%;
+							flex:0 0 100%;
+						}.footer-bottom .footer-index-2{
+							max-width:100%;
+							flex:0 0 100%;
+						}}</style><div class="footer-bottom">
+	<div class="container">
+		<div class="footer-bottom__inner row"><div class="footer-index-1 footer-copyright aligin-left aligin_mobi-center">© 2023 Akola. All Rights Reserved.</div><div class="footer-index-2 payment-image aligin-right aligin_mobi-center"><img class="payment-image__img img-fluid" src="//mafoil-organic.myshopify.com/cdn/shop/files/payment.png?v=1680929428" width="286" height="25" alt=""/></div></div>
+	</div>
+</div>
+
+</div>
+		</footer>
+		<div class="d-none wpbingo-svg" style="display: none;">
+  <svg class="svg" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="svg-icon-search" viewBox="0 0 511.999 511.999">
+      <path d="M508.874,478.708L360.142,329.976c28.21-34.827,45.191-79.103,45.191-127.309c0-111.75-90.917-202.667-202.667-202.667    S0,90.917,0,202.667s90.917,202.667,202.667,202.667c48.206,0,92.482-16.982,127.309-45.191l148.732,148.732    c4.167,4.165,10.919,4.165,15.086,0l15.081-15.082C513.04,489.627,513.04,482.873,508.874,478.708z M202.667,362.667    c-88.229,0-160-71.771-160-160s71.771-160,160-160s160,71.771,160,160S290.896,362.667,202.667,362.667z"></path>
+    </symbol>
+    <symbol id="svg-icon-user" viewBox="0 0 512 512">
+      <path d="M256,288.389c-153.837,0-238.56,72.776-238.56,204.925c0,10.321,8.365,18.686,18.686,18.686h439.747    c10.321,0,18.686-8.365,18.686-18.686C494.56,361.172,409.837,288.389,256,288.389z M55.492,474.628    c7.35-98.806,74.713-148.866,200.508-148.866s193.159,50.06,200.515,148.866H55.492z"></path>
+      <path d="M256,0c-70.665,0-123.951,54.358-123.951,126.437c0,74.19,55.604,134.54,123.951,134.54s123.951-60.35,123.951-134.534    C379.951,54.358,326.665,0,256,0z M256,223.611c-47.743,0-86.579-43.589-86.579-97.168c0-51.611,36.413-89.071,86.579-89.071    c49.363,0,86.579,38.288,86.579,89.071C342.579,180.022,303.743,223.611,256,223.611z"></path>
+    </symbol>
+    <symbol id="svg-icon-cart" viewBox="0 0 23 21">
+      <path d="M19.502 14.998H7a.835.835 0 0 1-.824-.716L4.798 5.114a.47.47 0 0 1-.005-.037l-.51-3.396H.832A.838.838 0 0 1-.002.838c0-.466.373-.843.834-.843h4.167c.412 0 .762.305.824.717l.513 3.417 15.838.081a.827.827 0 0 1 .664.34.85.85 0 0 1 .131.742l-2.667 9.103a.836.836 0 0 1-.8.603zM7.716 13.313H18.88l2.175-7.423L6.59 5.816l1.126 7.497zM9 17a2 2 0 1 1 .001 3.999A2 2 0 0 1 9 17zm9 0a2 2 0 1 1 .001 3.999A2 2 0 0 1 18 17z"></path>
+    </symbol>
+    <symbol id="svg-icon-shopbag" viewBox="0 0 32 32">
+      <path d="M3.205 3.205v25.59h25.59v-25.59h-25.59zM27.729 27.729h-23.457v-23.457h23.457v23.457z"></path>
+      <path d="M9.068 13.334c0 3.828 3.104 6.931 6.931 6.931s6.93-3.102 6.93-6.931v-3.732h1.067v-1.066h-3.199v1.066h1.065v3.732c0 3.234-2.631 5.864-5.864 5.864-3.234 0-5.865-2.631-5.865-5.864v-3.732h1.067v-1.066h-3.199v1.066h1.065v3.732z"></path>
+    </symbol>
+    <symbol id="svg-icon-search-thin" viewBox="0 0 32 32">
+      <path d="M28.591 27.273l-7.263-7.264c1.46-1.756 2.339-4.010 2.339-6.471 0-5.595-4.535-10.129-10.129-10.129-5.594 0-10.129 4.535-10.129 10.129 0 5.594 4.536 10.129 10.129 10.129 2.462 0 4.716-0.879 6.471-2.339l7.263 7.264 1.319-1.319zM4.475 13.538c0-4.997 4.065-9.063 9.063-9.063 4.997 0 9.063 4.066 9.063 9.063s-4.066 9.063-9.063 9.063c-4.998 0-9.063-4.066-9.063-9.063z"></path>
+    </symbol>
+    <symbol id="svg-icon-quotations" viewBox="0 0 32 32">
+      <path d="M 7.998,13.118c0,1.69, 1.32,3.060, 2.946,3.060c 0.522,0, 1.004-0.152, 1.43-0.4 c-0.146,1.636-0.97,4.022-3.99,6.454c-0.422,0.342-0.5,0.974-0.172,1.412c 0.192,0.256, 0.478,0.39, 0.766,0.39 c 0.208,0, 0.416-0.068, 0.594-0.212c 3.706-2.99, 4.632-6.062, 4.756-8.114C 14.54,13.084, 13.744,11.704, 13.016,10.984 C 12.95,10.914, 12.888,10.838, 12.814,10.776C 12.64,10.628, 12.484,10.524, 12.348,10.446C 12.342,10.442, 12.338,10.436, 12.332,10.434 c-0.010-0.006-0.020-0.008-0.030-0.012C 12.104,10.312, 11.962,10.26, 11.962,10.26l 0.010,0.024C 11.65,10.152, 11.312,10.058, 10.944,10.058 C 9.316,10.058, 7.998,11.428, 7.998,13.118zM 17.694,13.118c0,1.69, 1.318,3.060, 2.946,3.060c 0.522,0, 1.004-0.152, 1.43-0.4 c-0.146,1.636-0.97,4.022-3.99,6.454c-0.424,0.342-0.5,0.974-0.172,1.412c 0.192,0.256, 0.478,0.39, 0.766,0.39 c 0.208,0, 0.416-0.068, 0.594-0.212c 3.706-2.99, 4.632-6.062, 4.756-8.114c 0.212-2.624-0.586-4.004-1.312-4.724 c-0.068-0.070-0.13-0.146-0.204-0.208c-0.174-0.148-0.33-0.252-0.466-0.33c-0.006-0.004-0.010-0.008-0.016-0.012 c-0.010-0.006-0.020-0.008-0.030-0.012c-0.198-0.108-0.34-0.162-0.34-0.162l 0.010,0.024c-0.322-0.132-0.662-0.226-1.028-0.226 C 19.012,10.058, 17.694,11.428, 17.694,13.118z"></path>
+    </symbol>
+    <symbol id="svg-icon-fancy" viewBox="0 0 260 260">
+      <path fill-rule="evenodd" d="M48.748,0.011H211.241a48.748,48.748,0,0,1,48.748,48.748V211.252A48.748,48.748,0,0,1,211.241,260H48.748A48.748,48.748,0,0,1,0,211.252V48.759A48.748,48.748,0,0,1,48.748.011Zm120.09,164H142V197a12,12,0,0,1-24,0V164.012H91.16A10.9,10.9,0,0,1,80,153.163v-51.3a50,50,0,0,1,99.993,0V152.85A11.159,11.159,0,0,1,168.838,164.012Z"></path>
+    </symbol>
+    <symbol id="svg-icon-model-xr" viewBox="0 0 14 16" fill="none">
+      <path fill="currentColor" d="M6.99998 0.133975L13.8121 4.06698V11.933L6.99998 15.866L0.187819 11.933V4.06698L6.99998 0.133975ZM6.99998 1.86603L1.68782 4.933V11.067L6.99998 14.1339L12.3121 11.067V4.933L6.99998 1.86603Z"/>
+      <path fill="currentColor" d="M7 15V7.67713C7.64559 7.27897 7.64559 7.27897 7.64559 7.27897L13.2222 4.11109V11.4444L7 15Z"/>
+    </symbol>
+    <symbol id="svg-icon-video" viewBox="0 0 42 42">
+      <path d="M1 41H41V1H1V41Z"/>
+      <path d="M0.5 41V41.5H1H41H41.5V41V1V0.5H41H1H0.5V1V41Z"/>
+      <path d="M16.5075 12.888C15.8409 12.4953 15 12.976 15 13.7496V28.1404C15 28.9373 15.8866 29.414 16.5514 28.9746L28.064 21.3653C28.6808 20.9577 28.6572 20.0447 28.0201 19.6695L16.5075 12.888Z" opacity="0.6"/>
+    </symbol>
+    <symbol id="svg-icon-external_video" viewBox="0 0 42 42">
+      <path d="M1 41H41V1H1V41Z"/>
+      <path d="M0.5 41V41.5H1H41H41.5V41V1V0.5H41H1H0.5V1V41Z"/>
+      <path d="M16.5075 12.888C15.8409 12.4953 15 12.976 15 13.7496V28.1404C15 28.9373 15.8866 29.414 16.5514 28.9746L28.064 21.3653C28.6808 20.9577 28.6572 20.0447 28.0201 19.6695L16.5075 12.888Z" opacity="0.6"/>
+    </symbol>
+    <symbol id="svg-icon-model" viewBox="0 0 42 42" fill="none">
+      <path d="M1 41H41V1H1V41Z"/>
+      <path class="icon-3d-badge-full-color-outline" d="M0.5 41V41.5H1H41H41.5V41V1V0.5H41H1H0.5V1V41Z"/>
+      <g opacity="0.6">
+        <path fill="currentColor" d="M21 11.134L29.5442 16.067V25.933L21 30.866L12.4558 25.933V16.067L21 11.134ZM21 12.866L13.9558 16.933V25.0669L21 29.1339L28.0442 25.0669V16.933L21 12.866Z"/>
+        <path fill="currentColor" d="M20.9998 30V20.5849C21.8299 20.073 21.8299 20.073 21.8299 20.073L28.9998 16V25.4286L20.9998 30Z"/>
+      </g>
+    </symbol>
+    <symbol id="svg-icon-close" viewBox="0 0 20 20" fill="none">
+      <path xmlns="http://www.w3.org/2000/svg" fill="currentColor" d="M15.89 14.696l-4.734-4.734 4.717-4.717c.4-.4.37-1.085-.03-1.485s-1.085-.43-1.485-.03L9.641 8.447 4.97 3.776c-.4-.4-1.085-.37-1.485.03s-.43 1.085-.03 1.485l4.671 4.671-4.688 4.688c-.4.4-.37 1.085.03 1.485s1.085.43 1.485.03l4.688-4.687 4.734 4.734c.4.4 1.085.37 1.485-.03s.43-1.085.03-1.485z"/>
+    </symbol>
+  </svg>
+</div>
+
+		<div class="toast ajaxcart-toast fade hide" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+  <button type="button" class="ajaxcart-toast__close close" data-dismiss="toast" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <div class="toast-body"></div>
+</div><div class="drawer__overlay js-drawer-close"></div>
+	<div class="js-drawer drawer drawer--right drawer--has-fixed-footer">
+		<div class="pre_order-cart hidden">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+		<div class="drawer__header">
+			<div class="drawer__title">Shopping Cart (<span class="count">0</span>)</div>
+			<button type="button" class="drawer__close-button js-drawer-close"></button>
+		</div>
+		<div class="drawer__inner">
+			<div class="ajaxcart-container fire-done" data-cart-container></div>
+		</div>
+	</div><div class="js-scroll-to-top scroll-to-top">
+		<i class="icon-arow-2"></i>
+	</div><div class="cookie-consent" role="dialog" aria-label="cookieconsent">
+		<div class="cookie-consent__wrapper">
+			<div class="cookie-consent__message">This website uses cookies to ensure you get the best experience on our website.<a href="/policies/privacy-policy">Privacy Policy</a></div>
+			<div class="cookie-consent__dismiss">
+				<button class="cookie-consent-dismiss btn btn-dismiss" type="button">Not agree</button>
+				<button class="cookie-consent-agree btn btn-agree" type="button">Agree</button>
+			</div>
+		</div>
+	</div><div class="js-newsletter-popup newsletter-popup">
+		<div class="js-newsletter-popup-close newsletter-popup__overlay"></div>
+		<div class="newsletter-popup__inner">
+			<button class="js-newsletter-popup-close newsletter-popup__close" type="button">
+			</button>
+			<div class="image"><img class="newsletter-popup__image" src="//mafoil-organic.myshopify.com/cdn/shop/files/7.jpg?v=1681205406" width="360" height="460" alt="" data-image /></div>
+			<div class="newsletter-popup__content">
+				<div class="newsletter-popup__content-inner">
+					<div class="title-newsletter">Join the our family</div>
+					<div class="text-newsletter">Sign up for our newsletter and receive updates you’re looking for: interior inspiration, the latest trends and discounts</div><form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+
+<input type="hidden" name="contact[tags]" value="newsletter">
+									<div class="newsletter-form__wrap">
+										<input value=""
+											placeholder="Your email..."
+											name="contact[email]" class="form-control newsletter-form__input" type="email"
+											autocorrect="off"
+											autocapitalize="off"/>
+										<button class="js-newsletter-popup-submit btn newsletter-form__submit" type="submit">
+											<i class="feather-mail"></i>
+										</button>
+									</div></form>
+</div>
+			</div>
+		</div>
+	</div><div class="quickview" data-quickview data-stock-show="true" data-type-show="" data-vendor-show="" >
+		<div class="quickview__overlay" data-quickview-close></div>
+		<div class="quickview__content circle">
+			<button type="button" class="quickview__btn-close" data-quickview-close></button>
+			<div data-quickview-container></div>
+		</div>
+	</div><div class="gift_card-container" data-gift-card >
+		<div class="gift_card__overlay" data-gift-card-close></div>
+		<div class="gift_card__content">
+			<button type="button" class="gift_card__btn-close" data-gift-card-close></button>
+			<div data-gift-card-container></div>
+		</div>
+	</div><div class="edit_variant-cart-container" data-edit_variant-cart >
+	<div class="edit_variant-cart__content">
+		<button type="button" class="edit_variant__btn-close" data-edit_variant-cart-close></button>
+		<div data-edit_variant-cart-container></div>
+	</div>
+</div><script id="ajaxcart-template" type="text/template">
+
+<form action="/cart" method="post" novalidate class="cart ajaxcart ajaxcart--header">
+    <div class="ajaxcart__inner">
+
+		<div class="ajaxcart__product data-edit_variant-popup-item" data-line="">
+			<div class="ajaxcart__line-item content-edit_variant-popup">
+				<div class="ajaxcart__line-item--left">
+					<div class="ajaxcart__product-image-wrapper image-popup">
+						<a href="" class="ajaxcart__product-image"><img src="" alt=""></a>
+					</div>
+				</div>
+				<div class="ajaxcart__line-item--right">
+					<div class="ajaxcart__product-description">
+						<div class="ajaxcart__product-name-wrapper">
+							<a href="" class="ajaxcart__product-name"></a>
+							<div class="quantity-price">
+								<div class="drawer__quantity">
+									<div class="ajaxcart__qty wpbingo-qty">
+									  <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--minus wpbingo-qty__adjust wpbingo-qty__adjust--minus" data-id="" data-qty="" data-line="" aria-label="Reduce item quantity by one">
+											<i class="feather-minus" aria-hidden="true"></i>
+									  </button>
+									  <input type="text" name="updates[]" class="ajaxcart__qty-num wpbingo-qty__number" value="" min="0" data-id="" data-line="" aria-label="quantity" pattern="[0-9]*">
+									  <button type="button" class="ajaxcart__qty-adjust ajaxcart__qty--plus wpbingo-qty__adjust wpbingo-qty__adjust--plus" data-id="" data-line="" data-qty="" aria-label="Increase item quantity by one">
+											<i class="feather-plus" aria-hidden="true"></i>
+									  </button>
+									</div>
+								</div>
+								<div class="ajaxcart__product-price-wrapper">
+
+										<del class="ajaxcart__price ajaxcart__price--regular"></del>
+										<span class="ajaxcart__price ajaxcart__price--sale"></span>
+
+										<span class="ajaxcart__price"></span>
+
+
+										<span class="d-none">Unit price</span>
+										<span class="cart__unit-price">
+
+
+											<span aria-hidden="true">/</span><span class="d-none">&nbsp;per&nbsp;</span>
+										</span>
+
+
+										<div class="pre_order hide">( Pre-order )</div>
+
+								</div>
+							</div>
+							<div class="variant-content">
+
+
+
+
+
+											<span class="ajaxcart__product-metas">: </span>
+
+
+
+
+									<ul class="product-discount product-discount--ajax-cart" aria-label="Discount">
+
+											<li class="product-discount__item">
+												<span class="fa fa-tag" aria-hidden="true"></span>
+											</li>
+
+									</ul>
+
+
+									<div class="cart-product-edit_variant" data-title="Edit this item"  data-id_variant="" data-line="" data-value="" data-handle="">
+										<i class="bwp-icon-edit"></i>
+									</div>
+
+							</div>
+							<a class="ajaxcart__remove" href="javascript:void(0)" data-line="" data-cart-remove>Remove</a>
 						</div>
-							<a class="button button--primary before-you-leave-continue" href="javascript:void(0)" title="Continue Shopping">
-								<span>Continue Shopping</span>
-							</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    </div>
+    <div class="ajaxcart__footer">
+
+<div class="shipping-bar-cart hidden" data-price_shipping_bar="10000">
+						<div class="title-spend">Spend <span class="spend">$81.00</span> more and get <span>free shipping!</span></div>
+						<div class="title-shipping hide">Congratulations , you&#39;ve got free shipping!</div>
+					<div class="shipping-progress_bar"><div class="shipping-progress"></div></div>
+				</div>
+			<div class="ajaxcart__info">
+				<div class="ajaxcart__info_header">
+						<div class="gift-wrap">
+							<div class="gift-wrap-title" data-gift_card="long-shoulder-bag">
+								<div class="icon-gift"><i class="feather-gift"></i></div>
+								<span>Add gift wrap</span>
+							</div>
+						</div>
+
+
+						<div class="button_note"><i class="bwp-icon-edit"></i><span>Add note</span></div>
+
+
+						<div class="button_discount"><i class="bwp-icon-coupon"></i><span>Coupon</div>
+
+
+						<div class="button_shiping"><i class="bwp-icon-shipping3"></i><span>Shipping</div>
+
+				</div>
+				<div class="ajaxcart__info_content">
+
+						<div class="discount_code">
+	<label for="discount">* Discount will be calculated and applied at checkout</label>
+	<input class="discount_code_input" autocomplete="off" type="text" name="discount" value="" />
+	<div class="save save-discount_code_input">Save</div>
+	<div class="close-ajaxcart__info">Close</div>
+</div>
+
+
+
+							<div class="ajaxcart__note">
+								<label class="ajaxcart__note-label">Special instructions for seller</label>
+								<textarea name="note" class="ajaxcart__note-input form-control"></textarea>
+
+								<div class="save save-ajaxcart__note">Save</div>
+								<div class="close-ajaxcart__info">Close</div>
+
+							</div>
+
+
+				</div>
+			</div>
+
+
+
+			<div class="ajaxcart__footer-discount">
+
+					<div class="order-discount order-discount--ajax-cart">
+						<i class="fa fa-tag" aria-hidden="true"></i>
+						<span class="d-none">Discount:</span>
+					</div>
+					<div class="order-discount__value text-right">
+
+					</div>
+
+			</div>
+
+
+
+		<div class="ajaxcart__footer-price">
+			<span class="ajaxcart__subtotal-name">Subtotal: </span>
+			<span class="ajaxcart__subtotal"></span>
+		</div>
+
+		<p class="ajaxcart__policies">Taxes and shipping calculated at checkout
+
+		</p><div class="ajaxcart-currency" data-currency-jsnotify>
+				<div class="content">
+					<div class="marquee">
+						<p>
+							All charges are billed in <span>USD</span>. While the content of your cart is currently displayed in <span class="selected-currency"></span>, the checkout will use <span>USD</span> at the most current exchange rate.
+						</p>
 					</div>
 				</div>
 			</div>
 
-			<div class="before-you-leave-tab">
-				<div class="tabs-wrapper">
-					<ul class="tabs" data-tab>
-			                <li class="tab is-active recommended" data-id="recommended">
-			                    <a class="tab-title" href="#tab-recommended" aria-label="Recommended">Recommended <span class="count">0</span></a>
-			                </li>
-			                <li class="tab history" data-id="history">
-			                	<a class="tab-title" href="#tab-history" aria-label="History">History <span class="count">0</span></a>
-			                </li>
-			        </ul>
-				        <div class="before-you-leave-search">
-			            	<a class="search-icon" href="#" aria-label="Quick Search" data-search-leave>
-	                            <svg class="icon icon-search" role="img" aria-label="Search">
-				                	<title>Search</title>
-	                            	<desc>Search for a product</desc>
-				                	<use xlink:href="#icon-search"></use>
-				                </svg>
-				                <svg class="icon icon-close" role="img" aria-label="Close">
-				                	<title>Close</title>
-	                            	<desc>Close</desc>
-				                	<use xlink:href="#icon-close"></use>
-				                </svg>
-	                        </a>
-			            	<form class="form" action="/search.php">
-    <fieldset class="form-fieldset">
-        <div class="form-field">
-            <label class="is-srOnly" for="search_query2">Search</label>
-            <input class="form-input" data-search-quick name="search_query2" id="search_query2" data-error-message="Search field cannot be empty." placeholder="Search for a product" autocomplete="off">
-            <button type="submit"><svg class="icon"><use xlink:href="#icon-search"></use></svg></button>
-        </div>
-    </fieldset>
-</form>
-			            </div>
-				</div>
-		        <div class="tabs-contents halo_tabs-contents">
-		                <div class="tab-content is-active" id="tab-recommended">
-		                	<div class="no-products text-center">
-		                        <svg class="icon" role="img" aria-label="Sorry, there are no products.">
-		                        	<title>Sorry, there are no products.</title>
-                        			<desc>Sorry, there are no products.</desc>
-		                        	<use xlink:href="#icon-no-products"></use>
-		                        </svg>
-		                        <div class="text">Sorry, there are no products.</div>
-		                    </div>
-		                	<div class="productGrid halo-dots halo-arrows-custom">
-            				</div>
-		              </div>
+				<p class="ajaxcart_terms_conditions">
+					<input style="float:none; vertical-align: middle;" type="checkbox" class="agree_terms_conditions" />
+					<label style="display:inline; float:none" for="agree">
+						I agree with the <a href="#">terms and conditions</a>
+					</label>
+				</p>
 
-			            <div class="tab-content" id="tab-history">
-				            <div id="history-products-list-tmp" class="tab-content--product history-products-list-tmp">
-				                <div class="no-products text-center">
-			                        <svg class="icon" role="img" aria-label="Sorry, there are no products.">
-			                        	<title>Sorry, there are no products.</title>
-                            			<desc>Sorry, there are no products.</desc>
-			                        	<use xlink:href="#icon-no-products"></use>
-			                        </svg>
-			                        <div class="text">Sorry, there are no products.</div>
-			                    </div>
-			                    <div class="productGrid halo-dots halo-arrows-custom"></div>
-				            </div>
-			            </div>
-		        </div>
+
+		<div class="ajaxcart__footer-buttons">
+			<div class="button-cart">
+				<button class="btn cart-modal__btn cart-modal__btn--checkout" type="submit" name="checkout">
+					Check Out
+				</button>
 			</div>
-
-			<div class="back-to-store">
-				<a class="button button--primary" href="/">Back to Store</a>
+			<div class="button-cart">
+				<button class="btn cart-modal__btn cart-modal__btn--viewcart" type="submit">
+					View Cart
+				</button>
 			</div>
 		</div>
-	</section>
-
-	    <section class="recently-viewed-products-sidebar">
-        <div class="lst-seen-widget">
-            <div class="in-content">
-                    <h3 class="title text-center">Recently viewed</h3>
-                <div class="products-grid" id="recently-viewed-products-list">
-                    <div class="no-products text-center" style="flex-direction: column;display:none;">
-                        <svg class="icon" role="img" aria-label="Sorry, there are no products.">
-                            <title>Sorry, there are no products.</title>
-                            <desc>Sorry, there are no products.</desc>
-                            <use xlink:href="#icon-no-products"></use>
-                        </svg>
-                         <span class="text">Sorry, there are no products.</span>
-                    </div>
-                </div>
-                <div id="recently-viewed-products-list-tmp" style="display: none !important;"></div>
-            </div>
-        </div>
-
-            <div class="lst-social-media">
-                <div class="in-content">
-                    <h3 class="title text-center">Social</h3>
-                    <div class="media-grid text-center" id="recently-viewed-products-share">
-                        <ul class="list-social">
-                            <li class="list-social__item">
-                                <a href="https://www.facebook.com/BigCommerce/" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-facebook"/></svg>
-                                    <span class="visually-hidden">Facebook</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://www.facebook.com/BigCommerce/">
-                                        <span class="text">Facebook</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item">
-                                <a href="https://www.instagram.com/bigcommerce/" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-instagram"/></svg>
-                                    <span class="visually-hidden">Instagram</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://www.instagram.com/bigcommerce/">
-                                        <span class="text">Instagram</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item">
-                                <a href="https://www.pinterest.com/bigcommerce/" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-pinterest"/></svg>
-                                    <span class="visually-hidden">Pinterest</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://www.pinterest.com/bigcommerce/">
-                                        <span class="text">Pinterest</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item">
-                                <a href="https://www.tiktok.com/@bigcommerceie" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-tiktok"/></svg>
-                                    <span class="visually-hidden">TikTok</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://www.tiktok.com/@bigcommerceie">
-                                        <span class="text">TikTok</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item">
-                                <a href="https://www.youtube.com/bigcommerce" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-youtube"/></svg>
-                                    <span class="visually-hidden">YouTube</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://www.youtube.com/bigcommerce">
-                                        <span class="text">YouTube</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item">
-                                <a href="https://twitter.com/bigcommerce" class="link link--text list-social__link">
-                                    <svg class="icon"><use xlink:href="#icon-social-twitter"/></svg>
-                                    <span class="visually-hidden">Twitter</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="https://twitter.com/bigcommerce">
-                                        <span class="text">Twitter</span>
-                                    </a>
-                                </div>
-                            </li>
-                            <li class="list-social__item mail-newsletter">
-                                <a href="#" data-open-newsletter-popup class="link link--text list-social__link" role="button">
-                                    <svg class="icon"><use xlink:href="#icon-social-mail"/></svg>
-                                    <span class="visually-hidden">Newsletter Sign-up</span>
-                                </a>
-                                <div class="info list-social__info text-left">
-                                    <a class="link link-underline" href="#" data-open-newsletter-popup role="button">
-                                        <span class="text">Newsletter Sign-up</span>
-                                    </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        <div class="wrap-icons">
-            <div class="expand-recently-viewed">
-                <svg class="icon" role="img" aria-label="Recently Viewed">
-                    <title>Recently Viewed</title>
-                    <desc>Recently Viewed</desc>
-                    <use xlink:href="#icon-recently-viewed"></use>
-                </svg>
-            </div>
-
-            <div class="expand-social-media">
-                <svg class="icon" role="img" aria-label="Social Media">
-                    <title>Social Media</title>
-                    <desc>Social Media</desc>
-                    <use xlink:href="#icon-social-media"></use>
-                </svg>
-            </div>
-
-                <div class="backtoTop">
-                    <svg class="icon" role="img" aria-label="Top">
-                        <title>Top</title>
-                        <desc>Top</desc>
-                        <use xlink:href="#icon-cross-line-top"></use>
-                    </svg>
-                </div>
-        </div>
-    </section>
-
-
-
-    <div class="haloMegamenuBrand u-hidden">
-    	<ul class="haloMegamenuBrand__list">
-                <li data-brand-code="tomorrow" data-brand-letter="t">Tomorrow</li>
-                <li data-brand-code="french-connection" data-brand-letter="f">French Connection</li>
-                <li data-brand-code="coco-lee" data-brand-letter="c">Coco Lee</li>
-                <li data-brand-code="jimmy-choo" data-brand-letter="j">Jimmy Choo</li>
-        </ul>
     </div>
-
-		<div id="recently_bought_list"></div>
+	<div id="shipping-calculator">
+  <h3>Get shipping estimates</h3>
+  <div>
+    <p class="field">
+      <label for="address_country">Country</label>
+      <select id="address_country" name="address[country]" data-default="United States"><option value="---" data-provinces="[]">---</option>
+<option value="Australia" data-provinces="[[&quot;Australian Capital Territory&quot;,&quot;Australian Capital Territory&quot;],[&quot;New South Wales&quot;,&quot;New South Wales&quot;],[&quot;Northern Territory&quot;,&quot;Northern Territory&quot;],[&quot;Queensland&quot;,&quot;Queensland&quot;],[&quot;South Australia&quot;,&quot;South Australia&quot;],[&quot;Tasmania&quot;,&quot;Tasmania&quot;],[&quot;Victoria&quot;,&quot;Victoria&quot;],[&quot;Western Australia&quot;,&quot;Western Australia&quot;]]">Australia</option>
+<option value="Austria" data-provinces="[]">Austria</option>
+<option value="Belgium" data-provinces="[]">Belgium</option>
+<option value="Canada" data-provinces="[[&quot;Alberta&quot;,&quot;Alberta&quot;],[&quot;British Columbia&quot;,&quot;British Columbia&quot;],[&quot;Manitoba&quot;,&quot;Manitoba&quot;],[&quot;New Brunswick&quot;,&quot;New Brunswick&quot;],[&quot;Newfoundland and Labrador&quot;,&quot;Newfoundland and Labrador&quot;],[&quot;Northwest Territories&quot;,&quot;Northwest Territories&quot;],[&quot;Nova Scotia&quot;,&quot;Nova Scotia&quot;],[&quot;Nunavut&quot;,&quot;Nunavut&quot;],[&quot;Ontario&quot;,&quot;Ontario&quot;],[&quot;Prince Edward Island&quot;,&quot;Prince Edward Island&quot;],[&quot;Quebec&quot;,&quot;Quebec&quot;],[&quot;Saskatchewan&quot;,&quot;Saskatchewan&quot;],[&quot;Yukon&quot;,&quot;Yukon&quot;]]">Canada</option>
+<option value="Czech Republic" data-provinces="[]">Czechia</option>
+<option value="Denmark" data-provinces="[]">Denmark</option>
+<option value="Finland" data-provinces="[]">Finland</option>
+<option value="France" data-provinces="[]">France</option>
+<option value="Germany" data-provinces="[]">Germany</option>
+<option value="Hong Kong" data-provinces="[[&quot;Hong Kong Island&quot;,&quot;Hong Kong Island&quot;],[&quot;Kowloon&quot;,&quot;Kowloon&quot;],[&quot;New Territories&quot;,&quot;New Territories&quot;]]">Hong Kong SAR</option>
+<option value="Ireland" data-provinces="[[&quot;Carlow&quot;,&quot;Carlow&quot;],[&quot;Cavan&quot;,&quot;Cavan&quot;],[&quot;Clare&quot;,&quot;Clare&quot;],[&quot;Cork&quot;,&quot;Cork&quot;],[&quot;Donegal&quot;,&quot;Donegal&quot;],[&quot;Dublin&quot;,&quot;Dublin&quot;],[&quot;Galway&quot;,&quot;Galway&quot;],[&quot;Kerry&quot;,&quot;Kerry&quot;],[&quot;Kildare&quot;,&quot;Kildare&quot;],[&quot;Kilkenny&quot;,&quot;Kilkenny&quot;],[&quot;Laois&quot;,&quot;Laois&quot;],[&quot;Leitrim&quot;,&quot;Leitrim&quot;],[&quot;Limerick&quot;,&quot;Limerick&quot;],[&quot;Longford&quot;,&quot;Longford&quot;],[&quot;Louth&quot;,&quot;Louth&quot;],[&quot;Mayo&quot;,&quot;Mayo&quot;],[&quot;Meath&quot;,&quot;Meath&quot;],[&quot;Monaghan&quot;,&quot;Monaghan&quot;],[&quot;Offaly&quot;,&quot;Offaly&quot;],[&quot;Roscommon&quot;,&quot;Roscommon&quot;],[&quot;Sligo&quot;,&quot;Sligo&quot;],[&quot;Tipperary&quot;,&quot;Tipperary&quot;],[&quot;Waterford&quot;,&quot;Waterford&quot;],[&quot;Westmeath&quot;,&quot;Westmeath&quot;],[&quot;Wexford&quot;,&quot;Wexford&quot;],[&quot;Wicklow&quot;,&quot;Wicklow&quot;]]">Ireland</option>
+<option value="Israel" data-provinces="[]">Israel</option>
+<option value="Italy" data-provinces="[[&quot;Agrigento&quot;,&quot;Agrigento&quot;],[&quot;Alessandria&quot;,&quot;Alessandria&quot;],[&quot;Ancona&quot;,&quot;Ancona&quot;],[&quot;Aosta&quot;,&quot;Aosta Valley&quot;],[&quot;Arezzo&quot;,&quot;Arezzo&quot;],[&quot;Ascoli Piceno&quot;,&quot;Ascoli Piceno&quot;],[&quot;Asti&quot;,&quot;Asti&quot;],[&quot;Avellino&quot;,&quot;Avellino&quot;],[&quot;Bari&quot;,&quot;Bari&quot;],[&quot;Barletta-Andria-Trani&quot;,&quot;Barletta-Andria-Trani&quot;],[&quot;Belluno&quot;,&quot;Belluno&quot;],[&quot;Benevento&quot;,&quot;Benevento&quot;],[&quot;Bergamo&quot;,&quot;Bergamo&quot;],[&quot;Biella&quot;,&quot;Biella&quot;],[&quot;Bologna&quot;,&quot;Bologna&quot;],[&quot;Bolzano&quot;,&quot;South Tyrol&quot;],[&quot;Brescia&quot;,&quot;Brescia&quot;],[&quot;Brindisi&quot;,&quot;Brindisi&quot;],[&quot;Cagliari&quot;,&quot;Cagliari&quot;],[&quot;Caltanissetta&quot;,&quot;Caltanissetta&quot;],[&quot;Campobasso&quot;,&quot;Campobasso&quot;],[&quot;Carbonia-Iglesias&quot;,&quot;Carbonia-Iglesias&quot;],[&quot;Caserta&quot;,&quot;Caserta&quot;],[&quot;Catania&quot;,&quot;Catania&quot;],[&quot;Catanzaro&quot;,&quot;Catanzaro&quot;],[&quot;Chieti&quot;,&quot;Chieti&quot;],[&quot;Como&quot;,&quot;Como&quot;],[&quot;Cosenza&quot;,&quot;Cosenza&quot;],[&quot;Cremona&quot;,&quot;Cremona&quot;],[&quot;Crotone&quot;,&quot;Crotone&quot;],[&quot;Cuneo&quot;,&quot;Cuneo&quot;],[&quot;Enna&quot;,&quot;Enna&quot;],[&quot;Fermo&quot;,&quot;Fermo&quot;],[&quot;Ferrara&quot;,&quot;Ferrara&quot;],[&quot;Firenze&quot;,&quot;Florence&quot;],[&quot;Foggia&quot;,&quot;Foggia&quot;],[&quot;Forlì-Cesena&quot;,&quot;Forlì-Cesena&quot;],[&quot;Frosinone&quot;,&quot;Frosinone&quot;],[&quot;Genova&quot;,&quot;Genoa&quot;],[&quot;Gorizia&quot;,&quot;Gorizia&quot;],[&quot;Grosseto&quot;,&quot;Grosseto&quot;],[&quot;Imperia&quot;,&quot;Imperia&quot;],[&quot;Isernia&quot;,&quot;Isernia&quot;],[&quot;L&#39;Aquila&quot;,&quot;L’Aquila&quot;],[&quot;La Spezia&quot;,&quot;La Spezia&quot;],[&quot;Latina&quot;,&quot;Latina&quot;],[&quot;Lecce&quot;,&quot;Lecce&quot;],[&quot;Lecco&quot;,&quot;Lecco&quot;],[&quot;Livorno&quot;,&quot;Livorno&quot;],[&quot;Lodi&quot;,&quot;Lodi&quot;],[&quot;Lucca&quot;,&quot;Lucca&quot;],[&quot;Macerata&quot;,&quot;Macerata&quot;],[&quot;Mantova&quot;,&quot;Mantua&quot;],[&quot;Massa-Carrara&quot;,&quot;Massa and Carrara&quot;],[&quot;Matera&quot;,&quot;Matera&quot;],[&quot;Medio Campidano&quot;,&quot;Medio Campidano&quot;],[&quot;Messina&quot;,&quot;Messina&quot;],[&quot;Milano&quot;,&quot;Milan&quot;],[&quot;Modena&quot;,&quot;Modena&quot;],[&quot;Monza e Brianza&quot;,&quot;Monza and Brianza&quot;],[&quot;Napoli&quot;,&quot;Naples&quot;],[&quot;Novara&quot;,&quot;Novara&quot;],[&quot;Nuoro&quot;,&quot;Nuoro&quot;],[&quot;Ogliastra&quot;,&quot;Ogliastra&quot;],[&quot;Olbia-Tempio&quot;,&quot;Olbia-Tempio&quot;],[&quot;Oristano&quot;,&quot;Oristano&quot;],[&quot;Padova&quot;,&quot;Padua&quot;],[&quot;Palermo&quot;,&quot;Palermo&quot;],[&quot;Parma&quot;,&quot;Parma&quot;],[&quot;Pavia&quot;,&quot;Pavia&quot;],[&quot;Perugia&quot;,&quot;Perugia&quot;],[&quot;Pesaro e Urbino&quot;,&quot;Pesaro and Urbino&quot;],[&quot;Pescara&quot;,&quot;Pescara&quot;],[&quot;Piacenza&quot;,&quot;Piacenza&quot;],[&quot;Pisa&quot;,&quot;Pisa&quot;],[&quot;Pistoia&quot;,&quot;Pistoia&quot;],[&quot;Pordenone&quot;,&quot;Pordenone&quot;],[&quot;Potenza&quot;,&quot;Potenza&quot;],[&quot;Prato&quot;,&quot;Prato&quot;],[&quot;Ragusa&quot;,&quot;Ragusa&quot;],[&quot;Ravenna&quot;,&quot;Ravenna&quot;],[&quot;Reggio Calabria&quot;,&quot;Reggio Calabria&quot;],[&quot;Reggio Emilia&quot;,&quot;Reggio Emilia&quot;],[&quot;Rieti&quot;,&quot;Rieti&quot;],[&quot;Rimini&quot;,&quot;Rimini&quot;],[&quot;Roma&quot;,&quot;Rome&quot;],[&quot;Rovigo&quot;,&quot;Rovigo&quot;],[&quot;Salerno&quot;,&quot;Salerno&quot;],[&quot;Sassari&quot;,&quot;Sassari&quot;],[&quot;Savona&quot;,&quot;Savona&quot;],[&quot;Siena&quot;,&quot;Siena&quot;],[&quot;Siracusa&quot;,&quot;Syracuse&quot;],[&quot;Sondrio&quot;,&quot;Sondrio&quot;],[&quot;Taranto&quot;,&quot;Taranto&quot;],[&quot;Teramo&quot;,&quot;Teramo&quot;],[&quot;Terni&quot;,&quot;Terni&quot;],[&quot;Torino&quot;,&quot;Turin&quot;],[&quot;Trapani&quot;,&quot;Trapani&quot;],[&quot;Trento&quot;,&quot;Trentino&quot;],[&quot;Treviso&quot;,&quot;Treviso&quot;],[&quot;Trieste&quot;,&quot;Trieste&quot;],[&quot;Udine&quot;,&quot;Udine&quot;],[&quot;Varese&quot;,&quot;Varese&quot;],[&quot;Venezia&quot;,&quot;Venice&quot;],[&quot;Verbano-Cusio-Ossola&quot;,&quot;Verbano-Cusio-Ossola&quot;],[&quot;Vercelli&quot;,&quot;Vercelli&quot;],[&quot;Verona&quot;,&quot;Verona&quot;],[&quot;Vibo Valentia&quot;,&quot;Vibo Valentia&quot;],[&quot;Vicenza&quot;,&quot;Vicenza&quot;],[&quot;Viterbo&quot;,&quot;Viterbo&quot;]]">Italy</option>
+<option value="Japan" data-provinces="[[&quot;Aichi&quot;,&quot;Aichi&quot;],[&quot;Akita&quot;,&quot;Akita&quot;],[&quot;Aomori&quot;,&quot;Aomori&quot;],[&quot;Chiba&quot;,&quot;Chiba&quot;],[&quot;Ehime&quot;,&quot;Ehime&quot;],[&quot;Fukui&quot;,&quot;Fukui&quot;],[&quot;Fukuoka&quot;,&quot;Fukuoka&quot;],[&quot;Fukushima&quot;,&quot;Fukushima&quot;],[&quot;Gifu&quot;,&quot;Gifu&quot;],[&quot;Gunma&quot;,&quot;Gunma&quot;],[&quot;Hiroshima&quot;,&quot;Hiroshima&quot;],[&quot;Hokkaidō&quot;,&quot;Hokkaido&quot;],[&quot;Hyōgo&quot;,&quot;Hyogo&quot;],[&quot;Ibaraki&quot;,&quot;Ibaraki&quot;],[&quot;Ishikawa&quot;,&quot;Ishikawa&quot;],[&quot;Iwate&quot;,&quot;Iwate&quot;],[&quot;Kagawa&quot;,&quot;Kagawa&quot;],[&quot;Kagoshima&quot;,&quot;Kagoshima&quot;],[&quot;Kanagawa&quot;,&quot;Kanagawa&quot;],[&quot;Kumamoto&quot;,&quot;Kumamoto&quot;],[&quot;Kyōto&quot;,&quot;Kyoto&quot;],[&quot;Kōchi&quot;,&quot;Kochi&quot;],[&quot;Mie&quot;,&quot;Mie&quot;],[&quot;Miyagi&quot;,&quot;Miyagi&quot;],[&quot;Miyazaki&quot;,&quot;Miyazaki&quot;],[&quot;Nagano&quot;,&quot;Nagano&quot;],[&quot;Nagasaki&quot;,&quot;Nagasaki&quot;],[&quot;Nara&quot;,&quot;Nara&quot;],[&quot;Niigata&quot;,&quot;Niigata&quot;],[&quot;Okayama&quot;,&quot;Okayama&quot;],[&quot;Okinawa&quot;,&quot;Okinawa&quot;],[&quot;Saga&quot;,&quot;Saga&quot;],[&quot;Saitama&quot;,&quot;Saitama&quot;],[&quot;Shiga&quot;,&quot;Shiga&quot;],[&quot;Shimane&quot;,&quot;Shimane&quot;],[&quot;Shizuoka&quot;,&quot;Shizuoka&quot;],[&quot;Tochigi&quot;,&quot;Tochigi&quot;],[&quot;Tokushima&quot;,&quot;Tokushima&quot;],[&quot;Tottori&quot;,&quot;Tottori&quot;],[&quot;Toyama&quot;,&quot;Toyama&quot;],[&quot;Tōkyō&quot;,&quot;Tokyo&quot;],[&quot;Wakayama&quot;,&quot;Wakayama&quot;],[&quot;Yamagata&quot;,&quot;Yamagata&quot;],[&quot;Yamaguchi&quot;,&quot;Yamaguchi&quot;],[&quot;Yamanashi&quot;,&quot;Yamanashi&quot;],[&quot;Ōita&quot;,&quot;Oita&quot;],[&quot;Ōsaka&quot;,&quot;Osaka&quot;]]">Japan</option>
+<option value="Malaysia" data-provinces="[[&quot;Johor&quot;,&quot;Johor&quot;],[&quot;Kedah&quot;,&quot;Kedah&quot;],[&quot;Kelantan&quot;,&quot;Kelantan&quot;],[&quot;Kuala Lumpur&quot;,&quot;Kuala Lumpur&quot;],[&quot;Labuan&quot;,&quot;Labuan&quot;],[&quot;Melaka&quot;,&quot;Malacca&quot;],[&quot;Negeri Sembilan&quot;,&quot;Negeri Sembilan&quot;],[&quot;Pahang&quot;,&quot;Pahang&quot;],[&quot;Penang&quot;,&quot;Penang&quot;],[&quot;Perak&quot;,&quot;Perak&quot;],[&quot;Perlis&quot;,&quot;Perlis&quot;],[&quot;Putrajaya&quot;,&quot;Putrajaya&quot;],[&quot;Sabah&quot;,&quot;Sabah&quot;],[&quot;Sarawak&quot;,&quot;Sarawak&quot;],[&quot;Selangor&quot;,&quot;Selangor&quot;],[&quot;Terengganu&quot;,&quot;Terengganu&quot;]]">Malaysia</option>
+<option value="Netherlands" data-provinces="[]">Netherlands</option>
+<option value="New Zealand" data-provinces="[[&quot;Auckland&quot;,&quot;Auckland&quot;],[&quot;Bay of Plenty&quot;,&quot;Bay of Plenty&quot;],[&quot;Canterbury&quot;,&quot;Canterbury&quot;],[&quot;Chatham Islands&quot;,&quot;Chatham Islands&quot;],[&quot;Gisborne&quot;,&quot;Gisborne&quot;],[&quot;Hawke&#39;s Bay&quot;,&quot;Hawke’s Bay&quot;],[&quot;Manawatu-Wanganui&quot;,&quot;Manawatū-Whanganui&quot;],[&quot;Marlborough&quot;,&quot;Marlborough&quot;],[&quot;Nelson&quot;,&quot;Nelson&quot;],[&quot;Northland&quot;,&quot;Northland&quot;],[&quot;Otago&quot;,&quot;Otago&quot;],[&quot;Southland&quot;,&quot;Southland&quot;],[&quot;Taranaki&quot;,&quot;Taranaki&quot;],[&quot;Tasman&quot;,&quot;Tasman&quot;],[&quot;Waikato&quot;,&quot;Waikato&quot;],[&quot;Wellington&quot;,&quot;Wellington&quot;],[&quot;West Coast&quot;,&quot;West Coast&quot;]]">New Zealand</option>
+<option value="Norway" data-provinces="[]">Norway</option>
+<option value="Poland" data-provinces="[]">Poland</option>
+<option value="Portugal" data-provinces="[[&quot;Aveiro&quot;,&quot;Aveiro&quot;],[&quot;Açores&quot;,&quot;Azores&quot;],[&quot;Beja&quot;,&quot;Beja&quot;],[&quot;Braga&quot;,&quot;Braga&quot;],[&quot;Bragança&quot;,&quot;Bragança&quot;],[&quot;Castelo Branco&quot;,&quot;Castelo Branco&quot;],[&quot;Coimbra&quot;,&quot;Coimbra&quot;],[&quot;Faro&quot;,&quot;Faro&quot;],[&quot;Guarda&quot;,&quot;Guarda&quot;],[&quot;Leiria&quot;,&quot;Leiria&quot;],[&quot;Lisboa&quot;,&quot;Lisbon&quot;],[&quot;Madeira&quot;,&quot;Madeira&quot;],[&quot;Portalegre&quot;,&quot;Portalegre&quot;],[&quot;Porto&quot;,&quot;Porto&quot;],[&quot;Santarém&quot;,&quot;Santarém&quot;],[&quot;Setúbal&quot;,&quot;Setúbal&quot;],[&quot;Viana do Castelo&quot;,&quot;Viana do Castelo&quot;],[&quot;Vila Real&quot;,&quot;Vila Real&quot;],[&quot;Viseu&quot;,&quot;Viseu&quot;],[&quot;Évora&quot;,&quot;Évora&quot;]]">Portugal</option>
+<option value="Singapore" data-provinces="[]">Singapore</option>
+<option value="South Korea" data-provinces="[[&quot;Busan&quot;,&quot;Busan&quot;],[&quot;Chungbuk&quot;,&quot;North Chungcheong&quot;],[&quot;Chungnam&quot;,&quot;South Chungcheong&quot;],[&quot;Daegu&quot;,&quot;Daegu&quot;],[&quot;Daejeon&quot;,&quot;Daejeon&quot;],[&quot;Gangwon&quot;,&quot;Gangwon&quot;],[&quot;Gwangju&quot;,&quot;Gwangju City&quot;],[&quot;Gyeongbuk&quot;,&quot;North Gyeongsang&quot;],[&quot;Gyeonggi&quot;,&quot;Gyeonggi&quot;],[&quot;Gyeongnam&quot;,&quot;South Gyeongsang&quot;],[&quot;Incheon&quot;,&quot;Incheon&quot;],[&quot;Jeju&quot;,&quot;Jeju&quot;],[&quot;Jeonbuk&quot;,&quot;North Jeolla&quot;],[&quot;Jeonnam&quot;,&quot;South Jeolla&quot;],[&quot;Sejong&quot;,&quot;Sejong&quot;],[&quot;Seoul&quot;,&quot;Seoul&quot;],[&quot;Ulsan&quot;,&quot;Ulsan&quot;]]">South Korea</option>
+<option value="Spain" data-provinces="[[&quot;A Coruña&quot;,&quot;A Coruña&quot;],[&quot;Albacete&quot;,&quot;Albacete&quot;],[&quot;Alicante&quot;,&quot;Alicante&quot;],[&quot;Almería&quot;,&quot;Almería&quot;],[&quot;Asturias&quot;,&quot;Asturias Province&quot;],[&quot;Badajoz&quot;,&quot;Badajoz&quot;],[&quot;Balears&quot;,&quot;Balears Province&quot;],[&quot;Barcelona&quot;,&quot;Barcelona&quot;],[&quot;Burgos&quot;,&quot;Burgos&quot;],[&quot;Cantabria&quot;,&quot;Cantabria Province&quot;],[&quot;Castellón&quot;,&quot;Castellón&quot;],[&quot;Ceuta&quot;,&quot;Ceuta&quot;],[&quot;Ciudad Real&quot;,&quot;Ciudad Real&quot;],[&quot;Cuenca&quot;,&quot;Cuenca&quot;],[&quot;Cáceres&quot;,&quot;Cáceres&quot;],[&quot;Cádiz&quot;,&quot;Cádiz&quot;],[&quot;Córdoba&quot;,&quot;Córdoba&quot;],[&quot;Girona&quot;,&quot;Girona&quot;],[&quot;Granada&quot;,&quot;Granada&quot;],[&quot;Guadalajara&quot;,&quot;Guadalajara&quot;],[&quot;Guipúzcoa&quot;,&quot;Gipuzkoa&quot;],[&quot;Huelva&quot;,&quot;Huelva&quot;],[&quot;Huesca&quot;,&quot;Huesca&quot;],[&quot;Jaén&quot;,&quot;Jaén&quot;],[&quot;La Rioja&quot;,&quot;La Rioja Province&quot;],[&quot;Las Palmas&quot;,&quot;Las Palmas&quot;],[&quot;León&quot;,&quot;León&quot;],[&quot;Lleida&quot;,&quot;Lleida&quot;],[&quot;Lugo&quot;,&quot;Lugo&quot;],[&quot;Madrid&quot;,&quot;Madrid Province&quot;],[&quot;Melilla&quot;,&quot;Melilla&quot;],[&quot;Murcia&quot;,&quot;Murcia&quot;],[&quot;Málaga&quot;,&quot;Málaga&quot;],[&quot;Navarra&quot;,&quot;Navarra&quot;],[&quot;Ourense&quot;,&quot;Ourense&quot;],[&quot;Palencia&quot;,&quot;Palencia&quot;],[&quot;Pontevedra&quot;,&quot;Pontevedra&quot;],[&quot;Salamanca&quot;,&quot;Salamanca&quot;],[&quot;Santa Cruz de Tenerife&quot;,&quot;Santa Cruz de Tenerife&quot;],[&quot;Segovia&quot;,&quot;Segovia&quot;],[&quot;Sevilla&quot;,&quot;Seville&quot;],[&quot;Soria&quot;,&quot;Soria&quot;],[&quot;Tarragona&quot;,&quot;Tarragona&quot;],[&quot;Teruel&quot;,&quot;Teruel&quot;],[&quot;Toledo&quot;,&quot;Toledo&quot;],[&quot;Valencia&quot;,&quot;Valencia&quot;],[&quot;Valladolid&quot;,&quot;Valladolid&quot;],[&quot;Vizcaya&quot;,&quot;Biscay&quot;],[&quot;Zamora&quot;,&quot;Zamora&quot;],[&quot;Zaragoza&quot;,&quot;Zaragoza&quot;],[&quot;Álava&quot;,&quot;Álava&quot;],[&quot;Ávila&quot;,&quot;Ávila&quot;]]">Spain</option>
+<option value="Sweden" data-provinces="[]">Sweden</option>
+<option value="Switzerland" data-provinces="[]">Switzerland</option>
+<option value="United Arab Emirates" data-provinces="[[&quot;Abu Dhabi&quot;,&quot;Abu Dhabi&quot;],[&quot;Ajman&quot;,&quot;Ajman&quot;],[&quot;Dubai&quot;,&quot;Dubai&quot;],[&quot;Fujairah&quot;,&quot;Fujairah&quot;],[&quot;Ras al-Khaimah&quot;,&quot;Ras al-Khaimah&quot;],[&quot;Sharjah&quot;,&quot;Sharjah&quot;],[&quot;Umm al-Quwain&quot;,&quot;Umm al-Quwain&quot;]]">United Arab Emirates</option>
+<option value="United Kingdom" data-provinces="[[&quot;British Forces&quot;,&quot;British Forces&quot;],[&quot;England&quot;,&quot;England&quot;],[&quot;Northern Ireland&quot;,&quot;Northern Ireland&quot;],[&quot;Scotland&quot;,&quot;Scotland&quot;],[&quot;Wales&quot;,&quot;Wales&quot;]]">United Kingdom</option>
+<option value="United States" data-provinces="[[&quot;Alabama&quot;,&quot;Alabama&quot;],[&quot;Alaska&quot;,&quot;Alaska&quot;],[&quot;American Samoa&quot;,&quot;American Samoa&quot;],[&quot;Arizona&quot;,&quot;Arizona&quot;],[&quot;Arkansas&quot;,&quot;Arkansas&quot;],[&quot;Armed Forces Americas&quot;,&quot;Armed Forces Americas&quot;],[&quot;Armed Forces Europe&quot;,&quot;Armed Forces Europe&quot;],[&quot;Armed Forces Pacific&quot;,&quot;Armed Forces Pacific&quot;],[&quot;California&quot;,&quot;California&quot;],[&quot;Colorado&quot;,&quot;Colorado&quot;],[&quot;Connecticut&quot;,&quot;Connecticut&quot;],[&quot;Delaware&quot;,&quot;Delaware&quot;],[&quot;District of Columbia&quot;,&quot;Washington DC&quot;],[&quot;Federated States of Micronesia&quot;,&quot;Micronesia&quot;],[&quot;Florida&quot;,&quot;Florida&quot;],[&quot;Georgia&quot;,&quot;Georgia&quot;],[&quot;Guam&quot;,&quot;Guam&quot;],[&quot;Hawaii&quot;,&quot;Hawaii&quot;],[&quot;Idaho&quot;,&quot;Idaho&quot;],[&quot;Illinois&quot;,&quot;Illinois&quot;],[&quot;Indiana&quot;,&quot;Indiana&quot;],[&quot;Iowa&quot;,&quot;Iowa&quot;],[&quot;Kansas&quot;,&quot;Kansas&quot;],[&quot;Kentucky&quot;,&quot;Kentucky&quot;],[&quot;Louisiana&quot;,&quot;Louisiana&quot;],[&quot;Maine&quot;,&quot;Maine&quot;],[&quot;Marshall Islands&quot;,&quot;Marshall Islands&quot;],[&quot;Maryland&quot;,&quot;Maryland&quot;],[&quot;Massachusetts&quot;,&quot;Massachusetts&quot;],[&quot;Michigan&quot;,&quot;Michigan&quot;],[&quot;Minnesota&quot;,&quot;Minnesota&quot;],[&quot;Mississippi&quot;,&quot;Mississippi&quot;],[&quot;Missouri&quot;,&quot;Missouri&quot;],[&quot;Montana&quot;,&quot;Montana&quot;],[&quot;Nebraska&quot;,&quot;Nebraska&quot;],[&quot;Nevada&quot;,&quot;Nevada&quot;],[&quot;New Hampshire&quot;,&quot;New Hampshire&quot;],[&quot;New Jersey&quot;,&quot;New Jersey&quot;],[&quot;New Mexico&quot;,&quot;New Mexico&quot;],[&quot;New York&quot;,&quot;New York&quot;],[&quot;North Carolina&quot;,&quot;North Carolina&quot;],[&quot;North Dakota&quot;,&quot;North Dakota&quot;],[&quot;Northern Mariana Islands&quot;,&quot;Northern Mariana Islands&quot;],[&quot;Ohio&quot;,&quot;Ohio&quot;],[&quot;Oklahoma&quot;,&quot;Oklahoma&quot;],[&quot;Oregon&quot;,&quot;Oregon&quot;],[&quot;Palau&quot;,&quot;Palau&quot;],[&quot;Pennsylvania&quot;,&quot;Pennsylvania&quot;],[&quot;Puerto Rico&quot;,&quot;Puerto Rico&quot;],[&quot;Rhode Island&quot;,&quot;Rhode Island&quot;],[&quot;South Carolina&quot;,&quot;South Carolina&quot;],[&quot;South Dakota&quot;,&quot;South Dakota&quot;],[&quot;Tennessee&quot;,&quot;Tennessee&quot;],[&quot;Texas&quot;,&quot;Texas&quot;],[&quot;Utah&quot;,&quot;Utah&quot;],[&quot;Vermont&quot;,&quot;Vermont&quot;],[&quot;Virgin Islands&quot;,&quot;U.S. Virgin Islands&quot;],[&quot;Virginia&quot;,&quot;Virginia&quot;],[&quot;Washington&quot;,&quot;Washington&quot;],[&quot;West Virginia&quot;,&quot;West Virginia&quot;],[&quot;Wisconsin&quot;,&quot;Wisconsin&quot;],[&quot;Wyoming&quot;,&quot;Wyoming&quot;]]">United States</option></select>
+    </p>
+    <p class="field" id="address_province_container" style="display:none;">
+      <label for="address_province" id="address_province_label">Province</label>
+      <select id="address_province" name="address[province]" data-default=""></select>
+    </p>
+    <p class="field">
+      <label for="address_zip">Zip/Postal Code</label>
+      <input type="text" id="address_zip" name="address[zip]" />
+    </p>
+    <p class="field">
+      <input type="button" class="get-rates btn button" value="ESTIMATE" />
+    </p>
+  </div>
+  <div id="wrapper-response"></div>
+  <div class="close-ajaxcart__info">Close</div>
 </div>
+</form>
 
-        <script type="text/javascript" src="https://cdn11.bigcommerce.com/shared/js/csrf-protection-header-95f3d9ac8c049e3ed132c83a168cf1d6a8ed0237.js"></script>
+</script>
+<script id="quickview-template" type="text/template">
+
+	<div class="product-quickview">
+		<div class="row">
+			<div class="img-quickview">
+				<div class="product-quickview__images">
+					<div class="quickview-images"></div>
+				</div>
+			</div>
+			<div class="bwp-single-info">
+				<div class="content_product_detail">
+					<div class="product-review">
+						<div class="shopify-product-reviews-badge" data-id="" data-quickview-review></div>
+					</div>
+					<h2 class="product-quickview_title"></h2>
+					<div class="product__vendor">
+						<div class="product__organization__label">By </div>
+						<div class="product__organization__text"><a href="/collections/vendors?q="></a></div>
+					</div>
+					<div class="product-quickview__price"></div>
+					<div class="product-quickview__description"></div>
+					<div class="countdown-quickview hidden"><div class="icon"> <svg class="hourglass" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 206" preserveAspectRatio="none">
+        <path class="middle" d="M120 0H0v206h120V0zM77.1 133.2C87.5 140.9 92 145 92 152.6V178H28v-25.4c0-7.6 4.5-11.7 14.9-19.4 6-4.5 13-9.6 17.1-17 4.1 7.4 11.1 12.6 17.1 17zM60 89.7c-4.1-7.3-11.1-12.5-17.1-17C32.5 65.1 28 61 28 53.4V28h64v25.4c0 7.6-4.5 11.7-14.9 19.4-6 4.4-13 9.6-17.1 16.9z"/>
+        <path class="outer" d="M93.7 95.3c10.5-7.7 26.3-19.4 26.3-41.9V0H0v53.4c0 22.5 15.8 34.2 26.3 41.9 3 2.2 7.9 5.8 9 7.7-1.1 1.9-6 5.5-9 7.7C15.8 118.4 0 130.1 0 152.6V206h120v-53.4c0-22.5-15.8-34.2-26.3-41.9-3-2.2-7.9-5.8-9-7.7 1.1-2 6-5.5 9-7.7zM70.6 103c0 18 35.4 21.8 35.4 49.6V192H14v-39.4c0-27.9 35.4-31.6 35.4-49.6S14 81.2 14 53.4V14h92v39.4C106 81.2 70.6 85 70.6 103z"/>
+    </svg></div><div class="content"></div></div>
+					<div class="group-quickview"></div>
+					<div class="product-quickview__variants wpb-variants-swatch"></div>
+
+					<form action="/cart/add" id="form-simple-addtocart" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+
+							<input type="hidden" data-quickview-variant name="id" value="">
+
+						<div class="product-quickview__avaiable">
+							<div class="product-avaiable product-avaiable--active product-avaiable--instock">
+								<div class="js-product-avaiable-text product-avaiable__text product-avaiable__text--instock">In stock</div>
+							</div>
+							<div class="product-avaiable product-avaiable--outstock">
+								<div class="js-product-avaiable-text product-avaiable__text product-avaiable__text--outstock">Out of stock</div>
+							</div>
+						</div>
+						<div class="product-quickview__buttons">
+							<div class="product-quantity" data-quickview-quantity>
+								<label class="product-quantity__label">Quantity</label>
+								<div class="product-quantity__selector"><div class="wpbingo-qty">
+											<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+												<i class="feather-minus"></i>
+											</button>
+											<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="1" aria-label="quantity" pattern="[0-9]*">
+											<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+												<i class="feather-plus"></i>
+											</button>
+										</div></div>
+							</div>
+							<div class="product-single__add-to-cart">
+								<button class="btn btn--add-to-cart" type="submit" name="add">
+									<span class="btn__text">Add to Cart</span>
+								</button>
+							</div>
+						</div>
+						<div class="product-quickview__buttons_external"></div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</script>
+<script id="gift-card-template" type="text/template">
+
+	<div class="product-giftcard">
+		<h2 class="product-giftcard_title"></h2>
+		<div class="row">
+			<div class="img-giftcard">
+				<div class="product-giftcard__images">
+					<div class="giftcard-images"></div>
+				</div>
+			</div>
+			<div class="bwp-single-info">
+				<div class="content_product_detail">
+					<div class="product-giftcard__variants wpb-variants-swatch"></div>
+
+					<form action="/cart/add" id="form-gift-card-addtocart" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+
+							<input type="hidden" data-edit_variant-variant name="id" value="">
+							<div class="product-giftcard__price"></div>
+
+						<div class="product-giftcard__buttons">
+							<div class="product-quantity" data-gift-card-quantity>
+								<label class="product-quantity__label">Quantity</label>
+								<div class="product-quantity__selector">
+									<div class="wpbingo-qty">
+										<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+											<i class="feather-minus"></i>
+										</button>
+										<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="1" min="1" aria-label="quantity" pattern="[0-9]*">
+										<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+											<i class="feather-plus"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="product-single__add-to-cart">
+								<button class="btn btn--add-to-cart" type="submit" name="add">
+									<span class="btn__text">Add to Cart</span>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</script>
+<script id="edit_variants-template" type="text/template">
+
+	<div class="product-edit_variants" data-line=>
+		<div class="row">
+			<div class="img-edit_variants">
+				<div class="product-edit_variants__images">
+					<div class="edit_variants-images"></div>
+				</div>
+			</div>
+			<div class="bwp-single-info">
+				<div class="content_product_detail">
+					<h2 class="product-edit_variants_title"></h2>
+					<div class="product-edit_variants__variants wpb-variants-swatch"></div>
+
+					<form action="/cart/add" id="form-edit_variants-addtocart" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+
+							<input type="hidden" data-edit_variant-variant name="id" value="">
+							<div class="product-edit_variants__price"></div>
+
+						<div class="product-edit_variants__buttons">
+							<div class="product-quantity" data-edit_variant-quantity>
+								<label class="product-quantity__label">Quantity</label>
+								<div class="product-quantity__selector">
+									<div class="wpbingo-qty">
+										<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--minus" aria-label="Reduce item quantity by one">
+											<i class="feather-minus"></i>
+										</button>
+
+										<input type="text" name="quantity" class="js-qty-number wpbingo-qty__number" value="" min="1" aria-label="quantity" pattern="[0-9]*">
+										<button type="button" class="js-qty-adjust wpbingo-qty__adjust wpbingo-qty__adjust--plus" aria-label="Increase item quantity by one">
+											<i class="feather-plus"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="product-single__add-to-cart">
+								<button class="btn btn--add-to-cart" type="submit" name="add" disabled>
+									<span class="btn__text">Replace item</span>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</script>
+<div class="compare__table" grid-compare>
+				<div class="show-compare">Compare<span class="count">0</span></div>
+				<div class="content-compare">
+					<div class="content product-card">
+						<div class="hide-compare"></div>
+						<div class="table">
+							<ul class="remove-button"><li class="label"></li></ul>
+							<ul class="compare-name" data-label="Product"></ul>
+							<ul class="compare-image"></ul>
+							<ul class="compare-variants" data-label="Variants"></ul>
+							<ul class="compare-availability" data-label="Availability"></ul>
+							<ul class="compare-price" data-label="Price"></ul>
+							<ul class="compare-atc"></ul>
+						</div>
+					</div>
+				</div>
+			</div>
 
 
-            <script type="text/javascript">
-              var arrNew = [0,131,130,129,128,127,126,125,124,123,122];
-            </script>
-    </body>
+
+<div class="content_terms_conditions">
+				<div class="close-overlay" data-close-terms_conditions></div>
+				<div class="content">
+					<div class="close-conditions" data-close-terms_conditions></div><div class="title"><h2>Terms & Conditions</h2></div><div class="info"><p>Mafoli supplies products listed on the Demati, and Demati websites, and in our stores under the following Terms and Conditions. Please read these Terms and Conditions, and our Privacy and Cookie Policies carefully before using any of our websites, or ordering from us.</p><p>The Terms and Conditions apply to your use of any Demati website and to any products you purchase from them; regardless of how you access the website, including any technologies or devices where our website is available to you at home, on the move or in store</p><p>We reserve the right to update these Terms and Conditions at any time, and any updates affecting you or your purchases will be notified to you, by us in writing (via email), and on this page.</p><p>The headings in these Conditions are for convenience only and shall not affect their interpretation.</p><p>We recommend that you print and keep a copy of these Terms and Conditions for your future reference...</p></div>
+				</div>
+			</div><canvas id="fire_work" class="hide"></canvas><div id="before-you-leave" class="hiden" data-time=5>
+		<div class="close-full" data-close-you-leave></div>
+		<div class="content-you-leave">
+			<div class="content">
+				<div class="close" data-close-you-leave></div>
+				<div class="content-top">
+					<div class="image" ><img class="lazyload fade-in" src="//mafoil-organic.myshopify.com/cdn/shop/files/6_2fdc0ca7-a448-49ed-9b8c-52f4fae6fcb6.jpg?v=1681205633" width="380" height="230" /></div>
+					<h2>BEFORE YOU<br> LEAVE...</h2>
+				</div><div class="desc">Take <span>15% off</span> your first order</div><div class="code">Enter the code: <span>CODE15OFF</span></div><div class="button"><a href="/collections/all">CONTINUE SHOPPING</a></div><h2 class="title-product-leave">Recommended</h2><div class="content-product">
+<div class="slick-carousel__item">
+								<div class="product-card">
+									<div class="product-card__image-wrapper">
+<a class="product-card__image-link" href="/products/fresh-beef-meat">
+
+												<div class="product-card__image">
+													<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img variant fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/26_180x.jpg?v=1680835831 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_360x.jpg?v=1680835831 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_540x.jpg?v=1680835831 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/26_720x.jpg?v=1680835831 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?v=1680835831 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/26.jpg?crop=center&height=900&v=1680835831&width=900" width="900" height="900" /></noscript>
+	</div>
+												</div>
+
+										</a>
+									</div>
+									<div class="product-card__content"><div class="product-card__review product-review">
+												<span class="shopify-product-reviews-badge" data-id="8243146817821"></span>
+											</div><div class="product-card__name">
+											<a href="/products/fresh-beef-meat">Fresh Beef Meat</a>
+										</div>
+										<div class="product-card__price">
+											<div class="product-group-price" data-handle="fresh-beef-meat">
+
+<div class="product-price">$80.00</div></div>
+
+
+										</div><div class="content-button"><div class="product-card__form" data-handle="fresh-beef-meat" data-title="Add to Cart">
+
+
+															<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+																<input type="hidden" name="id" value="44722717032733" />
+																<button class="js-btn-addtocart btn btn--add-to-cart"
+																	type="submit"
+																	value="Submit"
+																	title="Add to Cart">
+																	<span>Add to Cart</span>
+																</button>
+															</form>
+
+
+												</div><div class="button-wishlist" data-title="Wishlist">
+													<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="fresh-beef-meat">
+													</button>
+												</div></div>
+									</div>
+								</div>
+							</div>
+<div class="slick-carousel__item">
+								<div class="product-card">
+									<div class="product-card__image-wrapper">
+<a class="product-card__image-link" href="/products/cherry-juice">
+
+												<div class="product-card__image">
+													<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img variant fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/15_180x.jpg?v=1680835399 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_360x.jpg?v=1680835399 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_540x.jpg?v=1680835399 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/15_720x.jpg?v=1680835399 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?v=1680835399 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/15.jpg?crop=center&height=900&v=1680835399&width=900" width="900" height="900" /></noscript>
+	</div>
+												</div>
+
+										</a>
+									</div>
+									<div class="product-card__content"><div class="product-card__review product-review">
+												<span class="shopify-product-reviews-badge" data-id="8243136692509"></span>
+											</div><div class="product-card__name">
+											<a href="/products/cherry-juice">Cherry Juice</a>
+										</div>
+										<div class="product-card__price">
+											<div class="product-group-price" data-handle="cherry-juice">
+
+<div class="product-price product-price--regular">$25.00</div><div class="product-price price-sale">$19.00</div></div>
+
+
+										</div><div class="content-button"><div class="product-card__form" data-handle="cherry-juice" data-title="Add to Cart">
+
+
+															<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+																<input type="hidden" name="id" value="44722693996829" />
+																<button class="js-btn-addtocart btn btn--add-to-cart"
+																	type="submit"
+																	value="Submit"
+																	title="Add to Cart">
+																	<span>Add to Cart</span>
+																</button>
+															</form>
+
+
+												</div><div class="button-wishlist" data-title="Wishlist">
+													<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="cherry-juice">
+													</button>
+												</div></div>
+									</div>
+								</div>
+							</div>
+<div class="slick-carousel__item">
+								<div class="product-card">
+									<div class="product-card__image-wrapper">
+<a class="product-card__image-link" href="/products/organic-tomatoes">
+
+												<div class="product-card__image">
+													<div class="preloading-img-product" style="padding-top:100.0%">
+		<img class="lazyload  product-card__img variant fade-in"
+		alt = ""
+		aria-label=""
+		data-alt=""
+		data-src="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-srcset="//mafoil-organic.myshopify.com/cdn/shop/products/22_180x.jpg?v=1680835690 180w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_360x.jpg?v=1680835690 360w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_540x.jpg?v=1680835690 540w ,//mafoil-organic.myshopify.com/cdn/shop/products/22_720x.jpg?v=1680835690 720w ,//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?v=1680835690 900w"
+		data-sizes="auto"
+		><div id="pre-loading" class="pre-loading-image">
+    <div class="preload-img-product" data-title="Mafoil">Mafoil</div>
+</div>
+		<noscript><img class="img-fluid noscript" src="//mafoil-organic.myshopify.com/cdn/shop/products/22.jpg?crop=center&height=900&v=1680835690&width=900" width="900" height="900" /></noscript>
+	</div>
+												</div>
+
+										</a>
+									</div>
+									<div class="product-card__content"><div class="product-card__review product-review">
+												<span class="shopify-product-reviews-badge" data-id="8243142885661"></span>
+											</div><div class="product-card__name">
+											<a href="/products/organic-tomatoes">Organic Tomatoes</a>
+										</div>
+										<div class="product-card__price">
+											<div class="product-group-price" data-handle="organic-tomatoes">
+
+<div class="product-price">$100.00</div></div>
+
+
+										</div><div class="content-button"><div class="product-card__form" data-handle="organic-tomatoes" data-title="Add to Cart">
+
+
+															<form action="/cart/add" method="post" enctype="multipart/form-data" class="form-addtocart" data-product-form>
+																<input type="hidden" name="id" value="44722709102877" />
+																<button class="js-btn-addtocart btn btn--add-to-cart"
+																	type="submit"
+																	value="Submit"
+																	title="Add to Cart">
+																	<span>Add to Cart</span>
+																</button>
+															</form>
+
+
+												</div><div class="button-wishlist" data-title="Wishlist">
+													<button type="button" aria-label="Wishlist" class="" button-wishlist data-product-handle="organic-tomatoes">
+													</button>
+												</div></div>
+									</div>
+								</div>
+							</div></div>
+			</div>
+		</div>
+	</div>
+		<script>
+			window.routes = {
+				predictive_search_url: '/search/suggest',
+				user_purchased: 'Jhon (Tokyo) | James (New York) | David (Ohio) | Jack (Monaco) | Lindan (California) | Grap (Texas) | Sabo (Florida) | Pain (Illinois) | Kakuzu (Washington) | Sukuna (Nevada)',
+				list_time: '5 minutes ago | 10 minutes ago | 15 minutes ago | 20 minutes ago | 35 minutes ago | 50 minutes ago | 1 hours ago | 2 hours ago | 3 hours ago | 4 hours ago',
+				product_recommendations_url: '/recommendations/products',
+				product_pick_up: 'mafoil-organic.myshopify.com',
+				round_currency: 'true',
+				hover_currency: 'true',
+				currency_format: 'money_format',
+				auto_currency: 'true',
+				shop_currency : 'USD',
+				shop_symbol : '$',
+				svg_christmas : '',
+				iso_code: 'en'
+			};
+			window.strings = {
+				wishlist: 'Wishlist',
+				view_more: 'View more',
+				view_less: 'View less',
+				remove_wishlist: 'Remove Wishlist',
+				compare: 'Compare',
+				remove_compare: 'Remove Compare',
+				CalculateMessSuccess: "We found one shipping rate available for ",
+				CalculateMessPrice: "at",
+				CalculateMessError: "We do not ship to this destination.",
+				shippingCalcSubmitButton: "ESTIMATE",
+				shippingCalcSubmitButtonDisabled: "Calculating...",
+
+				shippingCalcMoneyFormat: "USD"
+			}
+		</script>
+		<script src="/services/javascripts/countries.js" defer="defer"></script>
+<script src="//mafoil-organic.myshopify.com/cdn/shopifycloud/shopify/assets/themes_support/shopify_common-33bb9d312118840468a53f36b59c62c1e8f2b7d1a0a77250db9e300441827470.js" defer="defer"></script>
+<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/lazysizes.min.js?v=155223123402716617051681283510" async="async"></script>
+<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/handlebars.min.js?v=138877332198734301221681283510" defer="defer"></script><script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/jquery-3.5.1.min.js?v=133494139889153862371681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/vendor.js?v=31676775582020166781681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/debounce.js?v=5033040480030455491681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/enquire.min.js?v=175074019974097343571681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/jquery.countdown.js?v=25116829115458596121681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/slick.js?v=139353239682078030701681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/lodash.min.js?v=56575932633661814481681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/360imagerotate.js?v=95443770083123771981681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/velocity.min.js?v=182066083050877195141681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/image.zoom.js?v=110610189759291965851681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/wpbingo.js?v=132246297873274108311684913427" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/facets.js?v=114688578870857383261681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/recent-product.min.js?v=106280051462482506601681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/photoswipe.min.js?v=177357196404971690221681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/photoswipe-ui-default.min.js?v=97623706128145982451681283510" defer="defer"></script>
+	<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/predictive-search.js?v=147121809655834467191681283510" defer="defer"></script>
+	<script src="//ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" defer="defer"></script>
+
+		<script src="/services/javascripts/currencies.js" defer="defer"></script>
+		<script src="//mafoil-organic.myshopify.com/cdn/shop/t/9/assets/currencies.js?v=99938977741697848151681283510" defer="defer"></script>
+
+	<script src="//cdn.shopify.com/s/files/1/0194/1736/6592/t/1/assets/booster-page-speed-optimizer.js?23" defer="defer"></script>
+</body>
 </html>

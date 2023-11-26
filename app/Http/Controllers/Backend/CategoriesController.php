@@ -19,6 +19,17 @@ class CategoriesController extends Controller
     {
         return view('Backend.Pages.Categories.CreateCategory');
     }
+    public function category_delete($id)
+    {
+        $category_delete=Category::find($id);
+        if($category_delete)
+        {
+            $category_delete->delete();
+        }
+
+        return redirect()->route('Categories.List');
+
+    }
 
     public function category_post(Request $categoryPost)
     {

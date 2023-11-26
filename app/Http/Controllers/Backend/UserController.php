@@ -35,10 +35,10 @@ class UserController extends Controller
 
         User::create([
             'user_id'=>$userRequest->user_id,
-            'user_name'=>$userRequest->user_name,
+            'name'=>$userRequest->user_name,
             'role'=>$userRequest->role,
             'email'=>$userRequest->email,
-            'user_password'=>bcrypt($userRequest->user_password),
+            'password'=>'required|min:6',
             'user_image'=>$fileName
         ]);
 
@@ -51,9 +51,9 @@ class UserController extends Controller
 
     public function loginPost(Request $request)
     {
-        $creadentials=$request->except('_token');
+        $credentials=$request->except('_token');
         // dd($creadentials);
-        $login=auth()->attempt($creadentials);
+        $login=auth()->attempt($credentials);
         // dd($login);
         if($login){
             return redirect()->route('admin.master');
@@ -61,7 +61,7 @@ class UserController extends Controller
     }
     public function logout(){
         auth()->logout();
-        return redirect()->route('admin.master');
+        return redirect()->route('admin.Login');
     }
 
 }

@@ -9,6 +9,7 @@ use App\Http\Controllers\Backend\BrandController;
 
 
 use App\Http\Controllers\Frontend\WebController;
+use App\Http\Controllers\Frontend\CustomerController;
 
 
 /*
@@ -22,14 +23,26 @@ use App\Http\Controllers\Frontend\WebController;
 |
 */
 
+
+
+
+
+
+
+// All Website Routes
+
 Route::get('/', [WebController::class, 'webmaster'])->name('web.home');
 
+Route::get('/customer/registration/form', [CustomerController::class, 'customer_registration_form'])->name('customer.registration');
 
 
 
 
 
 
+
+
+// All Admin Panel Routes
 
 Route::group(['prefix' =>'admin'], function(){
 
@@ -47,14 +60,19 @@ Route::group(['middleware' => 'auth'], function(){
     Route::get('/categories/list', [CategoriesController::class, 'categoriesList'])->name('Categories.List');
     Route::get('/create/new/category', [CategoriesController::class, 'create_new_category'])->name('Create.New.Category');
     Route::post('/category/post', [CategoriesController::class, 'category_post'])->name('category.post');
+    Route::get('/categories/delete/{id}', [CategoriesController::class, 'category_delete'])->name('category.delete');
 
     Route::get('/products/list', [ProductsController::class, 'products_list'])->name('Products.List');
     Route::get('/create/form/products', [ProductsController::class, 'create_new_product'])->name('Create.New.Product');
     Route::post('/products/store', [ProductsController::class, 'product_post'])->name('Product.Post');
+    Route::get('/products/edit/{id}', [ProductsController::class, 'products_edit'])->name('products.edit');
+    Route::put('/products/update/{id}', [ProductsController::class, 'products_update'])->name('products.update');
+    Route::get('/products/delete/{id}', [ProductsController::class, 'products_delete'])->name('products.delete');
 
     Route::get('/brands/list', [BrandController::class, 'brandList'])->name('Brand.List');
     Route::get('/create/form/brands', [BrandController::class,'create_new_brand'])->name('Create.New.Brand');
     Route::post('/brands/store', [BrandController::class, 'brand_post'])->name('Brand.Post');
+    Route::get('/brands/delete/{id}', [BrandController::class, 'brands_delete'])->name('brands.delete');
 
     Route::get('/logout',[UserController::class,'logout'])->name('Logout');
 

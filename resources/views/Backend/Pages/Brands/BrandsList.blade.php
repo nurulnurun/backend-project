@@ -50,7 +50,7 @@
                         <td>{{ $brand_Item->brand_description }}</td>
                         <td>
                             <a class = "btn btn-success btn-sm" href="#">Edit</a>
-                            <a class = "btn btn-danger btn-sm" href="#">Delete</a>
+                            <a class = "btn btn-danger btn-sm" href="{{ route('brands.delete', $brand_Item->id) }}">Delete</a>
                             <a class = "btn btn-primary btn-sm" href="#">View</a>
                         </td>
                       </tr>

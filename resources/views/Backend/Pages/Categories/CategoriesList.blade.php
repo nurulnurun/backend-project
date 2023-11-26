@@ -12,7 +12,7 @@
         <div class="col-md-12">
           <div class="section-title">
             <h3 class="title">Categories List</h3>
-            <div class="section-nav">
+            <div class="section-nav" style="float:right">
                 <a href="{{ route('Create.New.Category') }}" class="btn btn-success btn-lg">Create New Category</a>
             </div>
           </div>
@@ -44,7 +44,7 @@
                         <td>{{$Category_Item->category_description}}</td>
                         <td>
                             <a class = "btn btn-success btn-sm" href="#">Edit</a>
-                            <a class = "btn btn-danger btn-sm" href="#">Delete</a>
+                            <a class = "btn btn-danger btn-sm" href="{{ route('category.delete', $Category_Item->id) }}">Delete</a>
                             <a class = "btn btn-primary btn-sm" href="#">View</a>
                         </td>
                       </tr>
